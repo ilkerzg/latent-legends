@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latent Legends</title>
+<!-- a phone gets the notice (phone.html) in place of the game, before the game's files are requested -->
+<script src="phone.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/LatentLegends.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/ui/logo.webp" as="image" fetchpriority="high">
+<link rel="stylesheet" href="play.css">
+<!-- fits the stage before the first paint and runs the loading screen (#boot) -->
+<script src="boot.js"></script>
+</head>
+<body>
+<div id="viewport">
+<div id="stage">
+  <!-- the loading screen: on top of everything until play.js has what the title needs (boot.js) -->
+  <div id="boot" class="boot">
+    <div class="veil"></div>
+    <img class="logo" src="assets/ui/logo.webp" alt="Latent Legends" data-in>
+    <div class="load"><div class="bar"><i></i></div><b class="pct" id="bootPct"></b></div>
+    <p class="msg" id="bootMsg" hidden></p>
+    <button class="wide green reload" id="bootReload" hidden>RELOAD</button>
+  </div>
+  <!-- a match waits behind this until every character it can put on the board is loaded (play.js untilLoaded) -->
+  <div id="matchLoad" class="boot match-load hidden">
+    <div class="veil"></div>
+    <img class="logo in" src="assets/ui/logo.webp" alt="">
+    <div class="load"><div class="bar"><i></i></div><b class="pct" id="matchPct"></b></div>
+    <p class="msg" id="matchMsg" hidden>Some characters could not load.</p>
+    <button class="wide green reload" id="matchRetry" hidden>TRY AGAIN</button>
+  </div>
+  <canvas id="board"></canvas>
+
+  <!-- enemy, top left -->
+  <div id="enemyPanel" class="side enemy">
+    <div class="medallion"><img class="face" src="assets/ui/portrait_enemy.webp" alt=""><img class="ring" src="assets/ui/frame_enemy.svg" alt=""></div>
+    <div class="who">
+      <div class="name" id="enemyName">Computer</div>
+      <div class="chips">
+        <div class="chip"><img src="assets/ui/chip_hand.svg" alt=""><b id="enemyHand">0</b></div>
+        <div class="chip"><img src="assets/ui/chip_deck.svg" alt=""><b id="enemyDeck">0</b></div>
+      </div>
+      <div class="gems" id="enemyGems"></div>
+    </div>
+  </div>
+  <div id="enemyHandFan" class="enemy-fan"></div>
+
+  <!-- turn, top centre -->
+  <div id="turnPill"><span class="t" id="turnNo"></span><span class="p" id="phase"></span><span class="c hidden" id="turnClock"></span></div>
+
+  <!-- menu, top right -->
+  <div id="menuBar">
+    <button class="icon" id="speedBtn" title="Game speed"><img src="assets/ui/ico_speed.svg" alt=""><b id="speedLabel">1x</b></button>
+    <button class="icon" id="soundBtn" title="Sound"><img src="assets/ui/ico_sound.svg" alt=""></button>
+    <button class="icon" id="menuBtn" title="Menu"><img src="assets/ui/ico_gear.svg" alt=""></button>
+  </div>
+  <div id="menu" class="menu hidden">
+    <h3><img class="lbl only-game" src="assets/ui/lbl_menu.svg" alt="Menu"><img class="lbl only-settings" src="assets/ui/lbl_settings.svg" alt="Settings"></h3>
+    <label class="switch"><input type="checkbox" id="autoCombat"><span class="knob"></span><img class="lbl" id="lblAuto" src="assets/ui/lbl_auto_combat.svg" alt="Auto combat"></label>
+    <label class="switch"><input type="checkbox" id="soundOpt"><span class="knob"></span><img class="lbl" id="lblSound" src="assets/ui/lbl_sound.svg" alt="Sound"></label>
+    <label class="switch"><input type="checkbox" id="shakeOpt"><span class="knob"></span><img class="lbl" id="lblShake" src="assets/ui/lbl_screen_shake.svg" alt="Screen shake"></label>
+    <div class="speeds"><span><img class="lbl" src="assets/ui/lbl_speed.svg" alt="Speed"></span><button class="speed" data-speed="1"><i class="num"><img src="assets/ui/num_1.svg" alt="1"><img src="assets/ui/num_x.svg" alt="x"></i></button><button class="speed" data-speed="2"><i class="num"><img src="assets/ui/num_2.svg" alt="2"><img src="assets/ui/num_x.svg" alt="x"></i></button><button class="speed" data-speed="4"><i class="num"><img src="assets/ui/num_4.svg" alt="4"><img src="assets/ui/num_x.svg" alt="x"></i></button></div>
+    <button class="wide orange only-game" id="restartBtn"><img class="lbl" src="assets/ui/lbl_restart.svg" alt="Restart match"></button>
+    <button class="wide grey only-game" id="leaveBtn"><img class="lbl" src="assets/ui/lbl_leave_match.svg" alt="Leave match"></button>
+    <button class="wide blue" id="closeMenu"><img class="lbl only-game" src="assets/ui/lbl_back.svg" alt="Back to game"><img class="lbl only-settings" src="assets/ui/lbl_go_back.svg" alt="Back"></button>
+  </div>
+
+  <!-- you, bottom left -->
+  <div id="essence">
+    <div class="orb"><img src="assets/ui/essence_orb.svg" alt=""><b id="essenceNum">0</b><small><img class="lbl" src="assets/ui/lbl_essence.svg" alt="Essence"></small></div>
+    <div class="pips" id="pips"></div>
+    <div class="chip mine"><img src="assets/ui/chip_deck.svg" alt=""><b id="myDeck">0</b></div>
+  </div>
+  <div id="hint" class="hint"></div>
+
+  <!-- end turn, bottom right -->
+  <button id="endBtn" class="end" disabled><img id="endImg" src="assets/ui/end_off.svg" alt=""><span id="endLabel">WAIT</span><svg id="clockRing" class="clock-ring hidden" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47"/><circle class="arc" cx="50" cy="50" r="47" pathLength="100"/></svg></button>
+
+  <div id="hand"></div>
+  <div id="logHead"><img src="assets/ui/log_header.svg" alt=""><img class="lbl" src="assets/ui/lbl_battle_log.svg" alt="Battle log"></div>
+  <ol id="log" class="feed"></ol>
+  <div id="fly"></div>
+
+  <div id="tip" class="tip hidden"></div>
+  <div id="actPanel" class="act-panel hidden"></div>
+  <div id="chooser" class="chooser hidden"></div>
+  <div id="banner" class="banner"></div>
+
+  <div id="menuBg" class="backdrop"><div class="keyart"></div></div>
+  <div id="start" class="screen title">
+    <img class="logo" src="assets/ui/logo.webp" alt="Latent Legends">
+    <button class="icon title-gear" id="titleGear" title="Settings"><img src="assets/ui/ico_gear.svg" alt="Settings"></button>
+    <p class="tag">Five elements, three lanes. Break two enemy Shrines to win.</p>
+    <button id="startBtn" class="big green"><img class="lbl" src="assets/ui/lbl_play.svg" alt="PLAY"></button>
+    <button id="cardsBtn" class="wide blue cards-btn"><img class="lbl" src="assets/ui/lbl_cards.svg" alt="CARDS" data-fail="text"></button>
+    <div id="trainOffer" class="offer hidden">
+      <section class="plate">
+        <h4><img class="lbl" src="assets/ui/lbl_training.svg" alt="TRAINING"></h4>
+        <p>New to Latent Legends? A short training match against an easy opponent shows you how to play, one step at a time.</p>
+        <div class="btns"><button class="wide grey" id="offerNo"><img class="lbl" src="assets/ui/lbl_not_now.svg" alt="NOT NOW"></button>
+        <button class="wide green" id="offerYes"><img class="lbl" src="assets/ui/lbl_start_training.svg" alt="START TRAINING"></button></div>
+      </section>
+    </div>
+    <div id="newCards" class="offer hidden">
+      <section class="plate">
+        <h4><img class="lbl" src="assets/ui/lbl_new_cards.svg" alt="NEW CARDS" data-fail="text"></h4>
+        <div class="els"><img src="assets/ui/el_wild.svg" alt="Wild"><img src="assets/ui/el_storm.svg" alt="Storm"><img src="assets/ui/el_shadow.svg" alt="Shadow"></div>
+        <p>Wild, Storm and Shadow join Fire and Frost: 15 new characters, 6 spells and 3 jokers, and three new decks to play them.</p>
+        <div class="btns"><button class="wide grey" id="newLater"><img class="lbl" src="assets/ui/lbl_not_now.svg" alt="NOT NOW"></button>
+        <button class="wide green" id="newSee"><img class="lbl" src="assets/ui/lbl_cards.svg" alt="CARDS" data-fail="text"></button></div>
+      </section>
+    </div>
+    <small>Pick a deck and a difficulty. Play with sound on.</small>
+  </div>
+
+  <div id="book" class="screen book hidden">
+    <header>
+      <img class="title-lbl" src="assets/ui/lbl_cards.svg" alt="CARDS" data-fail="b">
+      <div class="filters els" id="bookEls"></div>
+      <div class="filters" id="bookTypes"></div>
+    </header>
+    <div class="pool" id="bookGrid"></div>
+    <aside class="plate page" id="bookPage">
+      <div class="top">
+        <div class="big-card" id="bookCard"></div>
+        <div class="pedestal" id="bookStage" title="Tap to see it act"><canvas id="bookAnim" width="462" height="520"></canvas></div>
+      </div>
+      <div class="kind" id="bookKind"></div>
+      <p class="about" id="bookAbout"></p>
+      <p class="role" id="bookRole"></p>
+      <div class="stats" id="bookStats"></div>
+      <div class="vs"><div class="wheel" id="bookWheel"></div><div class="vs-text" id="bookVs"></div></div>
+      <button class="wide blue" id="bookBack"><img class="lbl" src="assets/ui/lbl_go_back.svg" alt="BACK"></button>
+    </aside>
+  </div>
+
+  <!-- the setup reads top to bottom: the kind of match, who you play (left), your deck (right), then START -->
+  <div id="setup" class="screen setup hidden">
+    <img class="logo-sm" src="assets/ui/logo.webp" alt="Latent Legends">
+    <!-- one bar over both panels: the kind of match also decides whose deck the tiles set -->
+    <nav class="modebar">
+      <button class="tab" data-mode="bot"><img class="lbl" src="assets/ui/lbl_vs_computer.svg" alt="VS COMPUTER"></button>
+      <button class="tab" data-mode="hotseat"><img class="lbl" src="assets/ui/lbl_2_players.svg" alt="2 PLAYERS"></button>
+      <button class="tab" data-mode="online"><img class="lbl" src="assets/ui/lbl_multiplayer.svg" alt="MULTIPLAYER"></button>
+    </nav>
+    <section class="plate mode">
+      <div class="pane" id="paneBot">
+        <h4><img class="lbl" src="assets/ui/lbl_opponent.svg" alt="Opponent"></h4>
+        <div class="foe-medal"><img class="face" src="assets/ui/portrait_enemy.webp" alt=""><img class="ring" src="assets/ui/frame_enemy.svg" alt=""><div class="stars" id="levelStars"></div></div>
+        <h4 class="sub"><img class="lbl" src="assets/ui/lbl_difficulty.svg" alt="Difficulty"></h4>
+        <div class="seg" id="levels">
+          <button data-level="easy"><img class="lbl" src="assets/ui/lbl_easy.svg" alt="EASY"></button><button data-level="normal"><img class="lbl" src="assets/ui/lbl_normal.svg" alt="NORMAL"></button><button data-level="hard"><img class="lbl" src="assets/ui/lbl_hard.svg" alt="HARD"></button>
+        </div>
+        <p class="note" id="levelNote"></p>
+      </div>
+      <!-- two players on one screen: tap a player, then pick that player's deck on the right -->
+      <div class="pane hidden" id="paneHot">
+        <img class="hot-head" src="assets/ui/lbl_same_screen.svg" alt="SAME SCREEN">
+        <div class="vs-row hot">
+          <button class="seat" data-seat="0"><div class="medal"><img class="face" src="assets/ui/portrait_player.webp" alt=""><img class="ring" src="assets/ui/frame_player.svg" alt=""></div>
+            <img class="plbl" src="assets/ui/lbl_player_1.svg" alt="PLAYER 1"><span class="pdeck" id="hotDeck0"></span></button>
+          <div class="vs-mid"><img class="vs" src="assets/ui/lbl_vs.svg" alt="VS"></div>
+          <button class="seat" data-seat="1"><div class="medal"><img class="face" src="assets/ui/portrait_enemy.webp" alt=""><img class="ring" src="assets/ui/frame_enemy.svg" alt=""></div>
+            <img class="plbl" src="assets/ui/lbl_player_2.svg" alt="PLAYER 2"><span class="pdeck" id="hotDeck1"></span></button>
+        </div>
+        <p class="note" id="hotNote"></p>
+      </div>
+      <div class="pane hidden" id="paneOnline">
+        <div class="vs-row">
+          <div><div class="medal"><img class="face" src="assets/ui/portrait_player.webp" alt=""><img class="ring" src="assets/ui/frame_player.svg" alt=""></div><b class="who" id="meName"></b></div>
+          <div class="vs-mid" id="vsMid"><img class="vs" src="assets/ui/lbl_vs.svg" alt="VS"></div>
+          <div><div class="medal" id="foeMedal"><img class="face hidden" id="foeFace" src="assets/ui/portrait_enemy.webp" alt=""><img class="ring" src="assets/ui/frame_enemy.svg" alt=""><i class="q" id="foeQ">?</i></div><b class="who" id="foeName"><img class="lbl" src="assets/ui/lbl_opponent.svg" alt="Opponent"></b></div>
+        </div>
+        <div id="roomForm" class="room-form">
+          <button class="wide orange" id="createRoom"><img class="lbl" src="assets/ui/lbl_create_room.svg" alt="CREATE ROOM"></button>
+          <div class="join">
+            <label class="code-boxes" id="codeBoxes"><span></span><span></span><span></span><span></span><span></span><input id="roomCode" maxlength="5" autocomplete="off" autocapitalize="characters" spellcheck="false" aria-label="Room code"></label>
+            <button class="wide blue" id="joinRoom"><img class="lbl" src="assets/ui/lbl_join.svg" alt="JOIN"></button>
+          </div>
+        </div>
+        <div id="roomBox" class="room-box hidden">
+          <div class="row">
+            <button class="wide green" id="copyLink"><img class="lbl" id="copyLbl" src="assets/ui/lbl_copy_invite_link.svg" alt="COPY INVITE LINK"></button>
+            <button class="wide grey" id="cancelRoom"><img class="lbl" src="assets/ui/lbl_cancel.svg" alt="CANCEL"></button>
+          </div>
+        </div>
+        <p class="note" id="netNote"></p>
+      </div>
+    </section>
+    <section class="plate decks">
+      <h4><img class="lbl" src="assets/ui/lbl_choose_deck.svg" alt="Choose deck"></h4>
+      <div class="tiles" id="deckTiles"></div>
+      <button class="wide blue" id="openBuilder"><img class="lbl" src="assets/ui/lbl_deck_builder.svg" alt="DECK BUILDER"></button>
+    </section>
+    <!-- START is the one big button; BACK and TRAINING sit smaller at the sides -->
+    <div class="actions">
+      <button class="big blue side" id="setupBack"><img class="lbl" src="assets/ui/lbl_go_back.svg" alt="BACK"></button>
+      <button class="big green" id="setupStart"><img class="lbl" src="assets/ui/lbl_start.svg" alt="START"></button>
+      <button class="big orange side" id="setupTrain"><img class="lbl" src="assets/ui/lbl_training.svg" alt="TRAINING"></button>
+    </div>
+  </div>
+
+  <div id="builder" class="screen builder hidden">
+    <header>
+      <img class="title-lbl" src="assets/ui/lbl_deck_builder.svg" alt="Deck builder">
+      <div class="filters" id="filters">
+        <button data-filter="all"><img class="lbl" src="assets/ui/lbl_all.svg" alt="ALL"></button><button data-filter="units"><img class="lbl" src="assets/ui/lbl_units.svg" alt="UNITS"></button><button data-filter="spells"><img class="lbl" src="assets/ui/lbl_spells.svg" alt="SPELLS"></button><button data-filter="jokers"><img class="lbl" src="assets/ui/lbl_jokers.svg" alt="JOKERS"></button>
+      </div>
+      <div class="filters els" id="builderEls">
+        <button data-el="Fire" title="Fire"><img src="assets/ui/el_fire.svg" alt="Fire"></button><button data-el="Wild" title="Wild"><img src="assets/ui/el_wild.svg" alt="Wild"></button><button data-el="Storm" title="Storm"><img src="assets/ui/el_storm.svg" alt="Storm"></button><button data-el="Frost" title="Frost"><img src="assets/ui/el_frost.svg" alt="Frost"></button><button data-el="Shadow" title="Shadow"><img src="assets/ui/el_shadow.svg" alt="Shadow"></button>
+      </div>
+    </header>
+    <div class="pool" id="pool"></div>
+    <aside class="plate list">
+      <h4><img class="lbl" src="assets/ui/lbl_your_deck.svg" alt="Your deck"><span id="deckCount"></span></h4>
+      <ol id="deckRows" class="rows"></ol>
+      <div class="curve" id="curve"></div>
+      <div class="counts" id="counts"></div>
+      <ul class="errors" id="deckErrors"></ul>
+      <div class="starters"><span id="starters"></span><button id="clearDeck">Clear</button></div>
+      <div class="row">
+        <button class="wide blue" id="builderBack"><img class="lbl" src="assets/ui/lbl_go_back.svg" alt="BACK"></button>
+        <button class="wide green" id="saveDeck"><img class="lbl" src="assets/ui/lbl_save_deck.svg" alt="SAVE DECK"></button>
+      </div>
+    </aside>
+  </div>
+  <!-- hotseat: hides the board while the device changes hands -->
+  <div id="cover" class="screen cover hidden">
+    <div class="keyart"></div>
+    <img class="pass" src="assets/ui/lbl_pass_the_screen.svg" alt="PASS THE SCREEN">
+    <img id="coverWho" class="who" src="assets/ui/lbl_player_1.svg" alt="PLAYER 1">
+    <div class="over-btns">
+      <button id="coverBack" class="big blue wide-label"><img class="lbl" src="assets/ui/lbl_main_menu.svg" alt="MAIN MENU"></button>
+      <button id="coverReady" class="big green wide-label"><img class="lbl" src="assets/ui/lbl_ready.svg" alt="READY"></button>
+    </div>
+  </div>
+  <div id="over" class="screen over hidden">
+    <div class="rays"></div>
+    <img id="overImg" class="crest" src="assets/ui/banner_victory.svg" alt="">
+    <h2 id="overTitle" class="sr"></h2>
+    <p id="overReason"></p>
+    <div class="stats" id="overStats"></div>
+    <div class="over-btns">
+      <button id="overBack" class="big blue wide-label"><img class="lbl" src="assets/ui/lbl_main_menu.svg" alt="MAIN MENU"></button>
+      <button id="againBtn" class="big green wide-label"><img class="lbl" src="assets/ui/lbl_play_again.svg" alt="PLAY AGAIN"></button>
+    </div>
+  </div>
+</div>
+</div>
+<script type="module" src="play.js"></script>
+</body>
+</html>

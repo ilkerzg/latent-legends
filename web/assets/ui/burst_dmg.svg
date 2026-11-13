@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-86.70 111.15 1700.44 1309.87" width="640" height="493"><defs><filter id="ol" filterUnits="userSpaceOnUse" x="99.9" y="119.1" width="1327.2" height="1293.9"><feMorphology in="SourceAlpha" operator="dilate" radius="25.5" result="d"/><feFlood flood-color="#160f2b" result="c"/><feComposite in="c" in2="d" operator="in" result="o"/><feMerge><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#ol)">
+  <defs>
+    <linearGradient id="damage-base" x1="0" y1="160" x2="0" y2="1010" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffbb08" />
+      <stop offset=".43" stop-color="#ff5400" />
+      <stop offset=".78" stop-color="#ed1000" />
+      <stop offset="1" stop-color="#ae0900" />
+    </linearGradient>
+    <linearGradient id="damage-face" x1="445" y1="180" x2="596" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffff59" />
+      <stop offset=".36" stop-color="#ffdb00" />
+      <stop offset=".65" stop-color="#ff9200" />
+      <stop offset="1" stop-color="#ff2106" />
+    </linearGradient>
+    <radialGradient id="damage-center" cx="479" cy="502" r="370" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffff4b" />
+      <stop offset=".48" stop-color="#fff21b" />
+      <stop offset="1" stop-color="#ffce00" />
+    </radialGradient>
+    <linearGradient id="damage-edge" x1="0" y1="205" x2="0" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffb1" />
+      <stop offset=".6" stop-color="#ffff6c" />
+      <stop offset="1" stop-color="#ffd919" />
+    </linearGradient>
+    <linearGradient id="damage-lower" x1="0" y1="632" x2="0" y2="954" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff36a" />
+      <stop offset=".4" stop-color="#ffc918" />
+      <stop offset="1" stop-color="#ff5a00" />
+    </linearGradient>
+    <linearGradient id="damage-side" x1="0" y1="350" x2="0" y2="833" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffea32" />
+      <stop offset=".6" stop-color="#ff9000" />
+      <stop offset="1" stop-color="#ff4400" />
+    </linearGradient>
+    <linearGradient id="heal-base" x1="0" y1="160" x2="0" y2="1010" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6ef600" />
+      <stop offset=".43" stop-color="#27d800" />
+      <stop offset=".78" stop-color="#00a900" />
+      <stop offset="1" stop-color="#007d09" />
+    </linearGradient>
+    <linearGradient id="heal-face" x1="445" y1="180" x2="596" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d9ff62" />
+      <stop offset=".36" stop-color="#aaff00" />
+      <stop offset=".65" stop-color="#62ec00" />
+      <stop offset="1" stop-color="#00bf0a" />
+    </linearGradient>
+    <radialGradient id="heal-center" cx="479" cy="515" r="370" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6ff9a" />
+      <stop offset=".48" stop-color="#d9ff55" />
+      <stop offset="1" stop-color="#a8fb00" />
+    </radialGradient>
+    <linearGradient id="heal-edge" x1="0" y1="205" x2="0" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6ffb5" />
+      <stop offset=".6" stop-color="#e5ff7a" />
+      <stop offset="1" stop-color="#b8ff26" />
+    </linearGradient>
+    <linearGradient id="heal-lower" x1="0" y1="632" x2="0" y2="954" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eeff94" />
+      <stop offset=".4" stop-color="#adff13" />
+      <stop offset="1" stop-color="#37e600" />
+    </linearGradient>
+    <linearGradient id="heal-side" x1="0" y1="350" x2="0" y2="833" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b1ff33" />
+      <stop offset=".6" stop-color="#6af500" />
+      <stop offset="1" stop-color="#1aca00" />
+    </linearGradient>
+  </defs>
+  <g id="damage-burst" transform="translate(62 48) scale(1.26)">
+    <path id="damage-outline" d="M554 90 C578 183 602 272 638 313 L706 246 L707 321 L851 205 L790 382 L917 361 L823 437 L1050 427 C975 476 888 515 834 559 L943 616 L837 642 L970 761 C900 741 826 728 771 735 L819 828 L739 781 L783 931 L622 822 C588 881 560 972 538 1050 C518 953 487 851 453 814 L285 930 C312 873 335 822 343 782 L268 831 L310 736 C255 732 178 747 98 765 L226 643 L126 613 L222 561 C175 517 116 474 64 436 L266 427 L208 358 L310 380 L260 204 L424 335 L430 249 L481 299 C510 232 529 152 554 90Z" fill="url(#damage-base)" stroke="#401409" stroke-width="22" stroke-linejoin="round" />
+    <g id="damage-recess-facets" fill="url(#damage-side)">
+      <path d="M430 249 L481 309 L451 375 L436 358Z" />
+      <path d="M706 246 L681 351 L638 367 L639 328Z" />
+      <path d="M208 358 L310 388 L317 427 L283 433Z" />
+      <path d="M917 361 L789 402 L779 442 L823 437Z" />
+      <path d="M126 613 L268 554 L300 575 L254 614Z" />
+      <path d="M943 616 L789 559 L763 584 L801 614Z" />
+      <path d="M268 831 L331 713 L357 756Z" />
+      <path d="M819 828 L738 710 L725 766Z" />
+    </g>
+    <path id="damage-main-face" d="M554 92 C539 167 526 260 501 320 C473 389 425 393 260 204 C305 312 348 416 303 437 C256 459 148 426 64 436 C165 477 255 520 300 575 C284 635 183 700 98 765 C188 727 315 670 350 695 C398 715 344 835 285 930 C340 878 419 772 459 762 C501 751 528 915 538 1050 C545 920 569 775 608 768 C653 760 735 872 783 931 C739 830 677 735 706 705 C739 665 880 721 970 761 C892 695 770 630 763 584 C752 530 937 468 1050 427 C900 448 780 468 764 435 C747 413 804 302 851 205 C763 286 687 376 653 346 C610 330 580 191 554 92Z" fill="url(#damage-face)" />
+    <path id="damage-glossy-center" d="M560 197 C574 259 594 330 622 367 C639 390 657 389 686 374 L670 396 L751 332 C760 319 739 390 727 439 C711 494 743 486 827 474 C859 468 851 476 832 488 C635 616 564 660 379 673 C404 630 335 636 242 664 C270 635 294 607 300 575 C287 532 258 496 219 478 C285 479 330 470 351 443 C377 412 358 358 354 335 C351 322 368 335 385 344 C453 387 482 368 505 327 C533 278 548 236 560 197Z" fill="url(#damage-center)" />
+    <g id="damage-upper-bevels" fill="url(#damage-edge)">
+      <path d="M554 92 C544 180 539 252 519 327 C550 280 559 228 560 197 C575 245 583 269 592 291 C578 233 564 155 554 92Z" />
+      <path d="M260 204 C313 257 378 316 418 345 C462 375 484 350 501 320 C480 381 445 378 401 357 L360 331 C344 319 359 359 359 382 C367 419 358 444 340 455 C310 475 246 480 178 465 C245 468 309 464 337 446 C375 418 353 358 336 323Z" />
+      <path d="M64 436 C131 435 225 454 288 461 C240 471 195 465 162 458Z" />
+      <path d="M851 205 C803 285 741 346 670 396 L686 374 C663 387 644 388 629 379 C680 377 780 278 851 205Z" />
+      <path d="M1050 427 C955 448 856 467 784 475 C875 446 967 435 1050 427Z" />
+    </g>
+    <g id="damage-lower-bevels" fill="url(#damage-lower)">
+      <path d="M300 575 C289 638 231 680 98 765 C167 707 262 640 300 575Z" />
+      <path d="M391 713 C387 740 384 759 382 774 C406 755 427 743 450 736 C401 762 336 847 285 930 C343 811 370 746 365 714Z" />
+      <path d="M538 1000 C544 887 566 752 596 733 C614 717 655 754 688 785 C685 760 683 738 686 716 C691 785 747 871 783 931 C727 861 651 762 608 768 C573 773 548 893 538 1000Z" />
+      <path d="M763 584 C768 610 781 632 798 651 C770 646 738 651 715 665 C763 643 820 680 970 761 C893 701 783 639 763 584Z" />
+    </g>
+    <path id="damage-white-gloss" d="M328 532 C333 472 373 415 433 381 C472 360 522 344 541 356 C575 378 483 403 422 445 C380 472 349 504 328 532Z" fill="#ffffff" />
+  </g>
+  <g id="heal-burst" transform="translate(1598 48) scale(1.26)">
+    <path id="heal-outline" d="M554 90 C578 183 602 272 638 313 L706 246 L707 321 L851 205 L790 382 L917 361 L823 437 L1050 427 C975 476 888 515 834 559 L943 616 L837 642 L970 761 C900 741 826 728 771 735 L819 828 L739 781 L783 931 L622 822 C588 881 560 972 538 1050 C518 953 487 851 453 814 L285 930 C312 873 335 822 343 782 L268 831 L310 736 C255 732 178 747 98 765 L226 643 L126 613 L222 561 C175 517 116 474 64 436 L266 427 L208 358 L310 380 L260 204 L424 335 L430 249 L481 299 C510 232 529 152 554 90Z" fill="url(#heal-base)" stroke="#29320b" stroke-width="22" stroke-linejoin="round" />
+    <g id="heal-recess-facets" fill="url(#heal-side)">
+      <path d="M430 249 L481 309 L451 375 L436 358Z" />
+      <path d="M706 246 L681 351 L638 367 L639 328Z" />
+      <path d="M208 358 L310 388 L317 427 L283 433Z" />
+      <path d="M917 361 L789 402 L779 442 L823 437Z" />
+      <path d="M126 613 L268 554 L300 575 L254 614Z" />
+      <path d="M943 616 L789 559 L763 584 L801 614Z" />
+      <path d="M268 831 L331 713 L357 756Z" />
+      <path d="M819 828 L738 710 L725 766Z" />
+    </g>
+    <path id="heal-main-face" d="M554 92 C539 167 526 260 501 320 C473 389 425 393 260 204 C305 312 348 416 303 437 C256 459 148 426 64 436 C165 477 255 520 300 575 C284 635 183 700 98 765 C188 727 315 670 350 695 C398 715 344 835 285 930 C340 878 419 772 459 762 C501 751 528 915 538 1050 C545 920 569 775 608 768 C653 760 735 872 783 931 C739 830 677 735 706 705 C739 665 880 721 970 761 C892 695 770 630 763 584 C752 530 937 468 1050 427 C900 448 780 468 764 435 C747 413 804 302 851 205 C763 286 687 376 653 346 C610 330 580 191 554 92Z" fill="url(#heal-face)" />
+    <path id="heal-glossy-center" d="M560 197 C574 259 594 330 622 367 C639 390 657 389 686 374 L670 396 L751 332 C760 319 739 390 727 439 C711 494 743 486 827 474 C859 468 851 476 832 488 C635 616 564 660 379 673 C404 630 335 636 242 664 C270 635 294 607 300 575 C287 532 258 496 219 478 C285 479 330 470 351 443 C377 412 358 358 354 335 C351 322 368 335 385 344 C453 387 482 368 505 327 C533 278 548 236 560 197Z" fill="url(#heal-center)" />
+    <g id="heal-upper-bevels" fill="url(#heal-edge)">
+      <path d="M554 92 C544 180 539 252 519 327 C550 280 559 228 560 197 C575 245 583 269 592 291 C578 233 564 155 554 92Z" />
+      <path d="M260 204 C313 257 378 316 418 345 C462 375 484 350 501 320 C480 381 445 378 401 357 L360 331 C344 319 359 359 359 382 C367 419 358 444 340 455 C310 475 246 480 178 465 C245 468 309 464 337 446 C375 418 353 358 336 323Z" />
+      <path d="M64 436 C131 435 225 454 288 461 C240 471 195 465 162 458Z" />
+      <path d="M851 205 C803 285 741 346 670 396 L686 374 C663 387 644 388 629 379 C680 377 780 278 851 205Z" />
+      <path d="M1050 427 C955 448 856 467 784 475 C875 446 967 435 1050 427Z" />
+    </g>
+    <g id="heal-lower-bevels" fill="url(#heal-lower)">
+      <path d="M300 575 C289 638 231 680 98 765 C167 707 262 640 300 575Z" />
+      <path d="M391 713 C387 740 384 759 382 774 C406 755 427 743 450 736 C401 762 336 847 285 930 C343 811 370 746 365 714Z" />
+      <path d="M538 1000 C544 887 566 752 596 733 C614 717 655 754 688 785 C685 760 683 738 686 716 C691 785 747 871 783 931 C727 861 651 762 608 768 C573 773 548 893 538 1000Z" />
+      <path d="M763 584 C768 610 781 632 798 651 C770 646 738 651 715 665 C763 643 820 680 970 761 C893 701 783 639 763 584Z" />
+    </g>
+    <path id="heal-white-gloss" d="M328 532 C333 472 373 415 433 381 C472 360 522 344 541 356 C575 378 483 403 422 445 C380 472 349 504 328 532Z" fill="#ffffff" />
+  </g>
+</g></svg>

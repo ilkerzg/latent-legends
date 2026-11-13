@@ -1,0 +1,382 @@
+{
+ "fireball": {
+  "frames": 29,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 1.015625,
+  "blend": "lighter",
+  "where": "unit",
+  "sfx": "vfx_fireball"
+ },
+ "lava_pool": {
+  "frames": 22,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 1.171875,
+  "blend": "lighter",
+  "where": "lane",
+  "sfx": "vfx_lava_pool"
+ },
+ "frost_nova": {
+  "frames": 23,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 1.328125,
+  "blend": "lighter",
+  "where": "lane",
+  "sfx": "vfx_frost_nova"
+ },
+ "crystal_wall": {
+  "frames": 17,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.9375,
+  "blend": "lighter",
+  "where": "slot",
+  "sfx": "vfx_crystal_wall"
+ },
+ "spark": {
+  "frames": 17,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.859375,
+  "blend": "lighter",
+  "where": "player",
+  "sfx": "vfx_spark"
+ },
+ "mirror": {
+  "frames": 16,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.859375,
+  "blend": "lighter",
+  "where": "unit",
+  "sfx": "vfx_mirror"
+ },
+ "summon_fire": {
+  "frames": 20,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.78125,
+  "blend": "lighter",
+  "where": "slot",
+  "sfx": "vfx_summon_fire"
+ },
+ "summon_frost": {
+  "frames": 21,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.78125,
+  "blend": "lighter",
+  "where": "slot",
+  "sfx": "vfx_summon_frost"
+ },
+ "blast_fire": {
+  "frames": 26,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 1.171875,
+  "blend": "lighter",
+  "where": "lane",
+  "sfx": "vfx_blast_fire"
+ },
+ "blast_frost": {
+  "frames": 25,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 1.171875,
+  "blend": "lighter",
+  "where": "lane",
+  "sfx": "vfx_blast_frost"
+ },
+ "heal": {
+  "frames": 20,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.703125,
+  "blend": "lighter",
+  "where": "unit",
+  "sfx": "vfx_heal"
+ },
+ "thorns": {
+  "frames": 28,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.859375,
+  "blend": "lighter",
+  "where": "unit",
+  "sfx": "vfx_thorns",
+  "hit": 6
+ },
+ "regrowth": {
+  "frames": 25,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.78125,
+  "blend": "lighter",
+  "where": "unit",
+  "sfx": "vfx_regrowth",
+  "hit": 8
+ },
+ "chain_lightning": {
+  "frames": 16,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 1.015625,
+  "blend": "lighter",
+  "where": "unit",
+  "sfx": "vfx_chain_lightning",
+  "hit": 1
+ },
+ "gust": {
+  "frames": 15,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 1.015625,
+  "blend": "lighter",
+  "where": "unit",
+  "sfx": "vfx_gust",
+  "hit": 4
+ },
+ "void_bolt": {
+  "frames": 19,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.9375,
+  "blend": "lighter",
+  "where": "unit",
+  "sfx": "vfx_void_bolt",
+  "hit": 3
+ },
+ "gravity_well": {
+  "frames": 23,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 1.25,
+  "blend": "lighter",
+  "where": "lane",
+  "sfx": "vfx_gravity_well",
+  "hit": 15,
+  "layer": "ground"
+ },
+ "swap": {
+  "frames": 18,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.859375,
+  "blend": "lighter",
+  "where": "unit",
+  "sfx": "vfx_swap",
+  "hit": 4
+ },
+ "mimic": {
+  "frames": 22,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.859375,
+  "blend": "lighter",
+  "where": "slot",
+  "sfx": "vfx_mimic",
+  "hit": 12
+ },
+ "rebirth": {
+  "frames": 23,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.9375,
+  "blend": "lighter",
+  "where": "player",
+  "sfx": "vfx_rebirth",
+  "hit": 7
+ },
+ "summon_wild": {
+  "frames": 13,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.78125,
+  "blend": "lighter",
+  "where": "slot",
+  "sfx": "vfx_summon_wild",
+  "hit": 3
+ },
+ "summon_storm": {
+  "frames": 10,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.78125,
+  "blend": "lighter",
+  "where": "slot",
+  "sfx": "vfx_summon_storm",
+  "hit": 1
+ },
+ "summon_shadow": {
+  "frames": 14,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 0.78125,
+  "blend": "lighter",
+  "where": "slot",
+  "sfx": "vfx_summon_shadow",
+  "hit": 1
+ },
+ "blast_wild": {
+  "frames": 15,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 1.171875,
+  "blend": "lighter",
+  "where": "lane",
+  "sfx": "vfx_blast_wild",
+  "hit": 2
+ },
+ "blast_storm": {
+  "frames": 15,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 1.171875,
+  "blend": "lighter",
+  "where": "lane",
+  "sfx": "vfx_blast_storm",
+  "hit": 3
+ },
+ "blast_shadow": {
+  "frames": 19,
+  "cols": 8,
+  "cell": 256,
+  "fps": 12.0,
+  "anchor": [
+   128.0,
+   128.0
+  ],
+  "scale": 1.171875,
+  "blend": "lighter",
+  "where": "lane",
+  "sfx": "vfx_blast_shadow",
+  "hit": 2
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "hearth_keeper": {
+  "hp": -1
+ },
+ "ember_warden": {
+  "hp": -1
+ },
+ "squall_mender": {
+  "hp": 3
+ },
+ "tempest_caller": {
+  "hp": 1
+ },
+ "flare_archer": {
+  "hp": -1
+ },
+ "void_weaver": {
+  "hp": 1
+ },
+ "dusk_oracle": {
+  "hp": 2
+ },
+ "umbral_hunter": {
+  "hp": 1
+ },
+ "frost_reaver": {
+  "hp": -1
+ },
+ "spark_archer": {
+  "hp": 1
+ },
+ "snow_lantern": {
+  "hp": 3
+ },
+ "icicle_sniper": {
+  "hp": 3
+ },
+ "barkhide": {
+  "hp": -1
+ },
+ "pyre_sage": {
+  "hp": 3
+ }
+}

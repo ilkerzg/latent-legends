@@ -1,0 +1,360 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="3124.03 830.40 663.95 643.20" width="192" height="186"><g fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="-266" x2="0" y2="266" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff8b0" />
+      <stop offset=".12" stop-color="#ffe451" />
+      <stop offset=".4" stop-color="#ffc31e" />
+      <stop offset=".65" stop-color="#e39405" />
+      <stop offset=".84" stop-color="#ffcd26" />
+      <stop offset="1" stop-color="#a85404" />
+    </linearGradient>
+    <linearGradient id="goldEdge" x1="0" y1="-260" x2="0" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffdc" />
+      <stop offset=".38" stop-color="#ffdf46" />
+      <stop offset=".73" stop-color="#a65b05" />
+      <stop offset="1" stop-color="#ffbc16" />
+    </linearGradient>
+    <radialGradient id="enamel" cx=".31" cy=".12" r=".95">
+      <stop stop-color="#377be0" />
+      <stop offset=".21" stop-color="#10377e" />
+      <stop offset=".47" stop-color="#061b52" />
+      <stop offset=".76" stop-color="#020b30" />
+      <stop offset=".94" stop-color="#07358d" />
+      <stop offset="1" stop-color="#125dc3" />
+    </radialGradient>
+    <linearGradient id="ivory" x1="-90" y1="-170" x2="100" y2="175" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffef4" />
+      <stop offset=".28" stop-color="#fff6d6" />
+      <stop offset=".57" stop-color="#fffbe7" />
+      <stop offset=".8" stop-color="#f7dca2" />
+      <stop offset="1" stop-color="#fff1c8" />
+    </linearGradient>
+    <linearGradient id="blade" x1="-25" y1="0" x2="25" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4d8a0" />
+      <stop offset=".49" stop-color="#fff2cd" />
+      <stop offset=".5" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#fff9e4" />
+    </linearGradient>
+    <radialGradient id="pearl" cx=".32" cy=".22" r=".83">
+      <stop stop-color="#ffffff" />
+      <stop offset=".3" stop-color="#fffced" />
+      <stop offset=".73" stop-color="#fae7b9" />
+      <stop offset="1" stop-color="#dab77b" />
+    </radialGradient>
+    <linearGradient id="spike" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fffed1" />
+      <stop offset=".35" stop-color="#ffdf3a" />
+      <stop offset=".53" stop-color="#ffbd0d" />
+      <stop offset="1" stop-color="#b16a03" />
+    </linearGradient>
+    <linearGradient id="softFacet" x1="0" y1="-170" x2="0" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" />
+      <stop offset="1" stop-color="#fff4cc" />
+    </linearGradient>
+  </defs>
+
+  <g id="crossed-swords" transform="translate(384 384)">
+    <g id="swords-bezel">
+      <circle r="266" fill="url(#gold)" stroke="#111626" stroke-width="6" />
+      <circle r="258" stroke="url(#goldEdge)" stroke-width="5" />
+      <path d="M-248-49A253 253 0 0 1 248-49" stroke="#fff5ad" stroke-width="5" stroke-linecap="round" />
+      <path d="M-246 71A256 256 0 0 0 246 71" stroke="#9d5103" stroke-width="7" stroke-linecap="round" />
+      <circle r="231" fill="#874407" />
+      <circle r="225" fill="url(#enamel)" stroke="#05102c" stroke-width="5" />
+      <path d="M-181 132A224 224 0 0 0 179 136" stroke="#2870c8" stroke-width="3" opacity=".6" />
+      <path d="M-218 98A239 239 0 0 0-92 221M92 221A239 239 0 0 0 218 98" stroke="#fff3a0" stroke-width="4" stroke-linecap="round" />
+      <path d="M-161-190L-144-207L-125-213L-139-198Z M115-216L130-210L144-192L123-204Z" fill="#fffef0" />
+      <ellipse cx="-101" cy="-163" rx="34" ry="11" transform="rotate(-34 -101 -163)" fill="#fff" />
+      <ellipse cx="-59" cy="-188" rx="5" ry="2.5" transform="rotate(-30 -59 -188)" fill="#bde7ff" />
+      <path d="M0-316L33-262L0-210L-33-262Z M316 0L262 33L210 0L262-33Z M0 316L-33 262L0 210L33 262Z M-316 0L-262-33L-210 0L-262 33Z" fill="url(#spike)" stroke="#141726" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-310L0-262L-29-262Z M310 0L262 0L262-29Z M0 214L0 262L-29 262Z M-310 0L-262 0L-262-29Z" fill="#fff8b4" />
+      <path d="M0-262L29-262L0-215Z M262 0L262 29L215 0Z M0 262L29 262L0 310Z M-262 0L-215 0L-262 29Z" fill="#b66b04" opacity=".65" />
+      <path d="M0-305L0-263L-24-263M257-23L262 0L301 0M0 219L0 261L-24 261M-301 0L-263 0L-263-23" stroke="#fffde0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="rear-sword" transform="rotate(-43)">
+      <path d="M-13 75H13V148H-13Z" fill="url(#ivory)" stroke="#fff4d4" stroke-width="2" />
+      <path d="M-20 72L-25-111L0-166L25-111L20 72Z" fill="url(#blade)" stroke="#fffbed" stroke-width="3" stroke-linejoin="round" />
+      <path d="M0-160L0 69L20 69L23-110Z" fill="#fff" opacity=".72" />
+      <rect x="-54" y="65" width="108" height="25" rx="12.5" fill="url(#pearl)" stroke="#fff6dc" stroke-width="2" />
+      <circle cy="150" r="24" fill="url(#pearl)" stroke="#fff7dc" stroke-width="3" />
+      <ellipse cx="-7" cy="142" rx="9" ry="6" fill="#fff" />
+    </g>
+    <g id="front-sword" transform="rotate(43)">
+      <path d="M-13 75H13V148H-13Z" fill="url(#ivory)" stroke="#fff4d4" stroke-width="2" />
+      <path d="M-20 72L-25-111L0-166L25-111L20 72Z" fill="url(#blade)" stroke="#fffbed" stroke-width="3" stroke-linejoin="round" />
+      <path d="M0-160L0 69L20 69L23-110Z" fill="#fff" opacity=".72" />
+      <rect x="-54" y="65" width="108" height="25" rx="12.5" fill="url(#pearl)" stroke="#fff6dc" stroke-width="2" />
+      <circle cy="150" r="24" fill="url(#pearl)" stroke="#fff7dc" stroke-width="3" />
+      <ellipse cx="-7" cy="142" rx="9" ry="6" fill="#fff" />
+    </g>
+  </g>
+
+  <g id="flame" transform="translate(1152 384)">
+    <g id="flame-bezel">
+      <circle r="266" fill="url(#gold)" stroke="#111626" stroke-width="6" />
+      <circle r="258" stroke="url(#goldEdge)" stroke-width="5" />
+      <path d="M-248-49A253 253 0 0 1 248-49" stroke="#fff5ad" stroke-width="5" stroke-linecap="round" />
+      <path d="M-246 71A256 256 0 0 0 246 71" stroke="#9d5103" stroke-width="7" stroke-linecap="round" />
+      <circle r="231" fill="#874407" />
+      <circle r="225" fill="url(#enamel)" stroke="#05102c" stroke-width="5" />
+      <path d="M-181 132A224 224 0 0 0 179 136" stroke="#2870c8" stroke-width="3" opacity=".6" />
+      <path d="M-218 98A239 239 0 0 0-92 221M92 221A239 239 0 0 0 218 98" stroke="#fff3a0" stroke-width="4" stroke-linecap="round" />
+      <path d="M-161-190L-144-207L-125-213L-139-198Z M115-216L130-210L144-192L123-204Z" fill="#fffef0" />
+      <ellipse cx="-101" cy="-163" rx="34" ry="11" transform="rotate(-34 -101 -163)" fill="#fff" />
+      <ellipse cx="-59" cy="-188" rx="5" ry="2.5" transform="rotate(-30 -59 -188)" fill="#bde7ff" />
+      <path d="M0-316L33-262L0-210L-33-262Z M316 0L262 33L210 0L262-33Z M0 316L-33 262L0 210L33 262Z M-316 0L-262-33L-210 0L-262 33Z" fill="url(#spike)" stroke="#141726" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-310L0-262L-29-262Z M310 0L262 0L262-29Z M0 214L0 262L-29 262Z M-310 0L-262 0L-262-29Z" fill="#fff8b4" />
+      <path d="M0-262L29-262L0-215Z M262 0L262 29L215 0Z M0 262L29 262L0 310Z M-262 0L-215 0L-262 29Z" fill="#b66b04" opacity=".65" />
+      <path d="M0-305L0-263L-24-263M257-23L262 0L301 0M0 219L0 261L-24 261M-301 0L-263 0L-263-23" stroke="#fffde0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="flame-symbol">
+      <path d="M-11-181C51-145 86-88 65-23C56 6 53 33 69 35C91 38 106-3 103-38C144 15 154 72 126 120C103 159 65 179 28 186C64 159 76 123 60 88C54 104 46 115 36 124C35 94 4 77 12 9C-21 28-53 61-53 109C-65 101-71 89-74 77C-99 118-91 155-53 181C-109 169-151 123-153 69C-155 16-122-34-82-64C-98-34-96-13-85 9C-80-24-53-53-28-80C4-113 10-144-11-181Z" fill="url(#ivory)" stroke="#fff6da" stroke-width="2" stroke-linejoin="round" />
+      <path d="M4-116C30-65-17-39-36-27C-58-13-58-24-48-42C-24-70-3-81 4-116Z" fill="#fff" />
+      <path d="M-119 33C-106 2-94 8-100 31C-106 49-108 78-121 77C-134 76-128 53-119 33Z" fill="#fff" opacity=".94" />
+      <path d="M110 133C89 158 63 172 42 177C68 151 77 128 71 107C89 112 105 105 121 83C120 103 117 119 110 133Z" fill="#fff8df" opacity=".55" />
+    </g>
+  </g>
+
+  <g id="skull" transform="translate(1920 384)">
+    <g id="skull-bezel">
+      <circle r="266" fill="url(#gold)" stroke="#111626" stroke-width="6" />
+      <circle r="258" stroke="url(#goldEdge)" stroke-width="5" />
+      <path d="M-248-49A253 253 0 0 1 248-49" stroke="#fff5ad" stroke-width="5" stroke-linecap="round" />
+      <path d="M-246 71A256 256 0 0 0 246 71" stroke="#9d5103" stroke-width="7" stroke-linecap="round" />
+      <circle r="231" fill="#874407" />
+      <circle r="225" fill="url(#enamel)" stroke="#05102c" stroke-width="5" />
+      <path d="M-181 132A224 224 0 0 0 179 136" stroke="#2870c8" stroke-width="3" opacity=".6" />
+      <path d="M-218 98A239 239 0 0 0-92 221M92 221A239 239 0 0 0 218 98" stroke="#fff3a0" stroke-width="4" stroke-linecap="round" />
+      <path d="M-161-190L-144-207L-125-213L-139-198Z M115-216L130-210L144-192L123-204Z" fill="#fffef0" />
+      <ellipse cx="-101" cy="-163" rx="34" ry="11" transform="rotate(-34 -101 -163)" fill="#fff" />
+      <ellipse cx="-59" cy="-188" rx="5" ry="2.5" transform="rotate(-30 -59 -188)" fill="#bde7ff" />
+      <path d="M0-316L33-262L0-210L-33-262Z M316 0L262 33L210 0L262-33Z M0 316L-33 262L0 210L33 262Z M-316 0L-262-33L-210 0L-262 33Z" fill="url(#spike)" stroke="#141726" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-310L0-262L-29-262Z M310 0L262 0L262-29Z M0 214L0 262L-29 262Z M-310 0L-262 0L-262-29Z" fill="#fff8b4" />
+      <path d="M0-262L29-262L0-215Z M262 0L262 29L215 0Z M0 262L29 262L0 310Z M-262 0L-215 0L-262 29Z" fill="#b66b04" opacity=".65" />
+      <path d="M0-305L0-263L-24-263M257-23L262 0L301 0M0 219L0 261L-24 261M-301 0L-263 0L-263-23" stroke="#fffde0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="skull-symbol">
+      <path d="M0-161C83-161 149-100 150-23C150 5 141 28 130 44C132 53 141 62 135 74C128 90 112 91 88 89C73 88 67 94 70 108L77 137C81 152 61 157 47 158C40 158 39 153 39 145V128C39 119 22 119 22 128V151C22 159 17 162 9 162H-10C-18 162-22 158-22 151V128C-22 118-40 119-40 128V146C-40 157-43 159-53 156C-68 153-81 150-77 137L-70 108C-66 94-73 88-88 89C-111 92-128 89-135 75C-141 63-133 52-129 44C-141 26-150 4-150-23C-150-101-83-161 0-161Z" fill="url(#ivory)" stroke="#fff7de" stroke-width="3" />
+      <path d="M-104-30C-120-12-124 20-107 38C-87 60-35 51-21 17C-51 8-82-14-104-30Z M104-30C120-12 124 20 107 38C87 60 35 51 21 17C51 8 82-14 104-30Z" fill="#03123b" />
+      <path d="M-104 38C-79 56-40 46-25 22M104 38C79 56 40 46 25 22" stroke="#1c3970" stroke-width="3" stroke-linecap="round" />
+      <path d="M-7 51C-12 56-22 75-20 82C-18 90-9 92 0 87C9 92 18 90 20 82C22 75 12 56 7 51C3 46-3 46-7 51Z" fill="#04143b" />
+      <path d="M-98-105C-80-129-48-148-12-151C10-151 8-142-10-134C-40-121-59-96-79-84C-98-73-107-87-98-105Z" fill="#fff" />
+      <path d="M-62 100L-68 136C-69 143-60 147-49 149M30 152H10" stroke="#fffbee" stroke-width="4" stroke-linecap="round" opacity=".65" />
+    </g>
+  </g>
+
+  <g id="snowflake" transform="translate(2688 384)">
+    <g id="snowflake-bezel">
+      <circle r="266" fill="url(#gold)" stroke="#111626" stroke-width="6" />
+      <circle r="258" stroke="url(#goldEdge)" stroke-width="5" />
+      <path d="M-248-49A253 253 0 0 1 248-49" stroke="#fff5ad" stroke-width="5" stroke-linecap="round" />
+      <path d="M-246 71A256 256 0 0 0 246 71" stroke="#9d5103" stroke-width="7" stroke-linecap="round" />
+      <circle r="231" fill="#874407" />
+      <circle r="225" fill="url(#enamel)" stroke="#05102c" stroke-width="5" />
+      <path d="M-181 132A224 224 0 0 0 179 136" stroke="#2870c8" stroke-width="3" opacity=".6" />
+      <path d="M-218 98A239 239 0 0 0-92 221M92 221A239 239 0 0 0 218 98" stroke="#fff3a0" stroke-width="4" stroke-linecap="round" />
+      <path d="M-161-190L-144-207L-125-213L-139-198Z M115-216L130-210L144-192L123-204Z" fill="#fffef0" />
+      <ellipse cx="-101" cy="-163" rx="34" ry="11" transform="rotate(-34 -101 -163)" fill="#fff" />
+      <ellipse cx="-59" cy="-188" rx="5" ry="2.5" transform="rotate(-30 -59 -188)" fill="#bde7ff" />
+      <path d="M0-316L33-262L0-210L-33-262Z M316 0L262 33L210 0L262-33Z M0 316L-33 262L0 210L33 262Z M-316 0L-262-33L-210 0L-262 33Z" fill="url(#spike)" stroke="#141726" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-310L0-262L-29-262Z M310 0L262 0L262-29Z M0 214L0 262L-29 262Z M-310 0L-262 0L-262-29Z" fill="#fff8b4" />
+      <path d="M0-262L29-262L0-215Z M262 0L262 29L215 0Z M0 262L29 262L0 310Z M-262 0L-215 0L-262 29Z" fill="#b66b04" opacity=".65" />
+      <path d="M0-305L0-263L-24-263M257-23L262 0L301 0M0 219L0 261L-24 261M-301 0L-263 0L-263-23" stroke="#fffde0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="snowflake-symbol" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0-165V165M-145-83L145 83M-145 83L145-83M-43-130L0-93L43-130M-43 130L0 93L43 130M-96-101L-86-49L-139-29M96-101L86-49L139-29M-96 101L-86 49L-139 29M96 101L86 49L139 29" stroke="#fff3d0" stroke-width="34" />
+      <path d="M0-165V165M-145-83L145 83M-145 83L145-83M-43-130L0-93L43-130M-43 130L0 93L43 130M-96-101L-86-49L-139-29M96-101L86-49L139-29M-96 101L-86 49L-139 29M96 101L86 49L139 29" stroke="url(#ivory)" stroke-width="29" />
+      <path d="M-5-162V-99M-43-136L-7-106M36-134L8-110M-148-89L-92-57M-101-102L-92-62M99-106L91-59L139-88M-146 77L-91 46M-140 23L-94 40M-5 19V90M-40 123L-7 94M15 4L77-32" stroke="#fff" stroke-width="5" opacity=".78" />
+    </g>
+  </g>
+
+  <g id="heart" transform="translate(3456 384)">
+    <g id="heart-bezel">
+      <circle r="266" fill="url(#gold)" stroke="#111626" stroke-width="6" />
+      <circle r="258" stroke="url(#goldEdge)" stroke-width="5" />
+      <path d="M-248-49A253 253 0 0 1 248-49" stroke="#fff5ad" stroke-width="5" stroke-linecap="round" />
+      <path d="M-246 71A256 256 0 0 0 246 71" stroke="#9d5103" stroke-width="7" stroke-linecap="round" />
+      <circle r="231" fill="#874407" />
+      <circle r="225" fill="url(#enamel)" stroke="#05102c" stroke-width="5" />
+      <path d="M-181 132A224 224 0 0 0 179 136" stroke="#2870c8" stroke-width="3" opacity=".6" />
+      <path d="M-218 98A239 239 0 0 0-92 221M92 221A239 239 0 0 0 218 98" stroke="#fff3a0" stroke-width="4" stroke-linecap="round" />
+      <path d="M-161-190L-144-207L-125-213L-139-198Z M115-216L130-210L144-192L123-204Z" fill="#fffef0" />
+      <ellipse cx="-101" cy="-163" rx="34" ry="11" transform="rotate(-34 -101 -163)" fill="#fff" />
+      <ellipse cx="-59" cy="-188" rx="5" ry="2.5" transform="rotate(-30 -59 -188)" fill="#bde7ff" />
+      <path d="M0-316L33-262L0-210L-33-262Z M316 0L262 33L210 0L262-33Z M0 316L-33 262L0 210L33 262Z M-316 0L-262-33L-210 0L-262 33Z" fill="url(#spike)" stroke="#141726" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-310L0-262L-29-262Z M310 0L262 0L262-29Z M0 214L0 262L-29 262Z M-310 0L-262 0L-262-29Z" fill="#fff8b4" />
+      <path d="M0-262L29-262L0-215Z M262 0L262 29L215 0Z M0 262L29 262L0 310Z M-262 0L-215 0L-262 29Z" fill="#b66b04" opacity=".65" />
+      <path d="M0-305L0-263L-24-263M257-23L262 0L301 0M0 219L0 261L-24 261M-301 0L-263 0L-263-23" stroke="#fffde0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="heart-symbol">
+      <path d="M0-65C-34-124-85-137-129-108C-174-78-181-23-159 26C-134 83-66 136 0 186C66 136 134 83 159 26C181-23 174-78 129-108C85-137 34-124 0-65Z" fill="url(#ivory)" stroke="#fff9e1" stroke-width="4" stroke-linejoin="round" />
+      <path d="M4 91C52 39 148 28 164-34C170-9 164 16 152 40C119 94 61 140 0 181C-14 161-15 122 4 91Z" fill="#f6d49a" opacity=".32" />
+      <path d="M-137-74C-122-96-96-110-78-104C-53-95-82-77-103-57C-123-39-148-49-137-74Z" fill="#fff" />
+      <ellipse cx="-145" cy="-30" rx="10" ry="13" fill="#fff" />
+      <path d="M11-66C28-91 52-109 75-112" stroke="#fff" stroke-width="8" stroke-linecap="round" />
+      <path d="M-155 31C-127 85-61 137-1 181" stroke="#fff6da" stroke-width="3" opacity=".8" />
+    </g>
+  </g>
+
+  <g id="cracked-shield" transform="translate(384 1152)">
+    <g id="shield-bezel">
+      <circle r="266" fill="url(#gold)" stroke="#111626" stroke-width="6" />
+      <circle r="258" stroke="url(#goldEdge)" stroke-width="5" />
+      <path d="M-248-49A253 253 0 0 1 248-49" stroke="#fff5ad" stroke-width="5" stroke-linecap="round" />
+      <path d="M-246 71A256 256 0 0 0 246 71" stroke="#9d5103" stroke-width="7" stroke-linecap="round" />
+      <circle r="231" fill="#874407" />
+      <circle r="225" fill="url(#enamel)" stroke="#05102c" stroke-width="5" />
+      <path d="M-181 132A224 224 0 0 0 179 136" stroke="#2870c8" stroke-width="3" opacity=".6" />
+      <path d="M-218 98A239 239 0 0 0-92 221M92 221A239 239 0 0 0 218 98" stroke="#fff3a0" stroke-width="4" stroke-linecap="round" />
+      <path d="M-161-190L-144-207L-125-213L-139-198Z M115-216L130-210L144-192L123-204Z" fill="#fffef0" />
+      <ellipse cx="-101" cy="-163" rx="34" ry="11" transform="rotate(-34 -101 -163)" fill="#fff" />
+      <ellipse cx="-59" cy="-188" rx="5" ry="2.5" transform="rotate(-30 -59 -188)" fill="#bde7ff" />
+      <path d="M0-316L33-262L0-210L-33-262Z M316 0L262 33L210 0L262-33Z M0 316L-33 262L0 210L33 262Z M-316 0L-262-33L-210 0L-262 33Z" fill="url(#spike)" stroke="#141726" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-310L0-262L-29-262Z M310 0L262 0L262-29Z M0 214L0 262L-29 262Z M-310 0L-262 0L-262-29Z" fill="#fff8b4" />
+      <path d="M0-262L29-262L0-215Z M262 0L262 29L215 0Z M0 262L29 262L0 310Z M-262 0L-215 0L-262 29Z" fill="#b66b04" opacity=".65" />
+      <path d="M0-305L0-263L-24-263M257-23L262 0L301 0M0 219L0 261L-24 261M-301 0L-263 0L-263-23" stroke="#fffde0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="shield-symbol">
+      <path d="M0-164C-47-133-95-118-149-114C-158 17-114 132-11 186L-23 166L5 83L-16 48L24-17L1-39L46-140Z" fill="url(#ivory)" stroke="#fff5d8" stroke-width="3" stroke-linejoin="round" />
+      <path d="M72-131C101-121 124-117 150-114C158 20 114 132 1 190L-11 185L-13 157L18 82L5 46L57-19L29-47Z" fill="url(#ivory)" stroke="#fff5d8" stroke-width="3" stroke-linejoin="round" />
+      <path d="M0-164V-136C-40-109-79-97-123-92L-149-114C-93-118-45-135 0-164Z M72-131L62-106C87-98 109-94 125-92L150-114C122-116 96-123 72-131Z" fill="#fff" />
+      <path d="M-149-112L-123-92C-128 20-91 117-23 166L-11 186C-114 131-157 18-149-112Z" fill="#e9c890" opacity=".68" />
+      <path d="M150-112L125-92C130 26 87 123 0 162L1 190C114 132 158 19 150-112Z" fill="#fff1c9" />
+      <path d="M0-136L34-121L1-39L-112-7C-120-35-123-64-123-92C-79-96-36-111 0-136Z" fill="url(#softFacet)" opacity=".58" />
+      <path d="M63-105L125-92C131 23 86 125 0 162M-123-92C-128 15-91 113-28 161" stroke="#fff8df" stroke-width="2" opacity=".9" />
+      <path d="M46-140L1-39L24-17L-16 48L5 83L-23 166" stroke="#fff9e9" stroke-width="3" stroke-linejoin="miter" />
+    </g>
+  </g>
+
+  <g id="sparkles" transform="translate(1152 1152)">
+    <g id="sparkles-bezel">
+      <circle r="266" fill="url(#gold)" stroke="#111626" stroke-width="6" />
+      <circle r="258" stroke="url(#goldEdge)" stroke-width="5" />
+      <path d="M-248-49A253 253 0 0 1 248-49" stroke="#fff5ad" stroke-width="5" stroke-linecap="round" />
+      <path d="M-246 71A256 256 0 0 0 246 71" stroke="#9d5103" stroke-width="7" stroke-linecap="round" />
+      <circle r="231" fill="#874407" />
+      <circle r="225" fill="url(#enamel)" stroke="#05102c" stroke-width="5" />
+      <path d="M-181 132A224 224 0 0 0 179 136" stroke="#2870c8" stroke-width="3" opacity=".6" />
+      <path d="M-218 98A239 239 0 0 0-92 221M92 221A239 239 0 0 0 218 98" stroke="#fff3a0" stroke-width="4" stroke-linecap="round" />
+      <path d="M-161-190L-144-207L-125-213L-139-198Z M115-216L130-210L144-192L123-204Z" fill="#fffef0" />
+      <ellipse cx="-101" cy="-163" rx="34" ry="11" transform="rotate(-34 -101 -163)" fill="#fff" />
+      <ellipse cx="-59" cy="-188" rx="5" ry="2.5" transform="rotate(-30 -59 -188)" fill="#bde7ff" />
+      <path d="M0-316L33-262L0-210L-33-262Z M316 0L262 33L210 0L262-33Z M0 316L-33 262L0 210L33 262Z M-316 0L-262-33L-210 0L-262 33Z" fill="url(#spike)" stroke="#141726" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-310L0-262L-29-262Z M310 0L262 0L262-29Z M0 214L0 262L-29 262Z M-310 0L-262 0L-262-29Z" fill="#fff8b4" />
+      <path d="M0-262L29-262L0-215Z M262 0L262 29L215 0Z M0 262L29 262L0 310Z M-262 0L-215 0L-262 29Z" fill="#b66b04" opacity=".65" />
+      <path d="M0-305L0-263L-24-263M257-23L262 0L301 0M0 219L0 261L-24 261M-301 0L-263 0L-263-23" stroke="#fffde0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="sparkles-symbol">
+      <path d="M0-182C17-55 41-24 159 0C42 19 19 48-3 182C-20 53-48 21-165 0C-44-20-18-53 0-182Z" fill="url(#ivory)" stroke="#fff6dc" stroke-width="2" />
+      <path d="M0-182C-18-53-44-20-165 0L-7 2C-5-38-1-108 0-182Z" fill="#fff" opacity=".86" />
+      <path d="M-7 2L159 0C42 19 19 48-3 182C2 97 16 29-7 2Z" fill="#edc884" opacity=".38" />
+      <path d="M-118-140C-113-105-103-96-72-88C-104-82-114-70-119-36C-125-70-135-82-166-88C-134-96-124-106-118-140Z" fill="url(#ivory)" stroke="#fff9e2" stroke-width="2" />
+      <path d="M-118-137L-119-88L-162-88C-132-97-123-109-118-137Z" fill="#fff" />
+      <path d="M96 51C101 82 112 93 143 99C112 106 102 117 96 149C90 117 79 106 48 99C80 92 90 81 96 51Z" fill="url(#ivory)" stroke="#fff9e2" stroke-width="2" />
+      <path d="M96 55L95 99H52C81 92 91 80 96 55Z" fill="#fff" />
+    </g>
+  </g>
+
+  <g id="vortex" transform="translate(1920 1152)">
+    <g id="vortex-bezel">
+      <circle r="266" fill="url(#gold)" stroke="#111626" stroke-width="6" />
+      <circle r="258" stroke="url(#goldEdge)" stroke-width="5" />
+      <path d="M-248-49A253 253 0 0 1 248-49" stroke="#fff5ad" stroke-width="5" stroke-linecap="round" />
+      <path d="M-246 71A256 256 0 0 0 246 71" stroke="#9d5103" stroke-width="7" stroke-linecap="round" />
+      <circle r="231" fill="#874407" />
+      <circle r="225" fill="url(#enamel)" stroke="#05102c" stroke-width="5" />
+      <path d="M-181 132A224 224 0 0 0 179 136" stroke="#2870c8" stroke-width="3" opacity=".6" />
+      <path d="M-218 98A239 239 0 0 0-92 221M92 221A239 239 0 0 0 218 98" stroke="#fff3a0" stroke-width="4" stroke-linecap="round" />
+      <path d="M-161-190L-144-207L-125-213L-139-198Z M115-216L130-210L144-192L123-204Z" fill="#fffef0" />
+      <ellipse cx="-101" cy="-163" rx="34" ry="11" transform="rotate(-34 -101 -163)" fill="#fff" />
+      <ellipse cx="-59" cy="-188" rx="5" ry="2.5" transform="rotate(-30 -59 -188)" fill="#bde7ff" />
+      <path d="M0-316L33-262L0-210L-33-262Z M316 0L262 33L210 0L262-33Z M0 316L-33 262L0 210L33 262Z M-316 0L-262-33L-210 0L-262 33Z" fill="url(#spike)" stroke="#141726" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-310L0-262L-29-262Z M310 0L262 0L262-29Z M0 214L0 262L-29 262Z M-310 0L-262 0L-262-29Z" fill="#fff8b4" />
+      <path d="M0-262L29-262L0-215Z M262 0L262 29L215 0Z M0 262L29 262L0 310Z M-262 0L-215 0L-262 29Z" fill="#b66b04" opacity=".65" />
+      <path d="M0-305L0-263L-24-263M257-23L262 0L301 0M0 219L0 261L-24 261M-301 0L-263 0L-263-23" stroke="#fffde0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="vortex-symbol" fill="url(#ivory)" stroke="#fff8df" stroke-width="2" stroke-linejoin="round">
+      <path d="M-65-145C-4-179 80-167 117-113C157-55 126 9 77 35C49 50 21 47 5 38C48 46 74 10 69-35C64-93 10-151-65-145Z" />
+      <path d="M168-45C199 27 166 102 111 125C51 152-12 116-26 68C-32 47-29 23-17 5C-31 48 9 74 49 73C107 72 164 28 168-45Z" />
+      <path d="M51 173C-15 204-98 174-121 118C-145 60-110-4-61-18C-40-25-18-23-4-17C-44-12-66 22-67 61C-67 122-19 169 51 173Z" />
+      <path d="M-175 58C-206-10-170-87-110-108C-51-131 12-101 39-54C52-31 57-8 45 12C47-32 11-54-33-52C-93-48-157-10-175 58Z" />
+      <path d="M-61-145C10-161 76-124 91-67C102-32 88 4 67 21" stroke="#fff" stroke-width="4" opacity=".5" />
+      <path d="M-174 51C-180 1-151-42-115-61" stroke="#fff" stroke-width="3" opacity=".5" />
+      <path d="M-103-81C-87-97-65-99-49-93C-63-84-87-75-104-70C-118-65-116-71-103-81Z" fill="#fff" stroke="none" />
+      <path d="M31 97C53 100 76 99 98 92C86 107 62 115 45 109C38 107 34 102 31 97Z" fill="#fff" stroke="none" />
+      <path d="M-44 157C-97 135-111 77-85 36" stroke="#fff4d4" stroke-width="4" opacity=".62" />
+    </g>
+  </g>
+
+  <g id="hourglass" transform="translate(2688 1152)">
+    <g id="hourglass-bezel">
+      <circle r="266" fill="url(#gold)" stroke="#111626" stroke-width="6" />
+      <circle r="258" stroke="url(#goldEdge)" stroke-width="5" />
+      <path d="M-248-49A253 253 0 0 1 248-49" stroke="#fff5ad" stroke-width="5" stroke-linecap="round" />
+      <path d="M-246 71A256 256 0 0 0 246 71" stroke="#9d5103" stroke-width="7" stroke-linecap="round" />
+      <circle r="231" fill="#874407" />
+      <circle r="225" fill="url(#enamel)" stroke="#05102c" stroke-width="5" />
+      <path d="M-181 132A224 224 0 0 0 179 136" stroke="#2870c8" stroke-width="3" opacity=".6" />
+      <path d="M-218 98A239 239 0 0 0-92 221M92 221A239 239 0 0 0 218 98" stroke="#fff3a0" stroke-width="4" stroke-linecap="round" />
+      <path d="M-161-190L-144-207L-125-213L-139-198Z M115-216L130-210L144-192L123-204Z" fill="#fffef0" />
+      <ellipse cx="-101" cy="-163" rx="34" ry="11" transform="rotate(-34 -101 -163)" fill="#fff" />
+      <ellipse cx="-59" cy="-188" rx="5" ry="2.5" transform="rotate(-30 -59 -188)" fill="#bde7ff" />
+      <path d="M0-316L33-262L0-210L-33-262Z M316 0L262 33L210 0L262-33Z M0 316L-33 262L0 210L33 262Z M-316 0L-262-33L-210 0L-262 33Z" fill="url(#spike)" stroke="#141726" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-310L0-262L-29-262Z M310 0L262 0L262-29Z M0 214L0 262L-29 262Z M-310 0L-262 0L-262-29Z" fill="#fff8b4" />
+      <path d="M0-262L29-262L0-215Z M262 0L262 29L215 0Z M0 262L29 262L0 310Z M-262 0L-215 0L-262 29Z" fill="#b66b04" opacity=".65" />
+      <path d="M0-305L0-263L-24-263M257-23L262 0L301 0M0 219L0 261L-24 261M-301 0L-263 0L-263-23" stroke="#fffde0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="hourglass-symbol">
+      <path d="M-98-126C-101-57-64-40-33-11C-14 7-16 18-36 35C-73 64-102 95-98 143M98-126C101-57 64-40 33-11C14 7 16 18 36 35C73 64 102 95 98 143" stroke="#fff1cb" stroke-width="19" stroke-linecap="round" />
+      <path d="M-102-124C-107-59-69-34-39-9C-18 10-20 19-41 37C-80 68-105 99-102 142M93-124C96-59 63-44 29-12C10 7 12 19 32 38C67 66 93 96 93 142" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".85" />
+      <path d="M-71-76Q0-107 71-76C54-43 19-31 8-9C2 3 3 25 3 53C20 66 73 91 78 125C80 137 74 138 60 138H-61C-75 138-81 137-78 125C-72 91-20 66-3 53V14C-3-11-15-26-39-43C-54-54-65-66-71-76Z" fill="url(#ivory)" stroke="#fff9df" stroke-width="2" />
+      <path d="M-68-76Q0-104 68-76C30-54-24-54-68-76Z" fill="#fff" />
+      <path d="M-57 105C-43 87-17 74 0 63C7 66 15 71 24 77C6 92-23 104-57 105Z" fill="#fff" opacity=".74" />
+      <rect x="-123" y="-160" width="246" height="38" rx="17" fill="url(#ivory)" stroke="#fff6da" stroke-width="3" />
+      <path d="M-107-153Q0-147 107-153" stroke="#fff" stroke-width="7" stroke-linecap="round" />
+      <rect x="-123" y="145" width="246" height="35" rx="16" fill="url(#ivory)" stroke="#fff6da" stroke-width="3" />
+      <path d="M-107 151H107" stroke="#fff" stroke-width="5" stroke-linecap="round" />
+      <path d="M-108 174H107" stroke="#e5c589" stroke-width="3" stroke-linecap="round" opacity=".65" />
+    </g>
+  </g>
+
+  <g id="crown" transform="translate(3456 1152)">
+    <g id="crown-bezel">
+      <circle r="266" fill="url(#gold)" stroke="#111626" stroke-width="6" />
+      <circle r="258" stroke="url(#goldEdge)" stroke-width="5" />
+      <path d="M-248-49A253 253 0 0 1 248-49" stroke="#fff5ad" stroke-width="5" stroke-linecap="round" />
+      <path d="M-246 71A256 256 0 0 0 246 71" stroke="#9d5103" stroke-width="7" stroke-linecap="round" />
+      <circle r="231" fill="#874407" />
+      <circle r="225" fill="url(#enamel)" stroke="#05102c" stroke-width="5" />
+      <path d="M-181 132A224 224 0 0 0 179 136" stroke="#2870c8" stroke-width="3" opacity=".6" />
+      <path d="M-218 98A239 239 0 0 0-92 221M92 221A239 239 0 0 0 218 98" stroke="#fff3a0" stroke-width="4" stroke-linecap="round" />
+      <path d="M-161-190L-144-207L-125-213L-139-198Z M115-216L130-210L144-192L123-204Z" fill="#fffef0" />
+      <ellipse cx="-101" cy="-163" rx="34" ry="11" transform="rotate(-34 -101 -163)" fill="#fff" />
+      <ellipse cx="-59" cy="-188" rx="5" ry="2.5" transform="rotate(-30 -59 -188)" fill="#bde7ff" />
+      <path d="M0-316L33-262L0-210L-33-262Z M316 0L262 33L210 0L262-33Z M0 316L-33 262L0 210L33 262Z M-316 0L-262-33L-210 0L-262 33Z" fill="url(#spike)" stroke="#141726" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-310L0-262L-29-262Z M310 0L262 0L262-29Z M0 214L0 262L-29 262Z M-310 0L-262 0L-262-29Z" fill="#fff8b4" />
+      <path d="M0-262L29-262L0-215Z M262 0L262 29L215 0Z M0 262L29 262L0 310Z M-262 0L-215 0L-262 29Z" fill="#b66b04" opacity=".65" />
+      <path d="M0-305L0-263L-24-263M257-23L262 0L301 0M0 219L0 261L-24 261M-301 0L-263 0L-263-23" stroke="#fffde0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="crown-symbol">
+      <path d="M-164-48C-130-14-105 12-78 8C-49 4-20-43 0-92C20-43 49 4 78 8C105 12 130-14 164-48L132 101Q0 80-132 101Z" fill="url(#ivory)" stroke="#fff6d7" stroke-width="3" stroke-linejoin="round" />
+      <path d="M-158-40C-125-7-103 18-76 14C-42 9-16-39 0-79C22-33 44 11 76 14C101 18 131-11 157-39" stroke="#fff" stroke-width="8" stroke-linecap="round" />
+      <path d="M-156-35L-132 97L-99 92C-113 58-133 8-156-35Z M156-35L132 97L99 92C117 49 137 6 156-35Z" fill="#eacb91" opacity=".42" />
+      <path d="M-144-23C-122-7-104 12-98 30C-92 47-111 30-122 13Z" fill="#fff" />
+      <path d="M0-91L0 79Q37 78 68 83C47 47 25-5 0-91Z" fill="#fffbe4" opacity=".35" />
+      <path d="M-132 112Q0 88 132 112V134Q132 146 120 143Q0 127-120 143Q-132 145-132 134Z" fill="url(#ivory)" stroke="#fff4ce" stroke-width="3" />
+      <path d="M-121 116Q0 96 121 116" stroke="#fff" stroke-width="7" stroke-linecap="round" />
+      <path d="M-120 137Q0 123 120 137" stroke="#e2be7e" stroke-width="3" stroke-linecap="round" opacity=".7" />
+      <circle cx="-162" cy="-49" r="27" fill="url(#pearl)" stroke="#fff7de" stroke-width="3" />
+      <circle cx="162" cy="-49" r="27" fill="url(#pearl)" stroke="#fff7de" stroke-width="3" />
+      <circle cy="-111" r="32" fill="url(#pearl)" stroke="#fff7de" stroke-width="3" />
+      <ellipse cx="-170" cy="-59" rx="10" ry="8" fill="#fff" />
+      <ellipse cx="154" cy="-59" rx="10" ry="8" fill="#fff" />
+      <ellipse cx="-9" cy="-123" rx="12" ry="9" fill="#fff" />
+      <path d="M0-19L32 31L0 78L-32 31Z" fill="url(#spike)" stroke="#a8660a" stroke-width="3" stroke-linejoin="round" />
+      <path d="M0-15V31H-27Z" fill="#fff8ba" />
+      <path d="M0 31H27L0 73Z" fill="#be7403" />
+      <path d="M0-10V30H-23" stroke="#fffde8" stroke-width="3" stroke-linecap="round" />
+    </g>
+  </g>
+</g></svg>

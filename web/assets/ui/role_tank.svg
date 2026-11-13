@@ -1,0 +1,438 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="3110.86 305.60 690.28 785.38" width="225" height="256">
+  <defs>
+    <linearGradient id="outerGold" x1="0" y1="-275" x2="0" y2="275" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff4a2" />
+      <stop offset=".25" stop-color="#ffca27" />
+      <stop offset=".56" stop-color="#bb6a05" />
+      <stop offset=".78" stop-color="#ffce24" />
+      <stop offset="1" stop-color="#914103" />
+    </linearGradient>
+    <linearGradient id="rimGold" x1="-175" y1="-220" x2="175" y2="235" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffbc5" />
+      <stop offset=".12" stop-color="#fff36b" />
+      <stop offset=".26" stop-color="#ffb909" />
+      <stop offset=".49" stop-color="#ffd748" />
+      <stop offset=".63" stop-color="#d58a04" />
+      <stop offset=".8" stop-color="#ffda35" />
+      <stop offset="1" stop-color="#b25b03" />
+    </linearGradient>
+    <radialGradient id="enamel" cx=".3" cy=".12" r=".92">
+      <stop stop-color="#174ea8" />
+      <stop offset=".35" stop-color="#09215f" />
+      <stop offset=".72" stop-color="#030e39" />
+      <stop offset="1" stop-color="#123499" />
+    </radialGradient>
+    <linearGradient id="enamelGloss" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4586ff" stop-opacity=".7" />
+      <stop offset=".6" stop-color="#3772e8" stop-opacity=".08" />
+      <stop offset="1" stop-color="#09174c" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="gold" x1=".12" y1="0" x2=".88" y2="1">
+      <stop stop-color="#fff9b3" />
+      <stop offset=".18" stop-color="#ffe85c" />
+      <stop offset=".39" stop-color="#ffc514" />
+      <stop offset=".62" stop-color="#e89a05" />
+      <stop offset=".8" stop-color="#ffe84b" />
+      <stop offset="1" stop-color="#ac5700" />
+    </linearGradient>
+    <linearGradient id="brightGold" x1="0" y1="0" x2="1" y2=".65">
+      <stop stop-color="#fff7ab" />
+      <stop offset=".22" stop-color="#ffcf18" />
+      <stop offset=".45" stop-color="#fff693" />
+      <stop offset=".58" stop-color="#ffd121" />
+      <stop offset="1" stop-color="#b96c00" />
+    </linearGradient>
+    <linearGradient id="goldShade" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffcb19" />
+      <stop offset=".55" stop-color="#c27a02" />
+      <stop offset="1" stop-color="#783400" />
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#ffffff" />
+      <stop offset=".23" stop-color="#edf4ff" />
+      <stop offset=".47" stop-color="#979dac" />
+      <stop offset=".7" stop-color="#f7f9ff" />
+      <stop offset="1" stop-color="#73798c" />
+    </linearGradient>
+    <linearGradient id="silverDark" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#e8ecf8" />
+      <stop offset=".38" stop-color="#a7adbe" />
+      <stop offset=".7" stop-color="#747988" />
+      <stop offset="1" stop-color="#dfe5f2" />
+    </linearGradient>
+    <linearGradient id="leather" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#633016" />
+      <stop offset=".45" stop-color="#d99c5c" />
+      <stop offset=".65" stop-color="#a35c2d" />
+      <stop offset="1" stop-color="#452317" />
+    </linearGradient>
+    <radialGradient id="orb" cx=".39" cy=".3" r=".74">
+      <stop stop-color="#23ddff" />
+      <stop offset=".35" stop-color="#009df6" />
+      <stop offset=".65" stop-color="#0650dd" />
+      <stop offset=".86" stop-color="#00bdff" />
+      <stop offset="1" stop-color="#83ffff" />
+    </radialGradient>
+    <radialGradient id="orbLight" cx=".5" cy=".8" r=".65">
+      <stop stop-color="#c4ffff" />
+      <stop offset=".4" stop-color="#04eeff" stop-opacity=".8" />
+      <stop offset="1" stop-color="#09bcff" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="blueGem" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#b1ffff" />
+      <stop offset=".25" stop-color="#04afff" />
+      <stop offset=".55" stop-color="#0345ee" />
+      <stop offset="1" stop-color="#001663" />
+    </linearGradient>
+    <radialGradient id="heartGlow">
+      <stop stop-color="#fff87c" stop-opacity=".8" />
+      <stop offset=".55" stop-color="#ffd026" stop-opacity=".35" />
+      <stop offset="1" stop-color="#ffc526" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="heartGold" cx=".4" cy=".27" r=".8">
+      <stop stop-color="#ffffa0" />
+      <stop offset=".27" stop-color="#ffec3e" />
+      <stop offset=".55" stop-color="#ffca08" />
+      <stop offset=".8" stop-color="#e49400" />
+      <stop offset="1" stop-color="#ffe750" />
+    </radialGradient>
+  </defs>
+
+  <g id="archer" transform="translate(384 640)">
+    <g id="archer-bezel">
+      <circle r="274" fill="url(#outerGold)" stroke="#2b190c" stroke-width="7" />
+      <circle r="263" fill="url(#rimGold)" stroke="#ffe77a" stroke-width="2" />
+      <path d="M-258 45 A262 262 0 0 0 258 45 A269 269 0 0 1-258 45Z" fill="#a95b03" />
+      <circle r="242" fill="#845002" stroke="#ffef91" stroke-width="3" />
+      <circle r="235" fill="url(#enamel)" stroke="#020c2d" stroke-width="7" />
+      <path d="M-220-64 C-189-173-104-219 14-224 C-83-203-153-146-204-54Z" fill="url(#enamelGloss)" />
+      <path d="M-205 87 C-158 231 81 284 212 78 C184 197 93 226 4 228 C-93 230-172 183-205 87Z" fill="#173ba7" opacity=".4" />
+      <path d="M-181-133 C-165-155-134-177-112-182 C-91-186-100-171-119-158 L-169-121 C-185-111-191-117-181-133Z" fill="#fff" opacity=".97" />
+      <path d="M-246-77 A258 258 0 0 1-40-255" fill="none" stroke="#fffbc9" stroke-width="5" stroke-linecap="round" />
+      <path d="M67 249 A258 258 0 0 0 161 202" fill="none" stroke="#ffffd7" stroke-width="7" stroke-linecap="round" />
+      <path d="M-177 188 L-163 207 M-174 208 L-164 189" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <g id="archer-bow">
+      <path d="M-41-157 L-130 0 L-41 157" fill="none" stroke="#020b24" stroke-width="9" stroke-linejoin="round" />
+      <path d="M-41-157 L-130 0 L-41 157" fill="none" stroke="url(#silver)" stroke-width="5" stroke-linejoin="round" />
+      <path d="M-17-204 C-56-217-78-187-61-162 C-46-140 6-137 29-109 C50-85 46-58 27-45 L38-26 L62-26 C66-49 82-65 116-58 C107-102 78-137 34-151 C-1-162-33-169-36-184 C-38-196-25-199-19-189 C-7-186-5-198-17-204Z" fill="url(#gold)" stroke="#34230f" stroke-width="4" stroke-linejoin="round" />
+      <path d="M51-126 C83-108 101-86 110-65 C85-71 69-55 62-41 L40-44 C65-67 64-95 51-126Z" fill="url(#silver)" stroke="#fff5c5" stroke-width="2" />
+      <path d="M-20-198 C-49-207-62-184-50-169 C-32-149 14-146 39-115 C57-92 56-68 43-51" fill="none" stroke="#fff8aa" stroke-width="4" stroke-linecap="round" />
+      <path d="M-17 204 C-56 217-78 187-61 162 C-46 140 6 137 29 109 C50 85 46 58 27 45 L38 26 L62 26 C66 49 82 65 116 58 C107 102 78 137 34 151 C-1 162-33 169-36 184 C-38 196-25 199-19 189 C-7 186-5 198-17 204Z" fill="url(#gold)" stroke="#34230f" stroke-width="4" stroke-linejoin="round" />
+      <path d="M51 126 C83 108 101 86 110 65 C85 71 69 55 62 41 L40 44 C65 67 64 95 51 126Z" fill="url(#silver)" stroke="#fff5c5" stroke-width="2" />
+      <path d="M-20 198 C-49 207-62 184-50 169 C-32 149 14 146 39 115 C57 92 56 68 43 51" fill="none" stroke="#ffe97b" stroke-width="4" stroke-linecap="round" />
+      <path d="M36-31 L65-31 L62 32 L37 32Z" fill="url(#brightGold)" stroke="#57300a" stroke-width="3" />
+      <path d="M34-24 H67 M35 23 H65" stroke="#fff29b" stroke-width="4" />
+      <path d="M-100-6 L-134-38 H-188 L-158-4 L-188 38 H-133 L-100 8Z" fill="url(#silver)" stroke="#10182c" stroke-width="4" stroke-linejoin="round" />
+      <path d="M-164-35 L-136-6 M-144-35 L-115-6 M-164 34 L-136 6 M-144 34 L-115 6" fill="none" stroke="#7a8294" stroke-width="3" />
+      <path d="M-181-34 L-154-7 M-181 34 L-154 7" fill="none" stroke="#fff" stroke-width="3" />
+      <path d="M-170-6 H142 L131-35 L207 0 L131 35 L142 6 H-170 Q-178 0-170-6Z" fill="url(#brightGold)" stroke="#412a0d" stroke-width="4" stroke-linejoin="round" />
+      <path d="M-169-3 H149 L137-29 L199-1Z" fill="#fff6ae" />
+      <path d="M143 26 L158 2 L201 0Z" fill="#e1a007" />
+      <path d="M-168 0 H151" stroke="#fff" stroke-width="2" />
+    </g>
+    <g id="archer-spikes" stroke-linejoin="round">
+      <g>
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L-30-264 L-13-288Z" fill="#fff07c" />
+        <path d="M0-264 L30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(90)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L-30-264 L-13-288Z" fill="#fff07c" />
+        <path d="M0-264 L30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(180)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L30-264 L13-288Z" fill="#e49703" />
+        <path d="M0-264 L-30-264 L0-214Z" fill="#fff080" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(270)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L30-264 L13-288Z" fill="#fff07c" />
+        <path d="M0-264 L-30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+    </g>
+  </g>
+
+  <g id="fighter" transform="translate(1152 640)">
+    <g id="fighter-bezel">
+      <circle r="274" fill="url(#outerGold)" stroke="#2b190c" stroke-width="7" />
+      <circle r="263" fill="url(#rimGold)" stroke="#ffe77a" stroke-width="2" />
+      <path d="M-258 45 A262 262 0 0 0 258 45 A269 269 0 0 1-258 45Z" fill="#a95b03" />
+      <circle r="242" fill="#845002" stroke="#ffef91" stroke-width="3" />
+      <circle r="235" fill="url(#enamel)" stroke="#020c2d" stroke-width="7" />
+      <path d="M-220-64 C-189-173-104-219 14-224 C-83-203-153-146-204-54Z" fill="url(#enamelGloss)" />
+      <path d="M-205 87 C-158 231 81 284 212 78 C184 197 93 226 4 228 C-93 230-172 183-205 87Z" fill="#173ba7" opacity=".4" />
+      <path d="M-181-133 C-165-155-134-177-112-182 C-91-186-100-171-119-158 L-169-121 C-185-111-191-117-181-133Z" fill="#fff" opacity=".97" />
+      <path d="M-246-77 A258 258 0 0 1-40-255" fill="none" stroke="#fffbc9" stroke-width="5" stroke-linecap="round" />
+      <path d="M67 249 A258 258 0 0 0 161 202" fill="none" stroke="#ffffd7" stroke-width="7" stroke-linecap="round" />
+      <path d="M-177 188 L-163 207 M-174 208 L-164 189" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <g id="fighter-rear-sword" transform="rotate(-45)">
+      <path d="M-20 79 H20 V172 Q0 194-20 172Z" fill="url(#leather)" stroke="#201b19" stroke-width="5" />
+      <path d="M-19 98 L19 109 M-19 118 L19 129 M-19 138 L19 149 M-18 157 L15 167" stroke="#542b17" stroke-width="4" />
+      <path d="M-17 95 L17 105 M-17 115 L17 125 M-17 135 L17 145" stroke="#edbc85" stroke-width="2" />
+      <path d="M0-221 L34-154 L24 76 H-24 L-34-154Z" fill="url(#silverDark)" stroke="#11172b" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-214 L0 72 H-20 L-30-153Z" fill="url(#silver)" />
+      <path d="M0-214 L30-153 L0-168Z" fill="#fff" />
+      <path d="M0-212 V71 M-30-151 L-20 70" stroke="#fff" stroke-width="3" fill="none" />
+      <path d="M-65 65 C-79 48-68 27-49 27 C-59 40-45 48-26 47 H26 C45 48 59 40 49 27 C68 27 79 48 65 65 C55 56 44 63 38 76 L30 101 C14 95-14 95-30 101 L-38 76 C-44 63-55 56-65 65Z" fill="url(#gold)" stroke="#49300b" stroke-width="4" />
+      <path d="M-59 35 C-66 49-44 55-26 55 H26 C44 55 66 49 59 35 M-24 62 H24" fill="none" stroke="#fff4a1" stroke-width="4" stroke-linecap="round" />
+      <circle cy="184" r="29" fill="url(#brightGold)" stroke="#43260c" stroke-width="4" />
+      <circle cy="184" r="22" fill="url(#silver)" stroke="#fff3a0" stroke-width="2" />
+      <path d="M-16 182 A17 17 0 0 1 10 169" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <g id="fighter-front-sword" transform="rotate(45)">
+      <path d="M-20 79 H20 V172 Q0 194-20 172Z" fill="url(#leather)" stroke="#201b19" stroke-width="5" />
+      <path d="M-19 98 L19 109 M-19 118 L19 129 M-19 138 L19 149 M-18 157 L15 167" stroke="#542b17" stroke-width="4" />
+      <path d="M-17 95 L17 105 M-17 115 L17 125 M-17 135 L17 145" stroke="#edbc85" stroke-width="2" />
+      <path d="M0-221 L34-154 L24 76 H-24 L-34-154Z" fill="url(#silverDark)" stroke="#11172b" stroke-width="5" stroke-linejoin="round" />
+      <path d="M0-214 L0 72 H-20 L-30-153Z" fill="url(#silver)" />
+      <path d="M0-214 L30-153 L0-168Z" fill="#fff" />
+      <path d="M0-212 V71 M-30-151 L-20 70" stroke="#fff" stroke-width="3" fill="none" />
+      <path d="M-65 65 C-79 48-68 27-49 27 C-59 40-45 48-26 47 H26 C45 48 59 40 49 27 C68 27 79 48 65 65 C55 56 44 63 38 76 L30 101 C14 95-14 95-30 101 L-38 76 C-44 63-55 56-65 65Z" fill="url(#gold)" stroke="#49300b" stroke-width="4" />
+      <path d="M-59 35 C-66 49-44 55-26 55 H26 C44 55 66 49 59 35 M-24 62 H24" fill="none" stroke="#fff4a1" stroke-width="4" stroke-linecap="round" />
+      <circle cy="184" r="29" fill="url(#brightGold)" stroke="#43260c" stroke-width="4" />
+      <circle cy="184" r="22" fill="url(#silver)" stroke="#fff3a0" stroke-width="2" />
+      <path d="M-16 182 A17 17 0 0 1 10 169" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <g id="fighter-spikes" stroke-linejoin="round">
+      <g>
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L-30-264 L-13-288Z" fill="#fff07c" />
+        <path d="M0-264 L30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(90)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L-30-264 L-13-288Z" fill="#fff07c" />
+        <path d="M0-264 L30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(180)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L30-264 L13-288Z" fill="#e49703" />
+        <path d="M0-264 L-30-264 L0-214Z" fill="#fff080" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(270)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L30-264 L13-288Z" fill="#fff07c" />
+        <path d="M0-264 L-30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+    </g>
+  </g>
+
+  <g id="mage" transform="translate(1920 640)">
+    <g id="mage-bezel">
+      <circle r="274" fill="url(#outerGold)" stroke="#2b190c" stroke-width="7" />
+      <circle r="263" fill="url(#rimGold)" stroke="#ffe77a" stroke-width="2" />
+      <path d="M-258 45 A262 262 0 0 0 258 45 A269 269 0 0 1-258 45Z" fill="#a95b03" />
+      <circle r="242" fill="#845002" stroke="#ffef91" stroke-width="3" />
+      <circle r="235" fill="url(#enamel)" stroke="#020c2d" stroke-width="7" />
+      <path d="M-220-64 C-189-173-104-219 14-224 C-83-203-153-146-204-54Z" fill="url(#enamelGloss)" />
+      <path d="M-205 87 C-158 231 81 284 212 78 C184 197 93 226 4 228 C-93 230-172 183-205 87Z" fill="#173ba7" opacity=".4" />
+      <path d="M-181-133 C-165-155-134-177-112-182 C-91-186-100-171-119-158 L-169-121 C-185-111-191-117-181-133Z" fill="#fff" opacity=".97" />
+      <path d="M-246-77 A258 258 0 0 1-40-255" fill="none" stroke="#fffbc9" stroke-width="5" stroke-linecap="round" />
+      <path d="M67 249 A258 258 0 0 0 161 202" fill="none" stroke="#ffffd7" stroke-width="7" stroke-linecap="round" />
+      <path d="M-177 188 L-163 207 M-174 208 L-164 189" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <g id="mage-staff">
+      <path d="M-17-17 H17 L16 201 Q0 218-16 201Z" fill="url(#brightGold)" stroke="#33220c" stroke-width="4" />
+      <path d="M-8 24 V191" stroke="#fff691" stroke-width="5" />
+      <path d="M-5-26 C-26-58-59-77-87-62 C-117-110-93-163-57-185 C-83-147-88-101-60-87 C-33-77-14-61 0-42 C14-61 33-77 60-87 C88-101 83-147 57-185 C93-163 117-110 87-62 C59-77 26-58 5-26Z" fill="url(#gold)" stroke="#342610" stroke-width="4" />
+      <path d="M-58-180 C-87-143-96-94-83-79 C-54-82-27-52-14-34 M58-180 C87-143 96-94 83-79 C54-82 27-52 14-34" fill="none" stroke="#fff188" stroke-width="3" stroke-linecap="round" />
+      <circle cy="-127" r="78" fill="#03245f" stroke="#084f94" stroke-width="4" />
+      <circle cy="-129" r="75" fill="url(#orb)" stroke="#9cffff" stroke-width="3" />
+      <circle cy="-124" r="68" fill="url(#orbLight)" />
+      <path d="M-65-162 A73 73 0 0 1 58-173" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" />
+      <ellipse cx="-25" cy="-167" rx="26" ry="16" transform="rotate(-37 -25 -167)" fill="#fff" />
+      <path d="M-39-81 Q-4-55 31-81 Q17-61-3-60 Q-25-61-39-81Z" fill="#b7ffff" />
+      <path d="M-17 11 C-46-26-63-36-90-19 C-103-9-94 7-82 12 C-110 20-122-8-109-20 C-146-17-143-54-135-68 C-132-44-105-38-86-37 C-51-38-28-27-17-7Z" fill="url(#silver)" stroke="#151c33" stroke-width="4" stroke-linejoin="round" />
+      <path d="M17 11 C46-26 63-36 90-19 C103-9 94 7 82 12 C110 20 122-8 109-20 C146-17 143-54 135-68 C132-44 105-38 86-37 C51-38 28-27 17-7Z" fill="url(#silver)" stroke="#151c33" stroke-width="4" stroke-linejoin="round" />
+      <path d="M-134-58 C-125-31-102-31-82-29 C-52-28-35-14-24 0 M134-58 C125-31 102-31 82-29 C52-28 35-14 24 0" fill="none" stroke="#fff" stroke-width="3" />
+      <path d="M-98-15 Q-111 3-95 12 M98-15 Q111 3 95 12" fill="none" stroke="#f9fbff" stroke-width="3" />
+      <path d="M0-74 L39-20 L0 44 L-39-20Z" fill="url(#brightGold)" stroke="#573300" stroke-width="4" />
+      <path d="M0-66 L-31-20 L0 30 L0 14 L-20-20Z" fill="#fff39b" />
+      <path d="M0-48 L22-19 L0 15 L-22-19Z" fill="url(#blueGem)" stroke="#5b3f05" stroke-width="3" />
+      <path d="M0-45 V-19 H-18Z" fill="#82f4ff" />
+      <path d="M0-19 L19-19 L0 11Z" fill="#001d93" />
+      <path d="M0-45 L2-21 L0 10 L-2-18Z" fill="#c6ffff" />
+      <path d="M24 37 C34 68-29 63-25 94 C-47 67 9 57 24 37Z" fill="url(#silver)" stroke="#293047" stroke-width="3" />
+      <path d="M24 42 C18 59-25 66-29 84" fill="none" stroke="#fff" stroke-width="3" />
+      <path d="M19 119 C29 148-27 146-23 174 C-43 152 9 135 19 119Z" fill="url(#silver)" stroke="#293047" stroke-width="3" />
+      <path d="M19 124 C12 139-24 149-26 163" fill="none" stroke="#fff" stroke-width="3" />
+      <path d="M-19 191 Q0 187 19 191 Q30 205 14 215 H-14 Q-30 205-19 191Z" fill="url(#gold)" stroke="#5e3907" stroke-width="3" />
+      <path d="M-17 195 H16" stroke="#fff4a0" stroke-width="3" />
+    </g>
+    <g id="mage-spikes" stroke-linejoin="round">
+      <g>
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L-30-264 L-13-288Z" fill="#fff07c" />
+        <path d="M0-264 L30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(90)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L-30-264 L-13-288Z" fill="#fff07c" />
+        <path d="M0-264 L30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(180)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L30-264 L13-288Z" fill="#e49703" />
+        <path d="M0-264 L-30-264 L0-214Z" fill="#fff080" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(270)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L30-264 L13-288Z" fill="#fff07c" />
+        <path d="M0-264 L-30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+    </g>
+  </g>
+
+  <g id="support" transform="translate(2688 640)">
+    <g id="support-bezel">
+      <circle r="274" fill="url(#outerGold)" stroke="#2b190c" stroke-width="7" />
+      <circle r="263" fill="url(#rimGold)" stroke="#ffe77a" stroke-width="2" />
+      <path d="M-258 45 A262 262 0 0 0 258 45 A269 269 0 0 1-258 45Z" fill="#a95b03" />
+      <circle r="242" fill="#845002" stroke="#ffef91" stroke-width="3" />
+      <circle r="235" fill="url(#enamel)" stroke="#020c2d" stroke-width="7" />
+      <path d="M-220-64 C-189-173-104-219 14-224 C-83-203-153-146-204-54Z" fill="url(#enamelGloss)" />
+      <path d="M-205 87 C-158 231 81 284 212 78 C184 197 93 226 4 228 C-93 230-172 183-205 87Z" fill="#173ba7" opacity=".4" />
+      <path d="M-181-133 C-165-155-134-177-112-182 C-91-186-100-171-119-158 L-169-121 C-185-111-191-117-181-133Z" fill="#fff" opacity=".97" />
+      <path d="M-246-77 A258 258 0 0 1-40-255" fill="none" stroke="#fffbc9" stroke-width="5" stroke-linecap="round" />
+      <path d="M67 249 A258 258 0 0 0 161 202" fill="none" stroke="#ffffd7" stroke-width="7" stroke-linecap="round" />
+      <path d="M-177 188 L-163 207 M-174 208 L-164 189" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <g id="support-heart">
+      <ellipse cx="35" cy="-78" rx="145" ry="137" fill="url(#heartGlow)" />
+      <path d="M35-123 C8-173-65-167-71-111 C-79-58-17-29 35 20 C87-29 149-58 141-111 C135-167 62-173 35-123Z" fill="#ffe45b" stroke="#c48b12" stroke-width="10" stroke-opacity=".3" />
+      <path d="M35-123 C8-173-65-167-71-111 C-79-58-17-29 35 20 C87-29 149-58 141-111 C135-167 62-173 35-123Z" fill="url(#heartGold)" stroke="#fff5af" stroke-width="4" />
+      <path d="M35-113 C11-159-51-153-58-112 C-65-66-11-45 35-4 C81-45 135-66 128-112 C121-153 59-159 35-113Z" fill="url(#heartGold)" />
+      <path d="M-57-108 C-56-58 0-31 35 10 C69-24 129-59 131-103 C117-70 76-53 35-28 C-8-47-42-64-57-108Z" fill="#e79b00" opacity=".5" />
+      <path d="M-41-135 C-22-148 4-132-7-122 C-18-113-39-103-45-111 C-51-119-48-128-41-135Z" fill="#fffff1" />
+      <path d="M57-126 C76-149 101-136 90-119 C80-105 57-96 42-88 C44-103 49-116 57-126Z" fill="#ffffe8" />
+      <path d="M-63-111 C-69-63-14-33 35 14 L80-23" fill="none" stroke="#fff78b" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <g id="support-hand">
+      <path d="M74 64 C94 46 108 22 123 13 C136 5 144 11 138 22 L112 57 C134 44 143 13 160 7 C175 2 187 7 178 17 L157 40 L111 87Z" fill="url(#silver)" stroke="#47351b" stroke-width="4" stroke-linejoin="round" />
+      <path d="M105 52 Q121 24 134 16 M147 29 Q161 9 176 10" fill="none" stroke="#fff7cb" stroke-width="3" stroke-linecap="round" />
+      <path d="M-150 62 C-177 80-191 104-195 122 C-176 162-134 196-81 210 C-90 184-83 150-68 123 L-92 69Z" fill="url(#silver)" stroke="#151a2a" stroke-width="4" />
+      <path d="M-169 91 C-180 119-142 177-106 196 L-125 103Z" fill="#7b7e8c" />
+      <path d="M-185 117 Q-180 91-160 78" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" />
+      <path d="M-111 119 C-85 112-59 118-25 125 C-7 129 15 139 33 129 L116 94 C134 79 151 57 174 39 C185 30 179 19 164 23 C144 27 128 46 108 59 C88 72 69 77 48 81 C28 85 8 75-13 72 C-42 63-65 65-84 77Z" fill="url(#gold)" stroke="#40290e" stroke-width="4" stroke-linejoin="round" />
+      <path d="M-103 106 C-74 96-47 105-19 111 C3 115 19 123 33 117 L111 83 C132 65 150 43 172 29" fill="none" stroke="#fff178" stroke-width="4" stroke-linecap="round" />
+      <path d="M-126 60 C-101 43-81 16-49 15 C-17 13-1 33 23 39 C40 44 57 38 73 42 C85 45 89 60 76 66 C45 80 21 70-6 69 C-28 66-56 73-68 88 C-78 98-81 108-84 118Z" fill="url(#silver)" stroke="#423523" stroke-width="4" stroke-linejoin="round" />
+      <path d="M-118 59 C-94 43-77 24-50 23 C-23 22-7 41 19 46 C40 52 61 42 75 50" fill="none" stroke="#fffbe4" stroke-width="5" stroke-linecap="round" />
+      <path d="M-145 48 Q-160 62-154 100 L-133 177 Q-117 192-101 198 Q-108 162-77 124 L-110 84 Q-123 66-122 44Z" fill="url(#brightGold)" stroke="#53330d" stroke-width="4" stroke-linejoin="round" />
+      <path d="M-140 54 Q-148 79-141 105 L-120 170" fill="none" stroke="#fff9aa" stroke-width="5" stroke-linecap="round" />
+      <path d="M-107 83 L-68 130 L-108 178 L-146 131Z" fill="url(#gold)" stroke="#754300" stroke-width="3" />
+      <path d="M-107 91 L-137 131 L-108 168 L-108 155 L-124 131Z" fill="#fff59a" />
+      <path d="M-107 106 L-86 131 L-108 156 L-128 131Z" fill="url(#blueGem)" stroke="#684910" stroke-width="3" />
+      <path d="M-107 108 L-107 130 L-125 130Z" fill="#74eaff" />
+      <path d="M-107 130 L-89 131 L-108 153Z" fill="#0022a0" />
+      <path d="M-107 107 L-105 130 L-108 153 L-110 132Z" fill="#d4ffff" />
+    </g>
+    <g id="support-spikes" stroke-linejoin="round">
+      <g>
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L-30-264 L-13-288Z" fill="#fff07c" />
+        <path d="M0-264 L30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(90)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L-30-264 L-13-288Z" fill="#fff07c" />
+        <path d="M0-264 L30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(180)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L30-264 L13-288Z" fill="#e49703" />
+        <path d="M0-264 L-30-264 L0-214Z" fill="#fff080" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(270)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L30-264 L13-288Z" fill="#fff07c" />
+        <path d="M0-264 L-30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+    </g>
+  </g>
+
+  <g id="tank" transform="translate(3456 640)">
+    <g id="tank-bezel">
+      <circle r="274" fill="url(#outerGold)" stroke="#2b190c" stroke-width="7" />
+      <circle r="263" fill="url(#rimGold)" stroke="#ffe77a" stroke-width="2" />
+      <path d="M-258 45 A262 262 0 0 0 258 45 A269 269 0 0 1-258 45Z" fill="#a95b03" />
+      <circle r="242" fill="#845002" stroke="#ffef91" stroke-width="3" />
+      <circle r="235" fill="url(#enamel)" stroke="#020c2d" stroke-width="7" />
+      <path d="M-220-64 C-189-173-104-219 14-224 C-83-203-153-146-204-54Z" fill="url(#enamelGloss)" />
+      <path d="M-205 87 C-158 231 81 284 212 78 C184 197 93 226 4 228 C-93 230-172 183-205 87Z" fill="#173ba7" opacity=".4" />
+      <path d="M-181-133 C-165-155-134-177-112-182 C-91-186-100-171-119-158 L-169-121 C-185-111-191-117-181-133Z" fill="#fff" opacity=".97" />
+      <path d="M-246-77 A258 258 0 0 1-40-255" fill="none" stroke="#fffbc9" stroke-width="5" stroke-linecap="round" />
+      <path d="M67 249 A258 258 0 0 0 161 202" fill="none" stroke="#ffffd7" stroke-width="7" stroke-linecap="round" />
+      <path d="M-177 188 L-163 207 M-174 208 L-164 189" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <g id="tank-shield" stroke-linejoin="round">
+      <path d="M0-188 C-44-141-107-125-166-131 C-165 42-128 137 0 215 C128 137 165 42 166-131 C107-125 44-141 0-188Z" fill="url(#gold)" stroke="#352510" stroke-width="6" />
+      <path d="M0-181 C-43-136-105-119-160-125 L-139-96 C-84-98-40-111 0-146 C40-111 84-98 139-96 L160-125 C105-119 43-136 0-181Z" fill="url(#brightGold)" />
+      <path d="M-160-121 C-158 58-114 136 0 208 L0 179 C-96 111-130 34-139-96Z" fill="url(#brightGold)" />
+      <path d="M160-121 C158 58 114 136 0 208 L0 179 C96 111 130 34 139-96Z" fill="url(#goldShade)" />
+      <path d="M0-184 C-44-139-106-123-162-128 C-160 42-123 136 0 210 C123 136 160 42 162-128" fill="none" stroke="#fff18b" stroke-width="3" />
+      <path d="M-161-122 L-139-96 M161-122 L139-96 M0-181 V-148" fill="none" stroke="#fffbd1" stroke-width="3" />
+      <path d="M0-142 C-37-111-84-94-136-94 C-133 40-98 118 0 182 C98 118 133 40 136-94 C84-94 37-111 0-142Z" fill="url(#silver)" stroke="#74501c" stroke-width="4" />
+      <path d="M0-133 C-37-103-78-87-128-85 C-124 40-91 111 0 174 C91 111 124 40 128-85 C78-87 37-103 0-133Z" fill="url(#silverDark)" />
+      <path d="M0-138 V-114 C-32-91-68-77-110-72 L-127-85 C-78-89-35-104 0-138Z" fill="#fff" />
+      <path d="M0-138 V-114 C32-91 68-77 110-72 L127-85 C78-89 35-104 0-138Z" fill="url(#silver)" />
+      <path d="M-128-84 C-122 42-91 112 0 175 L0 151 C-74 97-103 31-110-72Z" fill="url(#silver)" />
+      <path d="M128-84 C122 42 91 112 0 175 L0 151 C74 97 103 31 110-72Z" fill="#e3e8f3" />
+      <path d="M0-109 C-32-86-68-73-107-69 C-103 34-76 97 0 154 C76 97 103 34 107-69 C68-73 32-86 0-109Z" fill="url(#gold)" stroke="#4e370f" stroke-width="4" />
+      <path d="M0-104 C-29-83-65-69-102-65 C-97 35-73 94 0 147Z" fill="url(#brightGold)" />
+      <path d="M0-104 C29-83 65-69 102-65 C97 35 73 94 0 147Z" fill="url(#goldShade)" />
+      <path d="M0-104 C29-83 48-77 67-73 C51-30 24 2 0 27Z" fill="#ffca16" />
+      <path d="M-102-65 C-99-8-91 37-71 73 L0 2 V-104 C-29-83-65-69-102-65Z" fill="#fff16a" opacity=".52" />
+      <path d="M-18-92 C-49-77-59-65-66-45 L-77-11 C-59-34-42-34-30-49 C-21-62-21-77-18-92Z" fill="#ffffe7" />
+      <path d="M0-104 V147" fill="none" stroke="#fff4a0" stroke-width="3" />
+      <path d="M-124-79 C-118 30-89 103-5 166" fill="none" stroke="#fff" stroke-width="3" />
+      <path d="M45 170 Q99 125 121 66" fill="none" stroke="#ffe66c" stroke-width="4" stroke-linecap="round" />
+      <path d="M77-119 L83-105 M72-109 L89-114" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <g id="tank-spikes" stroke-linejoin="round">
+      <g>
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L-30-264 L-13-288Z" fill="#fff07c" />
+        <path d="M0-264 L30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(90)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L-30-264 L-13-288Z" fill="#fff07c" />
+        <path d="M0-264 L30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(180)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L30-264 L13-288Z" fill="#e49703" />
+        <path d="M0-264 L-30-264 L0-214Z" fill="#fff080" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+      <g transform="rotate(270)">
+        <path d="M0-328 L17-289 L36-264 L0-207 L-36-264 L-17-289Z" fill="url(#gold)" stroke="#35200d" stroke-width="5" />
+        <path d="M0-321 L0-264 L30-264 L13-288Z" fill="#fff07c" />
+        <path d="M0-264 L-30-264 L0-214Z" fill="#b96e00" />
+        <path d="M0-317 L3-268 L27-264 L3-260 L0-222 L-3-260 L-28-264 L-3-268Z" fill="#fffbd1" />
+      </g>
+    </g>
+  </g>
+</svg>

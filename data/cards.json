@@ -1,0 +1,716 @@
+{
+ "version": "0.2",
+ "cards": [
+  {
+   "id": "ember_warden",
+   "name": "Ember Warden",
+   "type": "unit",
+   "element": "Fire",
+   "role": "Tank",
+   "cost": 2,
+   "atk": 1,
+   "hp": 3,
+   "armor": 2,
+   "ward": 0,
+   "startMana": 1,
+   "maxMana": 2,
+   "skill": {
+    "id": "taunt",
+    "cost": 2,
+    "power": 1,
+    "text": "[2] Taunt: until your next turn, enemy Dive, Snipe and Siphon in this lane must target this unit."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": -1
+   }
+  },
+  {
+   "id": "cinder_raider",
+   "name": "Cinder Raider",
+   "type": "unit",
+   "element": "Fire",
+   "role": "Fighter",
+   "cost": 3,
+   "atk": 4,
+   "hp": 5,
+   "armor": 0,
+   "ward": 0,
+   "startMana": 0,
+   "maxMana": 2,
+   "skill": {
+    "id": "dive",
+    "cost": 2,
+    "power": 5,
+    "text": "[2] Dive: 5 physical to the enemy Back unit in this lane, or to the Front unit if the Back slot is empty."
+   }
+  },
+  {
+   "id": "pyre_sage",
+   "name": "Pyre Sage",
+   "type": "unit",
+   "element": "Fire",
+   "role": "Mage",
+   "cost": 4,
+   "atk": 2,
+   "hp": 9,
+   "armor": 0,
+   "ward": 0,
+   "startMana": 4,
+   "maxMana": 5,
+   "skill": {
+    "id": "blast",
+    "cost": "X",
+    "power": 1,
+    "text": "[X] Blast: spend all Mana; that much magic to every enemy unit in this lane."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": 3
+   }
+  },
+  {
+   "id": "flare_archer",
+   "name": "Flare Archer",
+   "type": "unit",
+   "element": "Fire",
+   "role": "Archer",
+   "cost": 5,
+   "atk": 5,
+   "hp": 8,
+   "armor": 1,
+   "ward": 0,
+   "startMana": 1,
+   "maxMana": 2,
+   "skill": {
+    "id": "snipe",
+    "cost": 2,
+    "power": 7,
+    "text": "[2] Snipe: 7 physical to any enemy unit in this lane."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": -1
+   }
+  },
+  {
+   "id": "hearth_keeper",
+   "name": "Hearth Keeper",
+   "type": "unit",
+   "element": "Fire",
+   "role": "Support",
+   "cost": 1,
+   "atk": 2,
+   "hp": 1,
+   "armor": 0,
+   "ward": 1,
+   "startMana": 0,
+   "maxMana": 2,
+   "skill": {
+    "id": "siphon",
+    "cost": 2,
+    "power": 1,
+    "heal": 1,
+    "text": "[2] Siphon: 1 magic to an enemy unit in this lane, heal your Front unit here 1."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": -1
+   }
+  },
+  {
+   "id": "barkhide",
+   "name": "Barkhide",
+   "type": "unit",
+   "element": "Wild",
+   "role": "Tank",
+   "cost": 4,
+   "atk": 2,
+   "hp": 7,
+   "armor": 3,
+   "ward": 0,
+   "startMana": 1,
+   "maxMana": 2,
+   "skill": {
+    "id": "taunt",
+    "cost": 2,
+    "power": 1,
+    "text": "[2] Taunt: until your next turn, enemy Dive, Snipe and Siphon in this lane must target this unit."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": -1
+   }
+  },
+  {
+   "id": "thorn_stalker",
+   "name": "Thorn Stalker",
+   "type": "unit",
+   "element": "Wild",
+   "role": "Fighter",
+   "cost": 5,
+   "atk": 6,
+   "hp": 8,
+   "armor": 0,
+   "ward": 0,
+   "startMana": 0,
+   "maxMana": 2,
+   "skill": {
+    "id": "dive",
+    "cost": 2,
+    "power": 7,
+    "text": "[2] Dive: 7 physical to the enemy Back unit in this lane, or to the Front unit if the Back slot is empty."
+   }
+  },
+  {
+   "id": "grove_shaman",
+   "name": "Grove Shaman",
+   "type": "unit",
+   "element": "Wild",
+   "role": "Mage",
+   "cost": 1,
+   "atk": 1,
+   "hp": 2,
+   "armor": 0,
+   "ward": 0,
+   "startMana": 0,
+   "maxMana": 1,
+   "skill": {
+    "id": "blast",
+    "cost": "X",
+    "power": 1,
+    "text": "[X] Blast: spend all Mana; that much magic to every enemy unit in this lane."
+   }
+  },
+  {
+   "id": "briar_slinger",
+   "name": "Briar Slinger",
+   "type": "unit",
+   "element": "Wild",
+   "role": "Archer",
+   "cost": 2,
+   "atk": 2,
+   "hp": 2,
+   "armor": 1,
+   "ward": 0,
+   "startMana": 1,
+   "maxMana": 2,
+   "skill": {
+    "id": "snipe",
+    "cost": 2,
+    "power": 3,
+    "text": "[2] Snipe: 3 physical to any enemy unit in this lane."
+   }
+  },
+  {
+   "id": "bloom_tender",
+   "name": "Bloom Tender",
+   "type": "unit",
+   "element": "Wild",
+   "role": "Support",
+   "cost": 3,
+   "atk": 1,
+   "hp": 6,
+   "armor": 0,
+   "ward": 2,
+   "startMana": 2,
+   "maxMana": 4,
+   "skill": {
+    "id": "siphon",
+    "cost": 2,
+    "power": 2,
+    "heal": 2,
+    "text": "[2] Siphon: 2 magic to an enemy unit in this lane, heal your Front unit here 2."
+   }
+  },
+  {
+   "id": "thunder_bulwark",
+   "name": "Thunder Bulwark",
+   "type": "unit",
+   "element": "Storm",
+   "role": "Tank",
+   "cost": 1,
+   "atk": 1,
+   "hp": 3,
+   "armor": 1,
+   "ward": 0,
+   "startMana": 0,
+   "maxMana": 2,
+   "skill": {
+    "id": "taunt",
+    "cost": 2,
+    "power": 1,
+    "text": "[2] Taunt: until your next turn, enemy Dive, Snipe and Siphon in this lane must target this unit."
+   }
+  },
+  {
+   "id": "gale_duelist",
+   "name": "Gale Duelist",
+   "type": "unit",
+   "element": "Storm",
+   "role": "Fighter",
+   "cost": 2,
+   "atk": 3,
+   "hp": 3,
+   "armor": 0,
+   "ward": 0,
+   "startMana": 0,
+   "maxMana": 2,
+   "skill": {
+    "id": "dive",
+    "cost": 2,
+    "power": 4,
+    "text": "[2] Dive: 4 physical to the enemy Back unit in this lane, or to the Front unit if the Back slot is empty."
+   }
+  },
+  {
+   "id": "tempest_caller",
+   "name": "Tempest Caller",
+   "type": "unit",
+   "element": "Storm",
+   "role": "Mage",
+   "cost": 3,
+   "atk": 2,
+   "hp": 5,
+   "armor": 0,
+   "ward": 0,
+   "startMana": 3,
+   "maxMana": 4,
+   "skill": {
+    "id": "blast",
+    "cost": "X",
+    "power": 1,
+    "text": "[X] Blast: spend all Mana; that much magic to every enemy unit in this lane."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": 1
+   }
+  },
+  {
+   "id": "spark_archer",
+   "name": "Spark Archer",
+   "type": "unit",
+   "element": "Storm",
+   "role": "Archer",
+   "cost": 4,
+   "atk": 5,
+   "hp": 6,
+   "armor": 1,
+   "ward": 0,
+   "startMana": 1,
+   "maxMana": 2,
+   "skill": {
+    "id": "snipe",
+    "cost": 2,
+    "power": 6,
+    "text": "[2] Snipe: 6 physical to any enemy unit in this lane."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": 1
+   }
+  },
+  {
+   "id": "squall_mender",
+   "name": "Squall Mender",
+   "type": "unit",
+   "element": "Storm",
+   "role": "Support",
+   "cost": 5,
+   "atk": 3,
+   "hp": 11,
+   "armor": 0,
+   "ward": 2,
+   "startMana": 2,
+   "maxMana": 4,
+   "skill": {
+    "id": "siphon",
+    "cost": 2,
+    "power": 5,
+    "heal": 5,
+    "text": "[2] Siphon: 5 magic to an enemy unit in this lane, heal your Front unit here 5."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": 3
+   }
+  },
+  {
+   "id": "glacier_shield",
+   "name": "Glacier Shield",
+   "type": "unit",
+   "element": "Frost",
+   "role": "Tank",
+   "cost": 3,
+   "atk": 2,
+   "hp": 5,
+   "armor": 3,
+   "ward": 0,
+   "startMana": 1,
+   "maxMana": 2,
+   "skill": {
+    "id": "taunt",
+    "cost": 2,
+    "power": 1,
+    "text": "[2] Taunt: until your next turn, enemy Dive, Snipe and Siphon in this lane must target this unit."
+   }
+  },
+  {
+   "id": "frost_reaver",
+   "name": "Frost Reaver",
+   "type": "unit",
+   "element": "Frost",
+   "role": "Fighter",
+   "cost": 4,
+   "atk": 5,
+   "hp": 6,
+   "armor": 0,
+   "ward": 0,
+   "startMana": 0,
+   "maxMana": 2,
+   "skill": {
+    "id": "dive",
+    "cost": 2,
+    "power": 6,
+    "text": "[2] Dive: 6 physical to the enemy Back unit in this lane, or to the Front unit if the Back slot is empty."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": -1
+   }
+  },
+  {
+   "id": "rime_witch",
+   "name": "Rime Witch",
+   "type": "unit",
+   "element": "Frost",
+   "role": "Mage",
+   "cost": 5,
+   "atk": 3,
+   "hp": 8,
+   "armor": 0,
+   "ward": 0,
+   "startMana": 5,
+   "maxMana": 6,
+   "skill": {
+    "id": "blast",
+    "cost": "X",
+    "power": 1,
+    "text": "[X] Blast: spend all Mana; that much magic to every enemy unit in this lane."
+   }
+  },
+  {
+   "id": "icicle_sniper",
+   "name": "Icicle Sniper",
+   "type": "unit",
+   "element": "Frost",
+   "role": "Archer",
+   "cost": 1,
+   "atk": 1,
+   "hp": 5,
+   "armor": 1,
+   "ward": 0,
+   "startMana": 0,
+   "maxMana": 2,
+   "skill": {
+    "id": "snipe",
+    "cost": 2,
+    "power": 2,
+    "text": "[2] Snipe: 2 physical to any enemy unit in this lane."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": 3
+   }
+  },
+  {
+   "id": "snow_lantern",
+   "name": "Snow Lantern",
+   "type": "unit",
+   "element": "Frost",
+   "role": "Support",
+   "cost": 2,
+   "atk": 1,
+   "hp": 6,
+   "armor": 0,
+   "ward": 2,
+   "startMana": 2,
+   "maxMana": 4,
+   "skill": {
+    "id": "siphon",
+    "cost": 2,
+    "power": 1,
+    "heal": 1,
+    "text": "[2] Siphon: 1 magic to an enemy unit in this lane, heal your Front unit here 1."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": 3
+   }
+  },
+  {
+   "id": "gloom_sentinel",
+   "name": "Gloom Sentinel",
+   "type": "unit",
+   "element": "Shadow",
+   "role": "Tank",
+   "cost": 5,
+   "atk": 2,
+   "hp": 10,
+   "armor": 4,
+   "ward": 0,
+   "startMana": 1,
+   "maxMana": 2,
+   "skill": {
+    "id": "taunt",
+    "cost": 2,
+    "power": 1,
+    "text": "[2] Taunt: until your next turn, enemy Dive, Snipe and Siphon in this lane must target this unit."
+   }
+  },
+  {
+   "id": "night_blade",
+   "name": "Night Blade",
+   "type": "unit",
+   "element": "Shadow",
+   "role": "Fighter",
+   "cost": 1,
+   "atk": 2,
+   "hp": 2,
+   "armor": 0,
+   "ward": 0,
+   "startMana": 0,
+   "maxMana": 2,
+   "skill": {
+    "id": "dive",
+    "cost": 2,
+    "power": 3,
+    "text": "[2] Dive: 3 physical to the enemy Back unit in this lane, or to the Front unit if the Back slot is empty."
+   }
+  },
+  {
+   "id": "void_weaver",
+   "name": "Void Weaver",
+   "type": "unit",
+   "element": "Shadow",
+   "role": "Mage",
+   "cost": 2,
+   "atk": 1,
+   "hp": 6,
+   "armor": 0,
+   "ward": 0,
+   "startMana": 1,
+   "maxMana": 2,
+   "skill": {
+    "id": "blast",
+    "cost": "X",
+    "power": 1,
+    "text": "[X] Blast: spend all Mana; that much magic to every enemy unit in this lane."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": 1
+   }
+  },
+  {
+   "id": "umbral_hunter",
+   "name": "Umbral Hunter",
+   "type": "unit",
+   "element": "Shadow",
+   "role": "Archer",
+   "cost": 3,
+   "atk": 3,
+   "hp": 6,
+   "armor": 1,
+   "ward": 0,
+   "startMana": 1,
+   "maxMana": 2,
+   "skill": {
+    "id": "snipe",
+    "cost": 2,
+    "power": 4,
+    "text": "[2] Snipe: 4 physical to any enemy unit in this lane."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": 1
+   }
+  },
+  {
+   "id": "dusk_oracle",
+   "name": "Dusk Oracle",
+   "type": "unit",
+   "element": "Shadow",
+   "role": "Support",
+   "cost": 4,
+   "atk": 2,
+   "hp": 10,
+   "armor": 0,
+   "ward": 2,
+   "startMana": 2,
+   "maxMana": 4,
+   "skill": {
+    "id": "siphon",
+    "cost": 2,
+    "power": 3,
+    "heal": 3,
+    "text": "[2] Siphon: 3 magic to an enemy unit in this lane, heal your Front unit here 3."
+   },
+   "tuned": {
+    "atk": 0,
+    "hp": 2
+   }
+  },
+  {
+   "id": "fireball",
+   "name": "Fireball",
+   "type": "spell",
+   "element": "Fire",
+   "cost": 3,
+   "target": "enemyUnit",
+   "text": "3 magic to any enemy unit."
+  },
+  {
+   "id": "lava_pool",
+   "name": "Lava Pool",
+   "type": "spell",
+   "element": "Fire",
+   "cost": 2,
+   "target": "lane",
+   "text": "Enemy units in a lane burn for 1 at the start of their next 2 turns."
+  },
+  {
+   "id": "thorns",
+   "name": "Thorns",
+   "type": "spell",
+   "element": "Wild",
+   "cost": 1,
+   "target": "allyUnit",
+   "text": "An ally gains Thorns 1: every Attack against it deals 1 back."
+  },
+  {
+   "id": "regrowth",
+   "name": "Regrowth",
+   "type": "spell",
+   "element": "Wild",
+   "cost": 2,
+   "target": "allyUnit",
+   "text": "Heal an ally 1 and give it +1/+1."
+  },
+  {
+   "id": "chain_lightning",
+   "name": "Chain Lightning",
+   "type": "spell",
+   "element": "Storm",
+   "cost": 3,
+   "target": "enemyUnit",
+   "text": "2 magic to an enemy unit. If it dies, 2 magic to an enemy unit in an adjacent lane."
+  },
+  {
+   "id": "gust",
+   "name": "Gust",
+   "type": "spell",
+   "element": "Storm",
+   "cost": 4,
+   "target": "enemyUnit",
+   "text": "Push an enemy unit to the same row of an adjacent lane, if that slot is empty."
+  },
+  {
+   "id": "frost_nova",
+   "name": "Frost Nova",
+   "type": "spell",
+   "element": "Frost",
+   "cost": 3,
+   "target": "lane",
+   "text": "Freeze every enemy unit in a lane: each skips its next action."
+  },
+  {
+   "id": "crystal_wall",
+   "name": "Crystal Wall",
+   "type": "spell",
+   "element": "Frost",
+   "cost": 1,
+   "target": "ownFrontSlot",
+   "text": "Summon a 0/4 Crystal Wall with Armor 1 in your empty Front slot. It never acts."
+  },
+  {
+   "id": "void_bolt",
+   "name": "Void Bolt",
+   "type": "spell",
+   "element": "Shadow",
+   "cost": 2,
+   "target": "enemyUnit",
+   "text": "2 magic to an enemy unit. Heal your unit in that lane by the damage dealt."
+  },
+  {
+   "id": "gravity_well",
+   "name": "Gravity Well",
+   "type": "spell",
+   "element": "Shadow",
+   "cost": 3,
+   "target": "lane",
+   "text": "Swap the enemy Front and Back units in a lane, then deal 1 magic to both."
+  },
+  {
+   "id": "spark",
+   "name": "Spark",
+   "type": "joker",
+   "element": null,
+   "cost": 0,
+   "target": "none",
+   "text": "+1 Essence this turn."
+  },
+  {
+   "id": "mirror",
+   "name": "Mirror",
+   "type": "joker",
+   "element": null,
+   "cost": 2,
+   "target": "allyUnit",
+   "text": "Change an ally's element for the rest of the match."
+  },
+  {
+   "id": "swap",
+   "name": "Swap",
+   "type": "joker",
+   "element": null,
+   "cost": 0,
+   "target": "allyPair",
+   "text": "Swap two of your units in the same row, across lanes."
+  },
+  {
+   "id": "mimic",
+   "name": "Mimic",
+   "type": "joker",
+   "element": null,
+   "cost": 2,
+   "target": "ownSlot",
+   "text": "Summon a -1/-1 copy of the last character played by either player."
+  },
+  {
+   "id": "rebirth",
+   "name": "Rebirth",
+   "type": "joker",
+   "element": null,
+   "cost": 2,
+   "target": "none",
+   "text": "Return your most expensive fallen character to your hand."
+  },
+  {
+   "id": "crystal_wall_token",
+   "name": "Crystal Wall",
+   "type": "token",
+   "element": "Frost",
+   "role": "Wall",
+   "cost": 0,
+   "atk": 0,
+   "hp": 4,
+   "armor": 1,
+   "ward": 0,
+   "startMana": 0,
+   "maxMana": 0,
+   "skill": null
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latent Legends Balance</title>
+<meta name="description" content="How the six starter decks of Latent Legends do against each other, from thousands of bot games.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/LatentLegends.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="balance.css">
+</head>
+<body>
+<div class="bg"></div>
+<main>
+  <header class="hero">
+    <a href="play.html"><img class="logo" src="assets/ui/logo.webp" alt="Latent Legends"></a>
+    <h1><img class="lbl" src="assets/ui/lbl_balance.svg" alt="Balance"></h1>
+    <p class="lead">Every starter deck against every other, with the same bot playing both seats.</p>
+    <div class="bots" role="tablist">
+      <button data-bot="greedy" role="tab"><img class="lbl" src="assets/ui/lbl_normal.svg" alt="Normal bot"></button>
+      <button data-bot="hard" role="tab"><img class="lbl" src="assets/ui/lbl_hard.svg" alt="Hard bot"></button>
+    </div>
+    <p class="note" id="botNote"></p>
+  </header>
+
+  <section class="stats" id="stats"></section>
+
+  <section class="plate">
+    <h2><img class="lbl" src="assets/ui/lbl_deck_win_rates.svg" alt="Deck win rates"></h2>
+    <div class="decks" id="decks"></div>
+  </section>
+
+  <section class="plate">
+    <h2><img class="lbl" src="assets/ui/lbl_deck_vs_deck.svg" alt="Deck vs deck"></h2>
+    <p class="cap">Each row is a deck, each column its opponent: how often the row deck wins.</p>
+    <div class="grid-wrap"><table class="vs" id="vs"></table></div>
+  </section>
+
+  <section class="plate">
+    <h2><img class="lbl" src="assets/ui/lbl_cards.svg" alt="Cards"></h2>
+    <p class="cap">How often the player who put a card on the table went on to win. A strong card scores high, and so does a card that is played when you are already ahead.</p>
+    <div class="sort" role="tablist">
+      <button data-sort="win"><img class="lbl" src="assets/ui/lbl_win_rate.svg" alt="Win rate"></button>
+      <button data-sort="played"><img class="lbl" src="assets/ui/lbl_played.svg" alt="Played"></button>
+    </div>
+    <ol class="cards" id="cards"></ol>
+  </section>
+
+  <section class="plate how">
+    <h2><img class="lbl" src="assets/ui/lbl_how_we_test.svg" alt="How we test"></h2>
+    <ul>
+      <li>The six starter decks play every pairing in both seats, mirror matches included.</li>
+      <li>The Normal bot takes the best move it can see. The Hard bot plans two turns ahead.</li>
+      <li>The same engine runs the game in your browser, so a bot game follows the real rules.</li>
+    </ul>
+    <a class="play" href="play.html"><img class="lbl" src="assets/ui/lbl_play_now.svg" alt="Play now"></a>
+  </section>
+</main>
+<script type="module" src="balance.js"></script>
+</body>
+</html>

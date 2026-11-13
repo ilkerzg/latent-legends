@@ -1,0 +1,12 @@
+/* The notice a phone gets in place of the game (phone.js): the logo and one sentence on the game's backdrop. */
+* { box-sizing: border-box; }
+html { height: 100%; background: #07050c; }
+body {
+  display: grid; place-items: center; min-height: 100%; margin: 0; padding: 24px;
+  background: radial-gradient(ellipse at 50% 40%, #1d1530 0%, #07050c 70%);
+  color: #fff; font: 800 20px/1.4 'Nunito', system-ui, sans-serif; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%;
+}
+main { display: grid; justify-items: center; gap: 20px; max-width: 480px; text-align: center; }
+/* the logo never grows past the short side, so the sentence stays on screen when the phone is on its side */
+.logo { width: min(86vw, 420px, 90vh); height: auto; filter: drop-shadow(0 18px 24px #000c); }
+p { margin: 0; text-shadow: 0 2px 0 #1c1233; }

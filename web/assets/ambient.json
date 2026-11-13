@@ -1,0 +1,67 @@
+[
+ {
+  "name": "tl_brazier",
+  "file": "assets/ambient/tl_brazier.mp4",
+  "mask": "assets/ambient/tl_brazier_mask.png",
+  "x": 0.0,
+  "y": 0.0,
+  "w": 171.0,
+  "h": 228.0,
+  "vw": 228,
+  "vh": 304,
+  "fps": 24,
+  "frames": 123
+ },
+ {
+  "name": "tl_banner",
+  "file": "assets/ambient/tl_banner.mp4",
+  "mask": "assets/ambient/tl_banner_mask.png",
+  "x": 147.0,
+  "y": 0.0,
+  "w": 171.0,
+  "h": 228.0,
+  "vw": 228,
+  "vh": 304,
+  "fps": 24,
+  "frames": 123
+ },
+ {
+  "name": "tr_banner",
+  "file": "assets/ambient/tr_banner.mp4",
+  "mask": "assets/ambient/tr_banner_mask.png",
+  "x": 1224.0,
+  "y": 0.0,
+  "w": 171.0,
+  "h": 228.0,
+  "vw": 228,
+  "vh": 304,
+  "fps": 24,
+  "frames": 119
+ },
+ {
+  "name": "tr_brazier",
+  "file": "assets/ambient/tr_brazier.mp4",
+  "mask": "assets/ambient/tr_brazier_mask.png",
+  "x": 1365.0,
+  "y": 24.0,
+  "w": 171.0,
+  "h": 228.0,
+  "vw": 228,
+  "vh": 304,
+  "fps": 24,
+  "frames": 123
+ },
+ {
+  "name": "bl_torch",
+  "file": "assets/ambient/bl_torch.mp4",
+  "mask": "assets/ambient/bl_torch_mask.png",
+  "x": 36.0,
+  "y": 636.0,
+  "w": 228.0,
+  "h": 228.0,
+  "vw": 304,
+  "vh": 304,
+  "fps": 24,
+  "frames": 122
+ }
+]

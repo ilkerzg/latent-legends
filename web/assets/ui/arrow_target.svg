@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="55.51 197.25 847.07 917.50" width="445" height="482"><defs><filter id="ol" filterUnits="userSpaceOnUse" x="64.1" y="204.9" width="831.9" height="902.3"><feMorphology in="SourceAlpha" operator="dilate" radius="25.5" result="d"/><feFlood flood-color="#160f2b" result="c"/><feComposite in="c" in2="d" operator="in" result="o"/><feMerge><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#ol)">
+  <defs>
+    <linearGradient id="gold-bevel" x1="0" y1="245" x2="0" y2="1065" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff13c" />
+      <stop offset="0.35" stop-color="#ffc400" />
+      <stop offset="0.65" stop-color="#ee9400" />
+      <stop offset="1" stop-color="#be5000" />
+    </linearGradient>
+    <linearGradient id="gold-face" x1="-140" y1="320" x2="165" y2="905" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff52f" />
+      <stop offset="0.44" stop-color="#ffda00" />
+      <stop offset="0.8" stop-color="#ffb700" />
+      <stop offset="1" stop-color="#ffe42a" />
+    </linearGradient>
+    <linearGradient id="gold-top" x1="0" y1="245" x2="0" y2="309" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff044" />
+      <stop offset="1" stop-color="#ffff8b" />
+    </linearGradient>
+    <linearGradient id="gold-left" x1="-194" y1="450" x2="-117" y2="445" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dd8700" />
+      <stop offset="1" stop-color="#ffc400" />
+    </linearGradient>
+    <linearGradient id="gold-right" x1="120" y1="450" x2="195" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd51a" />
+      <stop offset="1" stop-color="#d77a00" />
+    </linearGradient>
+    <linearGradient id="gold-lower-left" x1="-300" y1="670" x2="0" y2="1050" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#efa000" />
+      <stop offset="0.5" stop-color="#ed8a00" />
+      <stop offset="1" stop-color="#b95100" />
+    </linearGradient>
+    <linearGradient id="gold-lower-right" x1="240" y1="700" x2="70" y2="1030" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d87800" />
+      <stop offset="1" stop-color="#ffad00" />
+    </linearGradient>
+    <linearGradient id="gold-facet-light" x1="-125" y1="315" x2="72" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe600" />
+      <stop offset="1" stop-color="#ffff72" />
+    </linearGradient>
+    <linearGradient id="gold-shoulder" x1="0" y1="581" x2="0" y2="650" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffdf0b" />
+      <stop offset="1" stop-color="#ffff91" />
+    </linearGradient>
+    <linearGradient id="smooth-gold-edge" x1="0" y1="245" x2="0" y2="1054" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe900" />
+      <stop offset="0.48" stop-color="#ffbb00" />
+      <stop offset="0.84" stop-color="#e47b00" />
+      <stop offset="1" stop-color="#bf5100" />
+    </linearGradient>
+    <linearGradient id="smooth-gold" x1="-112" y1="285" x2="130" y2="967" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff220" />
+      <stop offset="0.38" stop-color="#ffdb00" />
+      <stop offset="0.62" stop-color="#ffc300" />
+      <stop offset="0.89" stop-color="#ff9e00" />
+      <stop offset="1" stop-color="#ffe82c" />
+    </linearGradient>
+    <linearGradient id="gold-sheen" x1="-190" y1="280" x2="80" y2="735" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff94c" />
+      <stop offset="0.55" stop-color="#ffe600" />
+      <stop offset="1" stop-color="#ffe921" />
+    </linearGradient>
+    <radialGradient id="gold-shoulder-glow" cx="0.5" cy="0" r="0.85">
+      <stop offset="0" stop-color="#ffffa0" />
+      <stop offset="0.55" stop-color="#ffe62c" />
+      <stop offset="1" stop-color="#ffd000" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="cream-edge" x1="-120" y1="260" x2="150" y2="1040" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff9e8" />
+      <stop offset="0.48" stop-color="#ffefbf" />
+      <stop offset="1" stop-color="#edc27e" />
+    </linearGradient>
+    <linearGradient id="cream-face" x1="0" y1="268" x2="45" y2="1028" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff0bc" />
+      <stop offset="0.48" stop-color="#fff3d1" />
+      <stop offset="0.53" stop-color="#fadd9e" />
+      <stop offset="1" stop-color="#f5d39b" />
+    </linearGradient>
+    <linearGradient id="cream-sheen" x1="-220" y1="300" x2="100" y2="705" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff1c5" />
+      <stop offset="1" stop-color="#fcefcd" />
+    </linearGradient>
+    <linearGradient id="ring-face" x1="-120" y1="300" x2="140" y2="998" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff2c9" />
+      <stop offset="0.5" stop-color="#ffe6ad" />
+      <stop offset="0.72" stop-color="#fff1c6" />
+      <stop offset="1" stop-color="#f4ce89" />
+    </linearGradient>
+    <linearGradient id="tick-face" x1="0" y1="0" x2="0.25" y2="1">
+      <stop offset="0" stop-color="#fff4d4" />
+      <stop offset="0.58" stop-color="#ffedba" />
+      <stop offset="1" stop-color="#ffe1a0" />
+    </linearGradient>
+    <linearGradient id="tick-edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf4" />
+      <stop offset="0.52" stop-color="#fff0c8" />
+      <stop offset="1" stop-color="#e6bb75" />
+    </linearGradient>
+  </defs>
+
+  <g id="faceted-gold-arrow" transform="translate(480 0)">
+    <path d="M-146 245H146Q190 245 194 286L180 581H310Q368 581 374 633Q378 650 363 669L18 1056Q0 1077-18 1056L-363 669Q-378 650-374 633Q-368 581-310 581H-180L-194 286Q-190 245-146 245Z" fill="url(#gold-bevel)" stroke="#382014" stroke-width="22" stroke-linejoin="round" />
+    <path d="M-146 245H146Q174 245 190 269L140 303H-140L-190 269Q-174 245-146 245Z" fill="url(#gold-top)" />
+    <path d="M-190 269L-140 303L-113 650L-180 581L-194 286Z" fill="url(#gold-left)" />
+    <path d="M190 269L140 303L106 650L180 581L194 286Z" fill="url(#gold-right)" />
+    <path d="M-180 581L-113 650H-374Q-373 604-343 589Q-328 581-310 581Z" fill="url(#gold-shoulder)" />
+    <path d="M180 581H310Q337 581 346 590L303 650H106Z" fill="url(#gold-shoulder)" />
+    <path d="M346 590Q373 605 374 649L303 650Z" fill="#ffc917" />
+    <path d="M-374 650H-287L-4 938L-8 1065Q-14 1064-22 1054L-363 669Z" fill="url(#gold-lower-left)" />
+    <path d="M303 650H374L363 669L18 1056Q6 1070-8 1065L-4 938Z" fill="url(#gold-lower-right)" />
+    <path d="M-140 303Q0 288 140 303L106 650H303L-4 938L-287 650H-113Z" fill="url(#gold-face)" />
+    <path d="M-140 303Q0 288 140 303L-113 650Z" fill="url(#gold-facet-light)" />
+    <path d="M-287 650L-134 807L-161 901L-363 669L-374 650Z" fill="#ffbc05" opacity="0.35" />
+    <path d="M303 650L139 812L166 892L363 669L374 650Z" fill="#d67a00" opacity="0.25" />
+    <path d="M-190 269L-140 303Q0 288 140 303L190 269" fill="none" stroke="#ffffb7" stroke-width="5" stroke-linejoin="round" />
+    <path d="M-140 306L-113 650L-287 650M140 306L106 650L303 650" fill="none" stroke="#fff887" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-238 700L-4 938L239 710" fill="none" stroke="#fff776" stroke-width="5" stroke-linecap="round" />
+    <path d="M-123 426C-130 365-91 321-29 310C-1 305 20 307 19 320C18 333-5 344-26 360C-64 388-87 418-105 439C-117 452-123 444-123 426Z" fill="#ffffff" />
+  </g>
+
+  <g id="glossy-gold-arrow" transform="translate(1440 0)">
+    <path d="M-111 245H113C167 245 201 282 201 341V555Q201 576 222 576H302C345 576 374 604 374 642Q374 674 345 706L66 1016Q35 1053 0 1053Q-36 1053-68 1016L-345 706Q-374 674-374 642C-374 604-345 576-302 576H-222Q-201 576-201 555V341C-201 282-166 245-111 245Z" fill="url(#smooth-gold-edge)" stroke="#382014" stroke-width="22" stroke-linejoin="round" />
+    <path d="M-110 269H112C154 269 180 296 180 343V558Q180 602 220 602H302Q344 602 344 635Q344 654 321 682L49 969Q23 992 0 992Q-24 992-51 967L-323 682Q-345 655-345 635Q-345 602-302 602H-220Q-180 602-180 558V343C-180 296-153 269-110 269Z" fill="url(#smooth-gold)" />
+    <path d="M-110 269H112C154 269 180 296 180 343V443C153 532 79 616 4 666C-79 721-184 761-264 750L-323 682Q-345 655-345 635Q-345 602-302 602H-220Q-180 602-180 558V343C-180 296-153 269-110 269Z" fill="url(#gold-sheen)" />
+    <path d="M-302 602H-220Q-192 602-183 581L-179 629C-220 657-278 676-326 674Q-345 651-345 635Q-345 602-302 602Z" fill="url(#gold-shoulder-glow)" />
+    <path d="M220 602H302Q344 602 344 635Q344 652 326 674C280 669 226 655 181 627L182 581Q193 602 220 602Z" fill="url(#gold-shoulder-glow)" />
+    <path d="M-165 429C-174 371-151 323-104 298C-70 280-30 276-10 284C10 292 11 311-8 324C-39 341-76 354-100 381C-121 404-134 432-146 445C-158 458-164 449-165 429Z" fill="#ffffff" />
+  </g>
+
+  <g id="cream-plus" transform="translate(2400 0)">
+    <path d="M-26 260H30C91 260 131 303 131 365V510H269C335 510 375 553 375 619V670C375 735 335 776 269 776H131V928C131 992 92 1032 30 1032H-30C-94 1032-132 992-132 928V776H-270C-335 776-375 735-375 670V619C-375 553-335 510-270 510H-132V365C-132 303-91 260-26 260Z" fill="url(#cream-edge)" stroke="#382014" stroke-width="22" stroke-linejoin="round" />
+    <path d="M-26 267H30C88 267 125 307 125 365V517H269C331 517 368 557 368 619V670C368 731 331 769 269 769H125V928C125 988 89 1025 30 1025H-30C-90 1025-125 987-125 928V769H-270C-331 769-368 731-368 670V619C-368 557-331 517-270 517H-125V365C-125 307-88 267-26 267Z" fill="url(#cream-face)" />
+    <path d="M-26 267H30C88 267 125 307 125 365V517H269C304 517 333 530 350 554C277 632 153 679 29 694C-117 712-260 697-368 649V619C-368 557-331 517-270 517H-125V365C-125 307-88 267-26 267Z" fill="url(#cream-sheen)" />
+    <path d="M-368 618C-368 557-331 517-270 517H-125M125 517H269C304 517 333 530 350 554" fill="none" stroke="#fffdf4" stroke-width="5" stroke-linecap="round" />
+    <path d="M-105 409C-115 372-99 337-74 317C-51 299-18 291 1 296C22 301 23 319 9 331C-6 344-29 356-48 376C-69 398-78 419-89 424C-100 430-104 419-105 409Z" fill="#ffffff" />
+    <path d="M-337 740Q-312 769-270 769H-125M125 769H269Q310 769 337 742M-81 1014Q-59 1025-30 1025H30Q59 1025 81 1013" fill="none" stroke="#fff0c5" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <g id="cream-crosshair" transform="translate(3360 0)">
+    <path d="M0 295C190 295 338 450 338 650C338 850 190 1005 0 1005C-190 1005-338 850-338 650C-338 450-190 295 0 295ZM0 379C-145 379-254 496-254 650C-254 804-145 921 0 921C145 921 254 804 254 650C254 496 145 379 0 379Z" fill="url(#cream-edge)" fill-rule="evenodd" stroke="#382014" stroke-width="20" stroke-linejoin="round" />
+    <path d="M0 302C186 302 331 454 331 650C331 846 186 998 0 998C-186 998-331 846-331 650C-331 454-186 302 0 302ZM0 372C-149 372-261 493-261 650C-261 807-149 928 0 928C149 928 261 807 261 650C261 493 149 372 0 372Z" fill="url(#ring-face)" fill-rule="evenodd" />
+    <path d="M-328 599C-305 427-171 302 0 302C171 302 305 427 328 599" fill="none" stroke="#fffaf0" stroke-width="5" stroke-linecap="round" />
+    <path d="M-258 684C-243 825-138 928 0 928C138 928 243 825 258 684" fill="none" stroke="#fff7dc" stroke-width="5" stroke-linecap="round" />
+    <path d="M-273 458C-239 401-190 358-140 337C-119 328-103 330-106 344C-109 356-137 371-162 391C-197 418-223 448-248 469C-266 483-281 480-273 458Z" fill="#ffffff" />
+
+    <g id="upper-tick">
+      <rect x="-42" y="230" width="84" height="246" rx="42" fill="url(#tick-edge)" stroke="#382014" stroke-width="20" />
+      <rect x="-36" y="236" width="72" height="228" rx="36" fill="url(#tick-face)" />
+      <path d="M-36 276V272C-36 252-21 236 0 236C21 236 36 252 36 272" fill="none" stroke="#fffdf5" stroke-width="5" stroke-linecap="round" />
+    </g>
+    <g id="lower-tick">
+      <rect x="-42" y="822" width="84" height="246" rx="42" fill="url(#tick-edge)" stroke="#382014" stroke-width="20" />
+      <rect x="-36" y="828" width="72" height="228" rx="36" fill="url(#tick-face)" />
+      <path d="M-36 869V864C-36 844-21 828 0 828C21 828 36 844 36 864" fill="none" stroke="#fffdf5" stroke-width="5" stroke-linecap="round" />
+    </g>
+    <g id="left-tick">
+      <rect x="-399" y="608" width="234" height="84" rx="42" fill="url(#tick-edge)" stroke="#382014" stroke-width="20" />
+      <rect x="-393" y="614" width="222" height="68" rx="34" fill="url(#tick-face)" />
+      <path d="M-388 631Q-378 614-359 614H-205Q-186 614-176 631" fill="none" stroke="#fffdf5" stroke-width="5" stroke-linecap="round" />
+    </g>
+    <g id="right-tick">
+      <rect x="165" y="608" width="234" height="84" rx="42" fill="url(#tick-edge)" stroke="#382014" stroke-width="20" />
+      <rect x="171" y="614" width="222" height="68" rx="34" fill="url(#tick-face)" />
+      <path d="M176 631Q186 614 205 614H359Q378 614 388 631" fill="none" stroke="#fffdf5" stroke-width="5" stroke-linecap="round" />
+    </g>
+    <g id="center-dot">
+      <ellipse cx="0" cy="650" rx="74" ry="77" fill="url(#tick-edge)" stroke="#382014" stroke-width="20" />
+      <ellipse cx="0" cy="647" rx="66" ry="68" fill="url(#tick-face)" />
+      <path d="M-56 638C-55 613-37 592-14 589C5 586 14 594 8 604C1 614-13 621-26 634C-36 643-43 654-50 653C-56 652-57 646-56 638Z" fill="#ffffff" />
+    </g>
+  </g>
+</g></svg>

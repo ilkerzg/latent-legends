@@ -1,0 +1,122 @@
+/* The balance page in the game's own look: key art behind, panels, lettering and buttons. A normal
+   scrolling page (not the fixed stage of play.css), from phone width up. */
+@font-face { font-family: 'Latent Legends'; src: url(assets/fonts/LatentLegends.woff2) format('woff2'); font-display: block; }   /* the game font */
+:root {
+  --ink: #fff;
+  --line: #1c1233;
+  --gold: #ffd36a;
+  --gold-2: #e59a28;
+  --el-fire: #ff7a3d; --el-wild: #74e05a; --el-storm: #ffe14a; --el-frost: #5cc8ff; --el-shadow: #b77bff;
+  /* the deck table leans blue below 50% and orange above: a pair colour blind eyes tell apart */
+  --lo: #3d8cff; --hi: #ff9a3d;
+  --display: 'Latent Legends', 'Lilita One', 'Nunito', system-ui, sans-serif;
+  --body: 'Nunito', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: #07050c; }
+body { margin: 0; color: var(--ink); font: 800 17px/1.4 var(--body); -webkit-font-smoothing: antialiased; }
+.bg { position: fixed; inset: 0; background: linear-gradient(#07050cb0, #07050cee 55%), url(assets/ui/keyart.webp) center top / cover; z-index: -1; }
+main { max-width: 1120px; margin: 0 auto; padding: 24px 16px 64px; display: flex; flex-direction: column; gap: 22px; }
+img.lbl { display: block; height: 100%; width: auto; max-width: 100%; }
+b, .val { font: 400 1em/1 var(--display); letter-spacing: .01em; -webkit-text-stroke: 5px var(--line); paint-order: stroke fill; }
+
+/* ---------- header ---------- */
+.hero { display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center; }
+.hero .logo { width: min(420px, 80vw); filter: drop-shadow(0 14px 20px #000c); }
+.hero h1 { margin: 0; height: clamp(44px, 8vw, 64px); }
+.lead { margin: 0; max-width: 620px; font-size: 19px; text-shadow: 0 2px 0 var(--line); }
+.note { margin: 0; min-height: 24px; font-size: 15px; opacity: .85; text-shadow: 0 2px 0 var(--line); }
+
+/* the chunky buttons, nine-sliced as in play.css */
+.bots button, .sort button, .play { --btn: url(assets/ui/btn_grey.svg); --cap: 22px; border: 0 solid transparent; border-image: var(--btn) 0 19.5% fill / 0 calc(var(--cap) * 1.36) / 0 stretch;
+  background: none; cursor: pointer; height: 64px; padding: 0 30px 6px; display: grid; place-items: center; filter: drop-shadow(0 6px 6px #0009) saturate(.8) brightness(.9);
+  transition: transform .12s, filter .2s; }
+.bots button:hover, .sort button:hover, .play:hover { transform: translateY(-2px); filter: drop-shadow(0 8px 8px #0009); }
+.bots button.on, .sort button.on { --btn: url(assets/ui/btn_green.svg); filter: drop-shadow(0 8px 10px #000a) drop-shadow(0 0 14px #7dff9c55); }
+.bots, .sort { display: flex; gap: 12px; justify-content: center; }
+.bots button { width: 190px; }
+.bots .lbl, .sort .lbl { height: 26px; }
+
+/* ---------- the panel ---------- */
+.plate { border: 40px solid transparent; border-image: url(assets/ui/panel.svg) 38.52% 21.56% 37.70% fill / 53.7px 78.9px 52.6px 78.9px / 13.7px 38.9px 12.6px 38.9px stretch; filter: drop-shadow(0 18px 24px #000b); padding: 4px 6px 8px; }
+.plate h2 { margin: -8px 0 12px; height: 40px; display: flex; justify-content: center; }
+.cap { margin: 0 auto 16px; max-width: 760px; text-align: center; font-size: 15px; opacity: .9; }
+
+/* ---------- headline numbers ---------- */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.stat { border: 26px solid transparent; border-image: url(assets/ui/panel.svg) 38.52% 21.56% 37.70% fill / 34.9px 51.3px 34.2px 51.3px / 8.9px 25.3px 8.2px 25.3px stretch; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 2px 0 4px; }
+.stat b { font-size: 40px; color: var(--gold); }
+.stat .lbl { height: 20px; }
+
+/* ---------- deck win rates ---------- */
+.decks { display: flex; flex-direction: column; gap: 10px; }
+.deck { display: grid; grid-template-columns: 96px 230px 1fr 92px; align-items: center; gap: 14px; padding: 8px 12px; border-radius: 16px; background: #0b1230cc; box-shadow: 0 0 0 3px var(--line), inset 0 0 0 2px #ffffff12; }
+.fan { position: relative; display: block; width: 96px; height: 76px; }
+.fan img { position: absolute; left: calc(var(--i) * 22px); top: 4px; width: 50px; height: 68px; object-fit: cover; object-position: 50% 18%; border-radius: 8px;
+  box-shadow: 0 0 0 2px var(--line), 0 4px 8px #0008; transform: rotate(calc((var(--i) - 1) * 6deg)); }
+.who { display: flex; flex-direction: column; gap: 6px; }
+.dlbl { height: 28px; width: auto; max-width: 100%; align-self: flex-start; }
+.els { display: flex; gap: 4px; }
+.el { height: 24px; width: auto; filter: drop-shadow(0 2px 2px #000a); }
+.bar { position: relative; height: 26px; border-radius: 14px; background: #1a1636; box-shadow: inset 0 3px 6px #000a, 0 0 0 3px var(--line); overflow: hidden; }
+.bar i { position: absolute; inset: 0 auto 0 0; width: var(--w); background: linear-gradient(#ffffff40, #0000 60%), var(--c); border-radius: 14px; transition: width .5s cubic-bezier(.2, 1, .3, 1); }
+/* the 50% mark: an even deck reaches it exactly */
+.bar s { position: absolute; left: 50%; top: -4px; bottom: -4px; width: 3px; background: #fff; box-shadow: 0 0 0 2px var(--line); }
+.deck .val { font-size: 32px; text-align: right; }
+
+/* ---------- deck against deck ---------- */
+.grid-wrap { overflow-x: auto; }
+.vs { border-collapse: separate; border-spacing: 6px; margin: 0 auto; }
+.vs th.col { padding: 0 2px 6px; vertical-align: bottom; }
+.vs th.col .fan { margin: 0 auto; transform: scale(.82); transform-origin: 50% 100%; }
+.vs th.col .els { justify-content: center; }
+.vs th.col .clbl { display: block; width: auto; height: auto; max-width: 100%; max-height: 18px; margin: 4px auto 0; }
+.vs th.row { text-align: right; padding-right: 8px; }
+.vs th.row .dlbl { height: 24px; margin-left: auto; }
+.vs td { width: 104px; height: 58px; text-align: center; border-radius: 12px; font: 400 24px/1 var(--display); -webkit-text-stroke: 5px var(--line); paint-order: stroke fill;
+  box-shadow: 0 0 0 3px var(--line); }
+.vs td.lo { background: color-mix(in srgb, var(--lo) calc(var(--t) * 75% + 10%), #151230); }
+.vs td.hi { background: color-mix(in srgb, var(--hi) calc(var(--t) * 75% + 10%), #151230); }
+.vs td.mirror { background: repeating-linear-gradient(45deg, #151230 0 8px, #1d1a40 8px 16px); }
+
+/* ---------- cards ---------- */
+.sort { margin-bottom: 14px; }
+.sort button { width: 170px; }
+.cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 18px; }
+.cards li { display: grid; grid-template-columns: 30px 46px 1fr 90px 76px; align-items: center; gap: 10px; padding: 6px 10px; border-radius: 12px; background: #0b1230cc; box-shadow: 0 0 0 2px var(--line); }
+.rank { font: 400 18px/1 var(--display); opacity: .7; text-align: right; }
+.pt { width: 46px; height: 46px; object-fit: cover; object-position: 50% 18%; border-radius: 50%; box-shadow: 0 0 0 2px var(--gold-2), 0 0 0 4px var(--line); }
+.nm { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.nmimg { width: auto; height: auto; max-height: 24px; max-width: calc(100% - 26px); min-width: 0; }
+.nm .el { height: 20px; }
+.mini { height: 10px; border-radius: 6px; background: #1a1636; box-shadow: 0 0 0 2px var(--line); overflow: hidden; }
+.mini i { display: block; height: 100%; background: var(--gold); }
+.cards .val { font-size: 24px; text-align: right; }
+.val.hi { color: #ffc27a; } .val.lo { color: #9cc4ff; }
+
+/* ---------- how we test ---------- */
+.how ul { margin: 0 auto 18px; max-width: 760px; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; }
+.play { --btn: url(assets/ui/btn_green.svg); --cap: 30px; width: 280px; height: 84px; margin: 0 auto; filter: drop-shadow(0 8px 10px #000a); }
+.play .lbl { height: 34px; }
+
+/* ---------- phones ---------- */
+@media (max-width: 760px) {
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .stat { border-width: 20px; border-image-width: 20px; }
+  .stat b { font-size: 32px; }
+  .stat .lbl { height: 16px; }
+  .bots button { width: 150px; }
+  .sort button { width: 140px; }
+  .deck { grid-template-columns: 70px 1fr 70px; grid-template-areas: 'fan who val' 'bar bar bar'; row-gap: 8px; }
+  .deck .fan { grid-area: fan; transform: scale(.75); transform-origin: 0 50%; }
+  .deck .who { grid-area: who; } .deck .val { grid-area: val; font-size: 26px; } .deck .bar { grid-area: bar; }
+  .cards { grid-template-columns: 1fr; }
+  .plate { border-width: 28px; border-image-width: 28px; }
+  .vs td { width: 72px; height: 46px; font-size: 18px; }
+  /* the row names stay in view while the table scrolls sideways */
+  .vs th.row { position: sticky; left: 0; z-index: 1; background: #10173a; border-radius: 10px; padding: 0 8px; }
+  .vs th.row .dlbl { height: auto; max-height: 20px; max-width: 96px; }
+  .cards li { grid-template-columns: 22px 40px minmax(0, 1fr) 64px; grid-template-areas: 'rank pt nm val' 'rank pt mini val'; gap: 4px 8px; }
+  .rank { grid-area: rank; } .pt { grid-area: pt; width: 40px; height: 40px; } .nm { grid-area: nm; } .mini { grid-area: mini; }
+  .cards .val { grid-area: val; font-size: 20px; }
+}

@@ -1,0 +1,303 @@
+{
+ "bot": "hard",
+ "games": 7200,
+ "gamesPerPair": 200,
+ "made": "2026-11-04",
+ "secs": 65.405,
+ "decks": [
+  {
+   "key": "balanced",
+   "name": "Balanced",
+   "games": 2400,
+   "win": 0.47583333333333333
+  },
+  {
+   "key": "ember_rush",
+   "name": "Ember Rush",
+   "games": 2400,
+   "win": 0.5375
+  },
+  {
+   "key": "frost_bastion",
+   "name": "Frost Bastion",
+   "games": 2400,
+   "win": 0.49416666666666664
+  },
+  {
+   "key": "storm_surge",
+   "name": "Storm Surge",
+   "games": 2400,
+   "win": 0.43291666666666667
+  },
+  {
+   "key": "shadow_veil",
+   "name": "Shadow Veil",
+   "games": 2400,
+   "win": 0.57
+  },
+  {
+   "key": "wild_grove",
+   "name": "Wild Grove",
+   "games": 2400,
+   "win": 0.4895833333333333
+  }
+ ],
+ "vs": {
+  "balanced": {
+   "ember_rush": 0.35375,
+   "frost_bastion": 0.69,
+   "storm_surge": 0.31875,
+   "shadow_veil": 0.40625,
+   "wild_grove": 0.58625
+  },
+  "ember_rush": {
+   "balanced": 0.64625,
+   "frost_bastion": 0.67375,
+   "storm_surge": 0.3425,
+   "shadow_veil": 0.41125,
+   "wild_grove": 0.65125
+  },
+  "frost_bastion": {
+   "balanced": 0.31,
+   "ember_rush": 0.32625,
+   "storm_surge": 0.5375,
+   "shadow_veil": 0.6775,
+   "wild_grove": 0.61375
+  },
+  "storm_surge": {
+   "balanced": 0.68125,
+   "ember_rush": 0.6575,
+   "frost_bastion": 0.4625,
+   "shadow_veil": 0.165,
+   "wild_grove": 0.13125
+  },
+  "shadow_veil": {
+   "balanced": 0.59375,
+   "ember_rush": 0.58875,
+   "frost_bastion": 0.3225,
+   "storm_surge": 0.835,
+   "wild_grove": 0.58
+  },
+  "wild_grove": {
+   "balanced": 0.41375,
+   "ember_rush": 0.34875,
+   "frost_bastion": 0.38625,
+   "storm_surge": 0.86875,
+   "shadow_veil": 0.42
+  }
+ },
+ "firstPlayerWin": 0.4639564124056999,
+ "draws": 0.005833333333333334,
+ "rounds": 11.09125,
+ "ends": {
+  "shrines": 0.9079166666666667,
+  "turnLimit": 0.09208333333333334
+ },
+ "cards": [
+  {
+   "id": "spark",
+   "played": 10342,
+   "win": 0.516196093598917
+  },
+  {
+   "id": "ember_warden",
+   "played": 7936,
+   "win": 0.5060483870967742
+  },
+  {
+   "id": "lava_pool",
+   "played": 7420,
+   "win": 0.5089622641509434
+  },
+  {
+   "id": "frost_reaver",
+   "played": 6221,
+   "win": 0.5292557466645234
+  },
+  {
+   "id": "cinder_raider",
+   "played": 5658,
+   "win": 0.5542594556380347
+  },
+  {
+   "id": "icicle_sniper",
+   "played": 5328,
+   "win": 0.4733483483483483
+  },
+  {
+   "id": "pyre_sage",
+   "played": 5151,
+   "win": 0.5020384391380315
+  },
+  {
+   "id": "glacier_shield",
+   "played": 4389,
+   "win": 0.4969241285030759
+  },
+  {
+   "id": "hearth_keeper",
+   "played": 4361,
+   "win": 0.486929603301995
+  },
+  {
+   "id": "thunder_bulwark",
+   "played": 4210,
+   "win": 0.45866983372921616
+  },
+  {
+   "id": "void_bolt",
+   "played": 4139,
+   "win": 0.5413143271321575
+  },
+  {
+   "id": "fireball",
+   "played": 4058,
+   "win": 0.5223016264169542
+  },
+  {
+   "id": "flare_archer",
+   "played": 4041,
+   "win": 0.5532046523137837
+  },
+  {
+   "id": "frost_nova",
+   "played": 4014,
+   "win": 0.489785749875436
+  },
+  {
+   "id": "chain_lightning",
+   "played": 3957,
+   "win": 0.4733383876674248
+  },
+  {
+   "id": "gale_duelist",
+   "played": 3851,
+   "win": 0.4676707348740587
+  },
+  {
+   "id": "night_blade",
+   "played": 3800,
+   "win": 0.5227631578947368
+  },
+  {
+   "id": "crystal_wall",
+   "played": 3752,
+   "win": 0.4632196162046908
+  },
+  {
+   "id": "crystal_wall_token",
+   "played": 3752,
+   "win": 0.4632196162046908
+  },
+  {
+   "id": "umbral_hunter",
+   "played": 3535,
+   "win": 0.5646393210749646
+  },
+  {
+   "id": "spark_archer",
+   "played": 3322,
+   "win": 0.5155027092113185
+  },
+  {
+   "id": "mirror",
+   "played": 3309,
+   "win": 0.5194922937443336
+  },
+  {
+   "id": "dusk_oracle",
+   "played": 2994,
+   "win": 0.5586172344689379
+  },
+  {
+   "id": "snow_lantern",
+   "played": 2914,
+   "win": 0.4529855868222375
+  },
+  {
+   "id": "rime_witch",
+   "played": 2666,
+   "win": 0.5356339084771192
+  },
+  {
+   "id": "regrowth",
+   "played": 2265,
+   "win": 0.48874172185430464
+  },
+  {
+   "id": "thorns",
+   "played": 2259,
+   "win": 0.4767596281540505
+  },
+  {
+   "id": "barkhide",
+   "played": 2152,
+   "win": 0.5051115241635687
+  },
+  {
+   "id": "gravity_well",
+   "played": 2124,
+   "win": 0.5635593220338984
+  },
+  {
+   "id": "bloom_tender",
+   "played": 2093,
+   "win": 0.47873865265169613
+  },
+  {
+   "id": "briar_slinger",
+   "played": 1930,
+   "win": 0.4795336787564767
+  },
+  {
+   "id": "grove_shaman",
+   "played": 1887,
+   "win": 0.47005829358770534
+  },
+  {
+   "id": "thorn_stalker",
+   "played": 1780,
+   "win": 0.525561797752809
+  },
+  {
+   "id": "gloom_sentinel",
+   "played": 1757,
+   "win": 0.6667615253272624
+  },
+  {
+   "id": "mimic",
+   "played": 1681,
+   "win": 0.4672813801308745
+  },
+  {
+   "id": "void_weaver",
+   "played": 1657,
+   "win": 0.5648762824381413
+  },
+  {
+   "id": "tempest_caller",
+   "played": 1582,
+   "win": 0.41624525916561317
+  },
+  {
+   "id": "rebirth",
+   "played": 1507,
+   "win": 0.56635700066357
+  },
+  {
+   "id": "squall_mender",
+   "played": 1441,
+   "win": 0.44691186675919503
+  },
+  {
+   "id": "swap",
+   "played": 1374,
+   "win": 0.45524017467248906
+  },
+  {
+   "id": "gust",
+   "played": 870,
+   "win": 0.48333333333333334
+  }
+ ]
+}

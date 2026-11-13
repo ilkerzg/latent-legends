@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 538 768" width="538" height="768"><defs><g id="frame"><g fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.22" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#fff6a1" />
+      <stop offset=".16" stop-color="#ffda30" />
+      <stop offset=".36" stop-color="#bb6908" />
+      <stop offset=".51" stop-color="#fff36b" />
+      <stop offset=".7" stop-color="#efaa09" />
+      <stop offset=".89" stop-color="#ffdc38" />
+      <stop offset="1" stop-color="#a95604" />
+    </linearGradient>
+    <linearGradient id="goldSide" x1="0" y1="0" x2="1" y2=".15">
+      <stop stop-color="#9a4c05" />
+      <stop offset=".19" stop-color="#ffcd22" />
+      <stop offset=".34" stop-color="#fff6a5" />
+      <stop offset=".48" stop-color="#ffda2c" />
+      <stop offset=".73" stop-color="#cc7d05" />
+      <stop offset=".88" stop-color="#ffe450" />
+      <stop offset="1" stop-color="#a65706" />
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2=".65">
+      <stop stop-color="#164e06" />
+      <stop offset=".21" stop-color="#2eae0a" />
+      <stop offset=".39" stop-color="#087006" />
+      <stop offset=".62" stop-color="#03451c" />
+      <stop offset=".83" stop-color="#159600" />
+      <stop offset="1" stop-color="#033817" />
+    </linearGradient>
+    <linearGradient id="greenTop" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#a0ed43" />
+      <stop offset=".35" stop-color="#35c00a" />
+      <stop offset="1" stop-color="#035517" />
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2=".8">
+      <stop stop-color="#effe95" />
+      <stop offset=".23" stop-color="#a7e530" />
+      <stop offset=".55" stop-color="#54b30b" />
+      <stop offset="1" stop-color="#125900" />
+    </linearGradient>
+    <linearGradient id="leafDark" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c9f966" />
+      <stop offset=".4" stop-color="#69bc0a" />
+      <stop offset="1" stop-color="#155c02" />
+    </linearGradient>
+    <linearGradient id="vine" x1="0" y1="0" x2="1" y2=".2">
+      <stop stop-color="#2c6805" />
+      <stop offset=".31" stop-color="#bce953" />
+      <stop offset=".53" stop-color="#81ce20" />
+      <stop offset="1" stop-color="#246900" />
+    </linearGradient>
+    <linearGradient id="navy" x1=".18" y1="0" x2=".7" y2="1">
+      <stop stop-color="#2856a8" />
+      <stop offset=".4" stop-color="#0b2d74" />
+      <stop offset="1" stop-color="#07153e" />
+    </linearGradient>
+    <linearGradient id="bannerBlue" x1=".3" y1="0" x2=".65" y2="1">
+      <stop stop-color="#103d91" />
+      <stop offset=".5" stop-color="#071f60" />
+      <stop offset="1" stop-color="#051239" />
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="1" y2=".5">
+      <stop stop-color="#fff" />
+      <stop offset=".3" stop-color="#f4ffff" />
+      <stop offset="1" stop-color="#75b6ff" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="spike" x1="0" y1="0" x2="1" y2=".7">
+      <stop stop-color="#fffbd1" />
+      <stop offset=".4" stop-color="#ffe539" />
+      <stop offset=".6" stop-color="#ffbf13" />
+      <stop offset="1" stop-color="#ad5d03" />
+    </linearGradient>
+  </defs>
+
+  <g id="card-rim">
+    <path fill="url(#gold)" fill-rule="evenodd" stroke="#201a08" stroke-width="5" stroke-linejoin="round" d="M159 65 C266 76 372 49 465 49 Q536 38 606 52 C701 59 756 90 818 83 C894 73 955 82 995 118 Q1037 154 1036 223 L1036 1339 Q1047 1433 984 1473 C928 1510 839 1483 758 1481 Q626 1478 536 1522 Q448 1479 316 1482 C234 1484 147 1512 87 1474 Q22 1435 32 1340 L37 221 Q33 135 82 96 Q113 70 159 65 Z M230 154 C174 154 129 199 129 255 L129 821 C129 877 174 922 230 922 L832 922 C888 922 933 877 933 821 L933 255 C933 199 888 154 832 154 Z" />
+    <path fill="url(#green)" fill-rule="evenodd" stroke="#795000" stroke-width="3" d="M160 88 C269 98 379 69 469 70 Q536 58 603 73 C697 78 758 112 820 105 C889 95 946 101 977 133 Q1015 164 1013 226 L1013 1338 Q1023 1410 969 1448 C923 1479 844 1457 758 1459 Q623 1457 536 1497 Q446 1455 315 1460 C231 1460 155 1481 104 1448 Q49 1414 56 1339 L60 222 Q56 150 97 118 Q123 93 160 88 Z M230 154 C174 154 129 199 129 255 L129 821 C129 877 174 922 230 922 L832 922 C888 922 933 877 933 821 L933 255 C933 199 888 154 832 154 Z" />
+    <path d="M281 88 Q398 56 468 59 Q536 48 606 62 C712 72 759 102 822 93 Q929 76 978 122 M1025 252 L1025 1329 Q1034 1408 987 1450 M47 303 L44 1331 Q36 1417 100 1459 Q147 1493 240 1475 M285 1470 Q444 1459 536 1509 Q641 1462 790 1471" stroke="#fff28e" stroke-width="4" stroke-linecap="round" />
+    <path d="M66 297 L65 1342 Q58 1410 113 1437 Q151 1458 220 1449 M1002 274 L1002 1345 Q1008 1405 958 1436" stroke="#45a71a" stroke-width="4" />
+    <path d="M285 104 Q407 69 478 82 L508 137 Q379 122 275 143 Z M565 137 L592 84 C697 89 758 127 829 117 Q919 108 960 143 Q863 117 817 141 L565 141 Z" fill="url(#greenTop)" />
+    <path d="M306 113 Q358 90 404 91 Q428 95 405 103 Q353 106 306 113 Z M657 98 Q701 98 754 117 Q692 110 657 108 Q645 105 657 98 Z" fill="#f3ffdd" />
+    <path d="M79 330 Q97 297 112 304 L109 849 Q91 891 74 927 Z M956 282 Q985 309 989 350 L989 860 Q976 887 953 906 Z" fill="#2bc609" opacity=".38" />
+    <path d="M112 1395 Q151 1423 235 1415 L316 1425 Q427 1417 479 1437 Q385 1421 280 1443 C190 1460 148 1453 112 1428 Z M604 1436 Q700 1410 784 1427 L938 1418 Q913 1454 826 1444 Q709 1422 604 1436 Z" fill="url(#greenTop)" />
+  </g>
+
+  <g id="side-vines" stroke-linejoin="round">
+    <path d="M118 264 C48 290 39 344 73 395 C114 449 111 482 68 524 C20 570 12 611 42 643 C22 599 57 563 87 539 C138 493 126 444 94 397 C65 351 74 300 131 287 Z" fill="url(#vine)" stroke="#194602" stroke-width="4" />
+    <path d="M106 302 C68 329 65 358 83 390 M75 515 C40 549 24 581 30 610" stroke="#e6ff9b" stroke-width="4" stroke-linecap="round" />
+    <path d="M63 550 C38 601 56 628 83 654 C114 683 105 716 82 743 C63 765 68 801 87 819 C74 781 87 766 105 744 C137 707 118 664 94 643 C67 618 64 584 76 559 Z" fill="url(#vine)" stroke="#235506" stroke-width="3" />
+    <path d="M60 592 Q62 619 88 642 M86 743 Q68 766 77 791" stroke="#d4f78b" stroke-width="4" />
+    <path d="M82 811 C120 838 131 872 118 909 C103 956 53 960 63 1006 L85 1022 C68 979 119 967 137 924 C155 878 129 825 90 800 Z" fill="url(#vine)" stroke="#265b02" stroke-width="3" />
+    <path d="M117 1060 C125 1106 76 1114 43 1151 C7 1192 7 1239 35 1268 C21 1225 43 1187 83 1158 C125 1127 144 1103 135 1065 Z" fill="url(#vine)" stroke="#154400" stroke-width="4" />
+    <path d="M119 1096 C100 1126 67 1135 42 1171 Q20 1202 24 1231" stroke="#dcff92" stroke-width="4" stroke-linecap="round" />
+    <path d="M70 1271 C47 1325 57 1374 107 1405 C146 1430 182 1420 210 1407 L190 1393 C161 1406 139 1405 113 1389 C72 1367 67 1326 85 1281 Z" fill="url(#vine)" stroke="#255807" stroke-width="3" />
+    <path d="M72 1322 Q64 1379 124 1401 Q156 1416 185 1403" stroke="#d6f78d" stroke-width="4" />
+
+    <path d="M953 291 C1003 317 1005 370 975 415 C945 460 955 489 1000 520 C1051 555 1073 605 1034 654 C1058 593 1012 564 980 543 C926 508 922 463 954 417 C984 373 986 330 944 307 Z" fill="url(#vine)" stroke="#143e02" stroke-width="4" />
+    <path d="M969 321 Q995 362 967 408 M948 469 C949 506 991 526 1015 547 Q1046 573 1048 599" stroke="#d8f88b" stroke-width="4" stroke-linecap="round" />
+    <path d="M991 550 C1023 597 994 630 973 651 C943 680 943 713 969 741 L965 771 C923 738 920 690 955 652 C980 624 996 603 980 561 Z" fill="url(#vine)" stroke="#245803" stroke-width="3" />
+    <path d="M992 589 C997 622 962 643 948 675" stroke="#e0fa9c" stroke-width="5" stroke-linecap="round" />
+    <path d="M971 710 C1007 731 1018 763 997 806 C974 845 944 849 947 906 L927 927 C916 860 949 835 974 798 C999 762 977 739 963 729 Z" fill="url(#vine)" stroke="#174a02" stroke-width="3" />
+    <path d="M978 744 Q1005 776 972 816 M952 845 Q934 871 938 899" stroke="#cef881" stroke-width="4" stroke-linecap="round" />
+    <path d="M952 1055 C924 1099 960 1128 996 1154 C1034 1184 1068 1220 1034 1270 C1089 1217 1039 1164 1010 1140 C980 1116 957 1090 973 1069 Z" fill="url(#vine)" stroke="#184302" stroke-width="4" />
+    <path d="M947 1088 C949 1123 993 1145 1018 1174 Q1042 1202 1042 1228" stroke="#e5ffa1" stroke-width="4" stroke-linecap="round" />
+    <path d="M986 1254 C1017 1314 1006 1363 967 1394 C930 1422 903 1420 864 1406 L883 1393 C910 1405 931 1403 954 1386 C987 1361 996 1315 971 1267 Z" fill="url(#vine)" stroke="#235707" stroke-width="3" />
+    <path d="M990 1313 Q1002 1365 955 1395 Q930 1413 902 1407" stroke="#d8fa8d" stroke-width="4" />
+  </g>
+
+  <g id="leaves" stroke="#204f04" stroke-width="3" stroke-linejoin="round">
+    <path d="M95 474 C98 437 56 446 45 412 C33 383 47 365 28 349 C24 345 29 341 43 343 C96 344 127 373 114 416 Q109 449 95 474 Z" fill="url(#leaf)" />
+    <path d="M39 350 C74 376 101 406 95 459 C83 414 66 413 52 404" stroke="#b1e843" stroke-width="2" />
+    <path d="M49 352 C78 354 92 368 89 385 Q77 372 67 365 Z" fill="#faffde" stroke="none" />
+    <path d="M959 472 C924 442 934 395 961 371 C987 345 1020 342 1042 343 C1047 344 1045 348 1041 351 C1016 376 1035 409 1014 433 C998 451 967 440 959 472 Z" fill="url(#leaf)" />
+    <path d="M1033 350 C982 374 951 414 959 461 M967 417 Q988 411 1008 390" stroke="#bce94c" stroke-width="2" />
+    <path d="M969 376 Q987 357 1010 356 Q984 374 968 398 Q963 388 969 376 Z" fill="#fcffe7" stroke="none" />
+    <path d="M61 1308 C35 1287 26 1261 37 1227 C49 1191 87 1170 117 1168 C121 1168 124 1171 120 1174 C100 1194 122 1224 104 1251 C90 1275 65 1262 61 1308 Z" fill="url(#leaf)" />
+    <path d="M115 1175 C79 1204 47 1249 61 1296 M57 1258 Q72 1244 97 1235" stroke="#c2ed5a" stroke-width="2" />
+    <path d="M82 1189 Q92 1180 100 1181 Q89 1203 79 1215 Q74 1207 82 1189 Z" fill="#fff" stroke="none" />
+    <path d="M995 1314 C992 1282 956 1284 945 1256 C932 1228 952 1204 935 1190 C930 1185 937 1184 945 1186 C985 1190 1017 1213 1019 1250 Q1022 1284 995 1314 Z" fill="url(#leaf)" />
+    <path d="M944 1193 C982 1224 1003 1258 995 1305 M992 1262 Q974 1249 955 1243" stroke="#b1e644" stroke-width="2" />
+    <path d="M972 1206 Q993 1212 1001 1235 C986 1233 977 1221 972 1206 Z" fill="#fbffdb" stroke="none" />
+    <path d="M131 1401 C170 1413 183 1375 227 1389 C260 1398 284 1417 303 1442 C264 1423 252 1466 216 1448 C185 1432 163 1416 131 1401 Z" fill="url(#leafDark)" />
+    <path d="M147 1405 Q227 1393 285 1435" stroke="#cdf576" stroke-width="3" />
+    <path d="M222 1480 C242 1423 285 1385 334 1385 C382 1384 414 1405 444 1441 C400 1424 365 1432 333 1454 C296 1482 274 1436 222 1480 Z" fill="url(#leaf)" />
+    <path d="M232 1464 C295 1408 363 1402 420 1428" stroke="#c5f16d" stroke-width="3" />
+    <path d="M327 1397 Q341 1391 352 1404 Q341 1410 332 1411 Z" fill="#fff" stroke="none" />
+    <path d="M941 1401 C900 1412 889 1376 845 1389 C814 1398 786 1419 769 1443 C807 1424 825 1465 855 1448 C884 1431 911 1414 941 1401 Z" fill="url(#leafDark)" />
+    <path d="M925 1405 Q850 1393 788 1434" stroke="#d1f97b" stroke-width="3" />
+    <path d="M844 1480 C822 1423 781 1386 732 1385 C689 1384 649 1404 623 1441 C663 1425 697 1430 731 1455 C768 1481 791 1435 844 1480 Z" fill="url(#leaf)" />
+    <path d="M834 1464 C776 1410 702 1402 646 1429" stroke="#cdf475" stroke-width="3" />
+    <path d="M717 1403 Q727 1390 742 1398 L737 1411 Z" fill="#fff" stroke="none" />
+  </g>
+
+  <g id="art-window-rim">
+    <path fill="url(#goldSide)" fill-rule="evenodd" stroke="#4d3004" stroke-width="3" d="M230 135 L832 135 C899 135 952 188 952 255 L952 821 C952 888 899 941 832 941 L230 941 C163 941 110 888 110 821 L110 255 C110 188 163 135 230 135 Z M230 154 C174 154 129 199 129 255 L129 821 C129 877 174 922 230 922 L832 922 C888 922 933 877 933 821 L933 255 C933 199 888 154 832 154 Z" />
+    <path d="M122 818 L122 255 C122 194 170 144 230 144 L832 144 C893 144 943 194 943 255 L943 821 C943 882 893 931 832 931 L230 931 C176 931 131 893 123 840" stroke="#fff18a" stroke-width="4" />
+    <path d="M137 826 Q140 912 232 916 L832 916 Q924 914 926 821 L926 255 Q926 190 873 166" stroke="#b57708" stroke-width="2" />
+    <path d="M288 140 L349 140 L333 147 L284 147 Z M872 150 Q906 162 923 190 L912 182 Q895 162 872 157 Z M142 875 L153 886 L174 903 L163 901 Z M239 926 L282 926 L269 933 L228 933 Z M692 926 L732 926 L719 933 L681 933 Z M896 903 L916 882 L906 899 L885 915 Z" fill="#fffef0" />
+  </g>
+
+  <g id="top-crown" stroke-linejoin="round">
+    <path d="M487 91 L536 10 L583 91 Q568 111 555 150 L536 177 L516 146 Q506 111 487 91 Z" fill="url(#spike)" stroke="#251d06" stroke-width="4" />
+    <path d="M536 14 L536 104 L494 94 C517 77 529 42 536 14 Z" fill="#fff9b2" />
+    <path d="M536 14 L574 91 L536 104 Z" fill="#ffca1c" />
+    <path d="M494 94 L536 104 L536 169 C524 127 517 112 494 94 Z" fill="#ffdf34" />
+    <path d="M574 94 Q554 115 539 166 L539 106 Z" fill="#bd7005" />
+    <path d="M531 39 Q526 80 506 91 L533 87 Z" fill="#fff" />
+    <path d="M490 133 Q467 110 436 116 L422 65 Q468 88 490 133 Z" fill="url(#spike)" stroke="#302306" stroke-width="3" />
+    <path d="M426 70 L446 104 L436 113 Z" fill="#fff8c3" />
+    <path d="M582 133 Q603 111 636 116 L650 65 Q606 87 582 133 Z" fill="url(#spike)" stroke="#302306" stroke-width="3" />
+    <path d="M646 71 Q614 93 600 111 L626 102 Z" fill="#fffac2" />
+  </g>
+
+  <g id="cost-socket">
+    <circle cx="161" cy="164" r="127" fill="url(#gold)" stroke="#241c08" stroke-width="5" />
+    <circle cx="161" cy="164" r="111" fill="#b67504" stroke="#fff18b" stroke-width="3" />
+    <circle cx="161" cy="164" r="102" fill="url(#navy)" stroke="#07122b" stroke-width="7" />
+    <path d="M68 163 C66 108 109 67 160 65 Q214 66 245 109" stroke="#618bda" stroke-width="3" />
+    <path d="M80 226 Q114 264 163 264 Q222 262 251 207 Q237 251 193 267 Q124 286 80 226 Z" fill="#3f76bd" />
+    <path d="M91 105 C102 90 128 79 139 84 C151 92 112 111 91 137 C87 127 87 115 91 105 Z" fill="url(#gloss)" />
+    <path d="M48 137 Q58 92 100 63 Q119 50 139 47" stroke="#fff7aa" stroke-width="5" stroke-linecap="round" />
+    <path d="M195 283 Q253 267 279 211" stroke="#a65b03" stroke-width="5" stroke-linecap="round" />
+    <path d="M161 7 L186 55 Q168 61 161 78 Q151 60 137 55 Z" fill="url(#spike)" stroke="#271f09" stroke-width="4" stroke-linejoin="round" />
+    <path d="M161 14 L161 71 L143 54 Q156 39 161 14 Z" fill="#fff8b2" />
+    <path d="M154 33 L158 26 L156 55 L147 54 Z" fill="#fff" />
+    <path d="M35 143 L7 164 L35 185 L59 164 Z" fill="url(#spike)" stroke="#271f09" stroke-width="4" stroke-linejoin="round" />
+    <path d="M11 162 L36 148 L52 162 Z" fill="#fff6ae" />
+    <path d="M286 143 L315 164 L287 185 L264 164 Z" fill="url(#spike)" stroke="#271f09" stroke-width="4" stroke-linejoin="round" />
+    <path d="M269 162 L285 148 L308 162 Z" fill="#fff7ac" />
+    <path d="M137 281 L161 324 L185 281 Q169 281 161 261 Q155 277 137 281 Z" fill="url(#spike)" stroke="#271f09" stroke-width="4" stroke-linejoin="round" />
+    <path d="M161 267 L161 315 L144 283 Q156 280 161 267 Z" fill="#fff392" />
+    <path d="M73 75 L90 64 L109 58 L96 67 L81 80 Z M213 250 L226 240 L232 245 L220 257 Z" fill="#fff" />
+  </g>
+
+  <g id="empty-name-banner">
+    <path d="M154 945 L902 945 C946 945 968 961 986 988 Q1000 1007 1042 1013 Q1002 1027 985 1050 C965 1076 943 1082 902 1082 L154 1082 C114 1082 86 1069 70 1048 Q54 1025 22 1013 Q53 1002 71 979 C91 954 113 945 154 945 Z" fill="url(#gold)" stroke="#302006" stroke-width="4" stroke-linejoin="round" />
+    <path d="M155 954 L900 954 Q951 954 974 991 Q991 1010 1029 1013 M35 1012 Q66 1005 82 981 Q104 954 155 954" stroke="#fff6a3" stroke-width="4" />
+    <path d="M83 1049 Q108 1074 157 1073 L901 1073 Q950 1073 974 1049" stroke="#a95c04" stroke-width="5" />
+    <rect x="96" y="963" width="875" height="102" rx="51" fill="url(#bannerBlue)" stroke="#573202" stroke-width="5" />
+    <rect x="101" y="967" width="865" height="94" rx="47" stroke="#071330" stroke-width="4" />
+    <path d="M124 994 Q131 972 169 973 L269 973 C203 977 160 981 124 1004 Z" fill="url(#gloss)" />
+    <path d="M121 1038 Q139 1059 167 1059 L897 1059 Q940 1059 958 1030" stroke="#3967a4" stroke-width="3" />
+    <path d="M27 1013 L78 1006 L70 1040 Z M1038 1013 L983 1007 L987 1039 Z" fill="url(#spike)" />
+    <path d="M92 967 Q114 950 145 951 L170 951 L149 959 Q116 958 99 974 Z M220 1070 L265 1070 L253 1077 L210 1077 Z M786 1070 L823 1070 L811 1077 L774 1077 Z M929 953 Q950 959 961 974 L949 970 L935 960 Z" fill="#fffdeb" />
+  </g>
+
+  <g id="rules-panel">
+    <rect x="146" y="1106" width="780" height="307" rx="35" fill="#133a0a" stroke="#123405" stroke-width="4" />
+    <rect x="147" y="1107" width="778" height="305" rx="34" fill="url(#gold)" stroke="#784704" stroke-width="2" />
+    <path d="M152 1142 Q152 1112 183 1112 L889 1112 Q920 1112 920 1142" stroke="#fff5a2" stroke-width="4" />
+    <path d="M154 1378 Q154 1406 184 1406 L888 1406 Q918 1406 918 1378" stroke="#ad6407" stroke-width="4" />
+    <rect x="161" y="1121" width="750" height="277" rx="21" fill="#0a163c" stroke="#563507" stroke-width="3" />
+    <path d="M156 1377 Q156 1401 183 1402 L887 1402 Q914 1402 916 1378" stroke="#fff08c" stroke-width="3" />
+    <path d="M179 1109 L217 1109 L208 1115 L173 1115 Z M522 1109 L549 1109 L542 1114 L516 1114 Z M881 1400 L897 1396 L906 1388 L901 1399 L890 1404 Z M165 1394 L176 1399 L192 1400 L188 1405 L175 1403 Z" fill="#fffde7" />
+  </g>
+
+  <g id="bottom-center-finial" stroke-linejoin="round">
+    <path d="M536 1393 C526 1433 506 1450 482 1464 C510 1482 522 1509 536 1530 C550 1507 561 1481 590 1464 C563 1446 548 1425 536 1393 Z" fill="url(#spike)" stroke="#2b2006" stroke-width="4" />
+    <path d="M536 1401 L536 1464 L490 1464 Q523 1445 536 1401 Z" fill="#fff8b3" />
+    <path d="M536 1401 Q548 1446 581 1464 L536 1464 Z" fill="#ffcf23" />
+    <path d="M490 1464 L536 1464 L536 1520 Q522 1477 490 1464 Z" fill="#e9a20b" />
+    <path d="M581 1464 Q552 1481 536 1520 L536 1464 Z" fill="#b96d05" />
+    <path d="M530 1426 L532 1459 L508 1458 Q523 1444 530 1426 Z" fill="#fff" />
+    <path d="M542 1473 L565 1468 Q549 1485 541 1504 Z" fill="#ffd636" />
+  </g>
+</g></g><clipPath id="fb0"><rect x="0" y="565.240" width="538" height="115.710"/></clipPath><clipPath id="fb1"><rect x="0" y="0.000" width="538" height="566.740"/></clipPath><clipPath id="fb2"><rect x="0" y="679.451" width="538" height="88.549"/></clipPath></defs><g clip-path="url(#fb0)" opacity="0.999"><use xlink:href="#frame" href="#frame" transform="matrix(0.501866,0,0,0.595341,-0.000,-126.737)"/></g><g clip-path="url(#fb1)" opacity="0.999"><use xlink:href="#frame" href="#frame" transform="matrix(0.501866,0,0,0.486461,-0.000,0.000)"/></g><g clip-path="url(#fb2)" opacity="0.999"><use xlink:href="#frame" href="#frame" transform="matrix(0.501866,0,0,0.486461,-0.000,20.796)"/></g></svg>

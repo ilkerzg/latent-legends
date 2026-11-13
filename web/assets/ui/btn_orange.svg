@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="2062.09 1340.37 1635.82 559.25" width="640" height="214" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff49b" />
+      <stop offset=".065" stop-color="#ffe747" />
+      <stop offset=".24" stop-color="#ffcb18" />
+      <stop offset=".46" stop-color="#c17b00" />
+      <stop offset=".65" stop-color="#ffcf16" />
+      <stop offset=".84" stop-color="#f9b600" />
+      <stop offset="1" stop-color="#a75200" />
+    </linearGradient>
+    <linearGradient id="lowerGold" x1="85" y1="0" x2="1535" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a55400" />
+      <stop offset=".09" stop-color="#ffc82b" />
+      <stop offset=".19" stop-color="#b86b00" />
+      <stop offset=".27" stop-color="#ffe66a" />
+      <stop offset=".35" stop-color="#c47a00" />
+      <stop offset=".7" stop-color="#cd8200" />
+      <stop offset=".85" stop-color="#ffdf40" />
+      <stop offset=".94" stop-color="#b76a00" />
+      <stop offset="1" stop-color="#8e4000" />
+    </linearGradient>
+    <linearGradient id="innerGold" x1="0" y1="47" x2="0" y2="493" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c98a00" />
+      <stop offset=".22" stop-color="#875000" />
+      <stop offset=".52" stop-color="#e7a700" />
+      <stop offset=".82" stop-color="#ffd325" />
+      <stop offset="1" stop-color="#fff6a2" />
+    </linearGradient>
+    <linearGradient id="capGold" x1="0" y1="175" x2="0" y2="357" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7a4" />
+      <stop offset=".46" stop-color="#ffdc27" />
+      <stop offset=".52" stop-color="#ffe86b" />
+      <stop offset=".57" stop-color="#da9200" />
+      <stop offset="1" stop-color="#a35400" />
+    </linearGradient>
+    <linearGradient id="blueFace" x1="0" y1="65" x2="0" y2="475" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009af9" />
+      <stop offset=".44" stop-color="#004fee" />
+      <stop offset=".85" stop-color="#0016c6" />
+      <stop offset="1" stop-color="#0028e8" />
+    </linearGradient>
+    <linearGradient id="blueGloss" x1="0" y1="80" x2="0" y2="306" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3ecbff" />
+      <stop offset="1" stop-color="#0068ff" />
+    </linearGradient>
+    <linearGradient id="greenFace" x1="0" y1="65" x2="0" y2="475" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#47dc00" />
+      <stop offset=".42" stop-color="#1baf00" />
+      <stop offset=".83" stop-color="#006500" />
+      <stop offset="1" stop-color="#008c00" />
+    </linearGradient>
+    <linearGradient id="greenGloss" x1="0" y1="80" x2="0" y2="306" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#91ff40" />
+      <stop offset="1" stop-color="#35c308" />
+    </linearGradient>
+    <linearGradient id="silverFace" x1="0" y1="65" x2="0" y2="475" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c3c9d7" />
+      <stop offset=".43" stop-color="#929aad" />
+      <stop offset=".83" stop-color="#626c83" />
+      <stop offset="1" stop-color="#8490a7" />
+    </linearGradient>
+    <linearGradient id="silverGloss" x1="0" y1="80" x2="0" y2="306" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0e4ef" />
+      <stop offset="1" stop-color="#a6aec3" />
+    </linearGradient>
+    <linearGradient id="orangeFace" x1="0" y1="65" x2="0" y2="475" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffac00" />
+      <stop offset=".4" stop-color="#ff7800" />
+      <stop offset=".84" stop-color="#e34400" />
+      <stop offset="1" stop-color="#ff6200" />
+    </linearGradient>
+    <linearGradient id="orangeGloss" x1="0" y1="80" x2="0" y2="306" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd232" />
+      <stop offset="1" stop-color="#ff8300" />
+    </linearGradient>
+    <linearGradient id="whiteGloss" x1="220" y1="110" x2="390" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset=".38" stop-color="#ffffff" stop-opacity=".94" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".48" />
+    </linearGradient>
+  </defs>
+
+  <g id="blue-button" transform="translate(150 270)">
+    <g id="blue-gold-frame">
+      <rect x="85" y="4" width="1450" height="532" rx="266" fill="url(#gold)" stroke="#492307" stroke-width="8" />
+      <path d="M89 270C89 417 208 532 351 532H1269C1416 532 1531 416 1531 270L1494 270C1494 395 1393 498 1269 498H351C227 498 126 395 126 270Z" fill="url(#lowerGold)" />
+      <path d="M114 176C153 75 243 10 351 10H1269C1376 10 1467 75 1506 176" fill="none" stroke="#fff8b0" stroke-width="5" stroke-linecap="round" />
+      <path d="M146 175Q63 218 4 270Q63 323 146 357Q120 269 146 175Z" fill="url(#capGold)" stroke="#613000" stroke-width="7" stroke-linejoin="round" />
+      <path d="M1474 175Q1557 218 1616 270Q1557 323 1474 357Q1500 269 1474 175Z" fill="url(#capGold)" stroke="#613000" stroke-width="7" stroke-linejoin="round" />
+      <path d="M17 270L131 248L137 327Q69 305 17 270Z" fill="#e7a000" opacity=".55" />
+      <path d="M1603 270L1489 248L1483 327Q1551 305 1603 270Z" fill="#e7a000" opacity=".55" />
+      <path d="M55 252C60 239 91 223 107 222C119 238 86 256 62 257Q52 257 55 252Z" fill="#fffef0" />
+      <path d="M1565 252C1560 239 1529 223 1513 222C1501 238 1534 256 1558 257Q1568 257 1565 252Z" fill="#fffef0" />
+      <rect x="128" y="49" width="1364" height="444" rx="222" fill="url(#innerGold)" stroke="#ffe65b" stroke-width="3" />
+      <rect x="145" y="65" width="1330" height="410" rx="205" fill="url(#blueFace)" stroke="#103b50" stroke-width="7" />
+    </g>
+    <g id="blue-enamel">
+      <path d="M350 80H1270C1328 80 1381 106 1417 150C1243 277 460 351 160 273C159 167 245 80 350 80Z" fill="url(#blueGloss)" />
+      <path d="M157 282C163 385 245 462 350 462H1270C1374 462 1458 385 1464 282C1466 391 1380 473 1270 473H350C240 473 153 391 157 282Z" fill="#00158b" opacity=".55" />
+      <path d="M204 228C213 163 258 111 319 100C367 93 448 99 470 110C500 135 303 138 204 228Z" fill="url(#whiteGloss)" />
+    </g>
+    <g id="blue-speculars" fill="#ffffff">
+      <ellipse cx="335" cy="29" rx="22" ry="9" />
+      <path d="M347 29L388 25L407 29L388 33Z" />
+      <ellipse cx="1276" cy="28" rx="18" ry="8" />
+      <path d="M1215 28L1273 23L1286 28L1273 33Z" opacity=".7" />
+      <path d="M217 445C249 477 298 491 350 491H1269C1321 491 1369 476 1403 444C1373 479 1323 497 1269 497H350C294 497 246 481 217 445Z" fill="#fff8ba" />
+      <ellipse cx="1280" cy="493" rx="25" ry="4" />
+    </g>
+  </g>
+
+  <g id="green-button" transform="translate(2070 270)">
+    <g id="green-gold-frame">
+      <rect x="85" y="4" width="1450" height="532" rx="266" fill="url(#gold)" stroke="#492307" stroke-width="8" />
+      <path d="M89 270C89 417 208 532 351 532H1269C1416 532 1531 416 1531 270L1494 270C1494 395 1393 498 1269 498H351C227 498 126 395 126 270Z" fill="url(#lowerGold)" />
+      <path d="M114 176C153 75 243 10 351 10H1269C1376 10 1467 75 1506 176" fill="none" stroke="#fff8b0" stroke-width="5" stroke-linecap="round" />
+      <path d="M146 175Q63 218 4 270Q63 323 146 357Q120 269 146 175Z" fill="url(#capGold)" stroke="#613000" stroke-width="7" stroke-linejoin="round" />
+      <path d="M1474 175Q1557 218 1616 270Q1557 323 1474 357Q1500 269 1474 175Z" fill="url(#capGold)" stroke="#613000" stroke-width="7" stroke-linejoin="round" />
+      <path d="M17 270L131 248L137 327Q69 305 17 270Z" fill="#e7a000" opacity=".55" />
+      <path d="M1603 270L1489 248L1483 327Q1551 305 1603 270Z" fill="#e7a000" opacity=".55" />
+      <path d="M55 252C60 239 91 223 107 222C119 238 86 256 62 257Q52 257 55 252Z" fill="#fffef0" />
+      <path d="M1565 252C1560 239 1529 223 1513 222C1501 238 1534 256 1558 257Q1568 257 1565 252Z" fill="#fffef0" />
+      <rect x="128" y="49" width="1364" height="444" rx="222" fill="url(#innerGold)" stroke="#ffe65b" stroke-width="3" />
+      <rect x="145" y="65" width="1330" height="410" rx="205" fill="url(#greenFace)" stroke="#23440b" stroke-width="7" />
+    </g>
+    <g id="green-enamel">
+      <path d="M350 80H1270C1328 80 1381 106 1417 150C1243 277 460 351 160 273C159 167 245 80 350 80Z" fill="url(#greenGloss)" />
+      <path d="M157 282C163 385 245 462 350 462H1270C1374 462 1458 385 1464 282C1466 391 1380 473 1270 473H350C240 473 153 391 157 282Z" fill="#004a00" opacity=".6" />
+      <path d="M204 228C213 163 258 111 319 100C367 93 448 99 470 110C500 135 303 138 204 228Z" fill="url(#whiteGloss)" />
+    </g>
+    <g id="green-speculars" fill="#ffffff">
+      <ellipse cx="335" cy="29" rx="22" ry="9" />
+      <path d="M347 29L388 25L407 29L388 33Z" />
+      <ellipse cx="1276" cy="28" rx="18" ry="8" />
+      <path d="M1215 28L1273 23L1286 28L1273 33Z" opacity=".7" />
+      <path d="M217 445C249 477 298 491 350 491H1269C1321 491 1369 476 1403 444C1373 479 1323 497 1269 497H350C294 497 246 481 217 445Z" fill="#fff8ba" />
+      <ellipse cx="1280" cy="493" rx="25" ry="4" />
+    </g>
+  </g>
+
+  <g id="silver-button" transform="translate(150 1350)">
+    <g id="silver-gold-frame">
+      <rect x="85" y="4" width="1450" height="532" rx="266" fill="url(#gold)" stroke="#492307" stroke-width="8" />
+      <path d="M89 270C89 417 208 532 351 532H1269C1416 532 1531 416 1531 270L1494 270C1494 395 1393 498 1269 498H351C227 498 126 395 126 270Z" fill="url(#lowerGold)" />
+      <path d="M114 176C153 75 243 10 351 10H1269C1376 10 1467 75 1506 176" fill="none" stroke="#fff8b0" stroke-width="5" stroke-linecap="round" />
+      <path d="M146 175Q63 218 4 270Q63 323 146 357Q120 269 146 175Z" fill="url(#capGold)" stroke="#613000" stroke-width="7" stroke-linejoin="round" />
+      <path d="M1474 175Q1557 218 1616 270Q1557 323 1474 357Q1500 269 1474 175Z" fill="url(#capGold)" stroke="#613000" stroke-width="7" stroke-linejoin="round" />
+      <path d="M17 270L131 248L137 327Q69 305 17 270Z" fill="#e7a000" opacity=".55" />
+      <path d="M1603 270L1489 248L1483 327Q1551 305 1603 270Z" fill="#e7a000" opacity=".55" />
+      <path d="M55 252C60 239 91 223 107 222C119 238 86 256 62 257Q52 257 55 252Z" fill="#fffef0" />
+      <path d="M1565 252C1560 239 1529 223 1513 222C1501 238 1534 256 1558 257Q1568 257 1565 252Z" fill="#fffef0" />
+      <rect x="128" y="49" width="1364" height="444" rx="222" fill="url(#innerGold)" stroke="#ffe65b" stroke-width="3" />
+      <rect x="145" y="65" width="1330" height="410" rx="205" fill="url(#silverFace)" stroke="#373e48" stroke-width="7" />
+    </g>
+    <g id="silver-enamel">
+      <path d="M350 80H1270C1328 80 1381 106 1417 150C1243 277 460 351 160 273C159 167 245 80 350 80Z" fill="url(#silverGloss)" />
+      <path d="M157 282C163 385 245 462 350 462H1270C1374 462 1458 385 1464 282C1466 391 1380 473 1270 473H350C240 473 153 391 157 282Z" fill="#41495c" opacity=".6" />
+      <path d="M204 228C213 163 258 111 319 100C367 93 448 99 470 110C500 135 303 138 204 228Z" fill="url(#whiteGloss)" />
+    </g>
+    <g id="silver-speculars" fill="#ffffff">
+      <ellipse cx="335" cy="29" rx="22" ry="9" />
+      <path d="M347 29L388 25L407 29L388 33Z" />
+      <ellipse cx="1276" cy="28" rx="18" ry="8" />
+      <path d="M1215 28L1273 23L1286 28L1273 33Z" opacity=".7" />
+      <path d="M217 445C249 477 298 491 350 491H1269C1321 491 1369 476 1403 444C1373 479 1323 497 1269 497H350C294 497 246 481 217 445Z" fill="#fff8ba" />
+      <ellipse cx="1280" cy="493" rx="25" ry="4" />
+    </g>
+  </g>
+
+  <g id="orange-button" transform="translate(2070 1350)">
+    <g id="orange-gold-frame">
+      <rect x="85" y="4" width="1450" height="532" rx="266" fill="url(#gold)" stroke="#492307" stroke-width="8" />
+      <path d="M89 270C89 417 208 532 351 532H1269C1416 532 1531 416 1531 270L1494 270C1494 395 1393 498 1269 498H351C227 498 126 395 126 270Z" fill="url(#lowerGold)" />
+      <path d="M114 176C153 75 243 10 351 10H1269C1376 10 1467 75 1506 176" fill="none" stroke="#fff8b0" stroke-width="5" stroke-linecap="round" />
+      <path d="M146 175Q63 218 4 270Q63 323 146 357Q120 269 146 175Z" fill="url(#capGold)" stroke="#613000" stroke-width="7" stroke-linejoin="round" />
+      <path d="M1474 175Q1557 218 1616 270Q1557 323 1474 357Q1500 269 1474 175Z" fill="url(#capGold)" stroke="#613000" stroke-width="7" stroke-linejoin="round" />
+      <path d="M17 270L131 248L137 327Q69 305 17 270Z" fill="#e7a000" opacity=".55" />
+      <path d="M1603 270L1489 248L1483 327Q1551 305 1603 270Z" fill="#e7a000" opacity=".55" />
+      <path d="M55 252C60 239 91 223 107 222C119 238 86 256 62 257Q52 257 55 252Z" fill="#fffef0" />
+      <path d="M1565 252C1560 239 1529 223 1513 222C1501 238 1534 256 1558 257Q1568 257 1565 252Z" fill="#fffef0" />
+      <rect x="128" y="49" width="1364" height="444" rx="222" fill="url(#innerGold)" stroke="#ffe65b" stroke-width="3" />
+      <rect x="145" y="65" width="1330" height="410" rx="205" fill="url(#orangeFace)" stroke="#7b3500" stroke-width="7" />
+    </g>
+    <g id="orange-enamel">
+      <path d="M350 80H1270C1328 80 1381 106 1417 150C1243 277 460 351 160 273C159 167 245 80 350 80Z" fill="url(#orangeGloss)" />
+      <path d="M157 282C163 385 245 462 350 462H1270C1374 462 1458 385 1464 282C1466 391 1380 473 1270 473H350C240 473 153 391 157 282Z" fill="#b73900" opacity=".6" />
+      <path d="M204 228C213 163 258 111 319 100C367 93 448 99 470 110C500 135 303 138 204 228Z" fill="url(#whiteGloss)" />
+    </g>
+    <g id="orange-speculars" fill="#ffffff">
+      <ellipse cx="335" cy="29" rx="22" ry="9" />
+      <path d="M347 29L388 25L407 29L388 33Z" />
+      <ellipse cx="1276" cy="28" rx="18" ry="8" />
+      <path d="M1215 28L1273 23L1286 28L1273 33Z" opacity=".7" />
+      <path d="M217 445C249 477 298 491 350 491H1269C1321 491 1369 476 1403 444C1373 479 1323 497 1269 497H350C294 497 246 481 217 445Z" fill="#fff8ba" />
+      <ellipse cx="1280" cy="493" rx="25" ry="4" />
+    </g>
+  </g>
+</svg>
